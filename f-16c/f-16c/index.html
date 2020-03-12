@@ -187,7 +187,9 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -207,19 +209,13 @@
         
   
   
-    
-    
-  
-  
     <li class="md-tabs__item">
       
-        <a href="../cockpit/cockpit/" class="md-tabs__link">
+        <a href="./" class="md-tabs__link md-tabs__link--active">
           F-16C
         </a>
       
     </li>
-  
-
   
 
       
@@ -306,10 +302,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       F-16C
@@ -325,16 +323,80 @@
           
           
 
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        機体解説
+      </label>
+    
+    <a href="./" title="機体解説" class="md-nav__link md-nav__link--active">
+      機体解説
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目次</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lockheed-martin-f-16cm-block-50-viper" class="md-nav__link">
+    Lockheed Martin F-16CM Block 50 Viper
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    歴史
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    参考文献
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
     
-    <label class="md-nav__link" for="nav-2-1">
+    <label class="md-nav__link" for="nav-2-2">
       コックピット
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-1">
+      <label class="md-nav__title" for="nav-2-2">
         コックピット
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -424,13 +486,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
     
-    <label class="md-nav__link" for="nav-2-2">
+    <label class="md-nav__link" for="nav-2-3">
       手順
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-2">
+      <label class="md-nav__title" for="nav-2-3">
         手順
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -484,6 +546,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../procedure/aerial-refueling/" title="空中給油 [WIP]" class="md-nav__link">
+      空中給油 [WIP]
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -496,13 +570,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
     
-    <label class="md-nav__link" for="nav-2-3">
+    <label class="md-nav__link" for="nav-2-4">
       機体システム
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-3">
+      <label class="md-nav__title" for="nav-2-4">
         機体システム
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -550,6 +624,42 @@
 
 
   <li class="md-nav__item">
+    <a href="../system/navigation/" title="航法システム [WIP]" class="md-nav__link">
+      航法システム [WIP]
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../system/radio-communication/" title="無線通信システム [WIP]" class="md-nav__link">
+      無線通信システム [WIP]
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../system/datalink/" title="データリンク [WIP]" class="md-nav__link">
+      データリンク [WIP]
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../system/rwr/" title="レーダー警報受信機" class="md-nav__link">
       レーダー警報受信機
     </a>
@@ -580,6 +690,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../system/an-aaq-28/" title="AN/AAQ-28 LITENING [WIP]" class="md-nav__link">
+      AN/AAQ-28 LITENING [WIP]
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -592,13 +714,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
     
-    <label class="md-nav__link" for="nav-2-4">
+    <label class="md-nav__link" for="nav-2-5">
       空対空戦闘
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-4">
+      <label class="md-nav__title" for="nav-2-5">
         空対空戦闘
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -652,6 +774,54 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aa/aa-radar/" title="レーダー (空対空モード)" class="md-nav__link">
+      レーダー (空対空モード)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aa/aa-gun/" title="空対空機関砲 [WIP]" class="md-nav__link">
+      空対空機関砲 [WIP]
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aa/aim-9/" title="AIM-9 Sidewinder [WIP]" class="md-nav__link">
+      AIM-9 Sidewinder [WIP]
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aa/aim-120/" title="AIM-120 AMRAAM [WIP]" class="md-nav__link">
+      AIM-120 AMRAAM [WIP]
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -664,13 +834,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6">
     
-    <label class="md-nav__link" for="nav-2-5">
+    <label class="md-nav__link" for="nav-2-6">
       空対地戦闘
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-5">
+      <label class="md-nav__title" for="nav-2-6">
         空対地戦闘
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -720,6 +890,54 @@
   <li class="md-nav__item">
     <a href="../ag/laser-guided-boms/" title="レーザー誘導爆弾" class="md-nav__link">
       レーザー誘導爆弾
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ag/ag-gun/" title="空対地機関砲 [WIP]" class="md-nav__link">
+      空対地機関砲 [WIP]
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ag/rockets/" title="ロケット [WIP]" class="md-nav__link">
+      ロケット [WIP]
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ag/unguided-boms/" title="無誘導爆弾 [WIP]" class="md-nav__link">
+      無誘導爆弾 [WIP]
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ag/laser-guided-boms/" title="レーザー誘導爆弾 [WIP]" class="md-nav__link">
+      レーザー誘導爆弾 [WIP]
     </a>
   </li>
 
@@ -846,6 +1064,41 @@ F-16C/D ブロック 25, 30/32 に対して, ブロック 40/42 は F-16CG/DG, �
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../.." title="Main Page" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  前
+                </span>
+                Main Page
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../cockpit/cockpit/" title="コックピット解説" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  次
+                </span>
+                コックピット解説
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
