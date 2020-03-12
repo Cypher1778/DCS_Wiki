@@ -1,0 +1,19 @@
+.md-typeset h1 {
+  /* font-size: 24pt; */
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.md-typeset h2 {
+  font-weight: bold;
+  border-bottom: solid 2px #ff6e40;
+  padding-bottom: 5px;
+}
+
+.md-typeset h3 {
+  border-bottom: 1px dotted #888;
+}
+
+.md-typeset h4 {
+  padding: 0.2em 0 0.2em 0.5em;
+  border-left: 6px solid #888;
+}

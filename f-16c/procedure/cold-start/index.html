@@ -1,0 +1,1927 @@
+
+
+
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="DCS Japanese Wiki">
+      
+      
+        <link rel="canonical" href="https://cypher1778.github.io/DCS_Wiki/f-16c/procedure/cold-start/">
+      
+      
+        <meta name="author" content="Cypher">
+      
+      
+        <meta name="lang:clipboard.copy" content="クリップボードへコピー">
+      
+        <meta name="lang:clipboard.copied" content="コピーしました">
+      
+        <meta name="lang:search.language" content="ja">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="何も見つかりませんでした">
+      
+        <meta name="lang:search.result.one" content="1件見つかりました">
+      
+        <meta name="lang:search.result.other" content="#件見つかりました">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-　、。，．]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>コールドスタート - DCS Japanese Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.adb8469c.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#4caf50">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,400i,700%7C&display=fallback">
+        <style>body,input{font-family:"Noto Sans JP","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../../css/custom.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="green" data-md-color-accent="light-blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://cypher1778.github.io/DCS_Wiki" title="DCS Japanese Wiki" aria-label="DCS Japanese Wiki" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              DCS Japanese Wiki
+            </span>
+            <span class="md-header-nav__topic">
+              
+                コールドスタート
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            検索キーワードを入力してください
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/Cypher1778/DCS_Wiki/" title="リポジトリへ" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../.." class="md-tabs__link">
+          Home
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../cockpit/cockpit/" class="md-tabs__link">
+          F-16C
+        </a>
+      
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://cypher1778.github.io/DCS_Wiki" title="DCS Japanese Wiki" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    DCS Japanese Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/Cypher1778/DCS_Wiki/" title="リポジトリへ" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Home
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Main Page" class="md-nav__link">
+      Main Page
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      F-16C
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        F-16C
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      コックピット
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        コックピット
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/cockpit/" title="コックピット解説" class="md-nav__link">
+      コックピット解説
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/hotas/" title="HOTAS" class="md-nav__link">
+      HOTAS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/hud/" title="HUD" class="md-nav__link">
+      HUD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/ufc/" title="UFC" class="md-nav__link">
+      UFC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/mfd/" title="MFD" class="md-nav__link">
+      MFD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/hmcs/" title="HMCS" class="md-nav__link">
+      HMCS
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" checked>
+    
+    <label class="md-nav__link" for="nav-2-2">
+      手順
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        手順
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        コールドスタート
+      </label>
+    
+    <a href="./" title="コールドスタート" class="md-nav__link md-nav__link--active">
+      コールドスタート
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目次</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cold-start" class="md-nav__link">
+    Cold Start: コールドスタート
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-main-pwr-batt" class="md-nav__link">
+    1. MAIN PWR スイッチを BATT に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-flcs-pwr-test-test" class="md-nav__link">
+    2. FLCS PWR TEST スイッチを TEST で保持
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-flcs-pwr-test" class="md-nav__link">
+    3. FLCS PWR TEST スイッチを離す
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-main-pwr-main-pwr" class="md-nav__link">
+    4. MAIN PWR スイッチを MAIN PWR に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-epu-gen-epu-pmg" class="md-nav__link">
+    5. EPU GEN ライトと EPU PMG ライトの消灯を確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-jsf-start-2" class="md-nav__link">
+    6. JSF スイッチを START 2 に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-sec" class="md-nav__link">
+    7. SEC 警告灯の消灯
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-rpm-20-idle" class="md-nav__link">
+    8. RPM 20 % になったら, スロットルを IDLE に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-engine" class="md-nav__link">
+    9. ENGINE 警報灯の消灯
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-jsf-off" class="md-nav__link">
+    10. JSF スイッチが OFF 位置にあるのを確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    11. エンジン計器類の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-probe-heat" class="md-nav__link">
+    12. PROBE HEAT の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-fire-oheat-detect" class="md-nav__link">
+    13. FIRE &amp; OHEAT DETECT ボタンを押す
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-mal-ind-lts" class="md-nav__link">
+    14. MAL &amp; IND LTS ボタンを押す
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    15. アビオニクス電源パネルの設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16a-16b" class="md-nav__link">
+    16A か 16B のどちらか一方を行ってください
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-a-1-egiins-align-norm" class="md-nav__link">
+    16 A-1. EGI/INS ノブを ALIGN NORM に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-a-2-icp-ded" class="md-nav__link">
+    16 A-2. ICP で DED の座標を確定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-b-egiins-stor-hdg-oprional" class="md-nav__link">
+    16 B. EGI/INS ノブを STOR HDG に (Oprional)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-snsr-pwr" class="md-nav__link">
+    17. SNSR PWR パネルの設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-hud" class="md-nav__link">
+    18. HUD 制御パネルを任意に設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-ci-ufc" class="md-nav__link">
+    19. C&amp;I ノブを UFC に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    20. エンジンセカンダリモードの確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21-fcls-bit" class="md-nav__link">
+    21. FCLS BIT の開始と確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-ecm" class="md-nav__link">
+    22. ECM パネルを必要に応じて設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    23. スピードブレーキスイッチを展開して格納
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-wheel-down-3" class="md-nav__link">
+    24. WHEEL DOWN ライト3つが緑色に点灯しているのを確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-sai" class="md-nav__link">
+    25. SAI の調節
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-fuel-qty-sel" class="md-nav__link">
+    26. FUEL QTY SEL ノブの確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-epu-95-102" class="md-nav__link">
+    27. EPU 燃料量が 95-102 % であることを確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28" class="md-nav__link">
+    28. アビオニクスの確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-dbu" class="md-nav__link">
+    29. DBU の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#30-trim" class="md-nav__link">
+    30. Trim の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#30-manual-pitch-override-mpo" class="md-nav__link">
+    30. Manual Pitch Override (MPO) の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31-epu" class="md-nav__link">
+    31. EPU の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32" class="md-nav__link">
+    32. アビオニクスを任意に調整
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taxi" class="md-nav__link">
+    Taxi: タキシング
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. キャノピーを閉める
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 高度計の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 外部灯火を任意に設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-egiins-nav" class="md-nav__link">
+    4. EGI/INS ノブを NAV に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-nws" class="md-nav__link">
+    5. NWS を有効化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6. スロットルを前進
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-nws" class="md-nav__link">
+    7. ブレーキと NWS を確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    8. 機体前方と計器の確認
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../basic-flight/" title="基本操縦" class="md-nav__link">
+      基本操縦
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../shutdown/" title="シャットダウン" class="md-nav__link">
+      シャットダウン
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aerial-refueling/" title="空中給油" class="md-nav__link">
+      空中給油
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      機体システム
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        機体システム
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/navigation/" title="航法システム" class="md-nav__link">
+      航法システム
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/radio-communication/" title="無線通信システム" class="md-nav__link">
+      無線通信システム
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/datalink/" title="データリンク" class="md-nav__link">
+      データリンク
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/rwr/" title="レーダー警報受信機" class="md-nav__link">
+      レーダー警報受信機
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/countermeasures/" title="対抗手段" class="md-nav__link">
+      対抗手段
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/an-aaq-28/" title="AN/AAQ-28 LITENING" class="md-nav__link">
+      AN/AAQ-28 LITENING
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      空対空戦闘
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        空対空戦闘
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../aa/aa-radar/" title="空対空レーダー" class="md-nav__link">
+      空対空レーダー
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../aa/aa-gun/" title="空対空機関砲" class="md-nav__link">
+      空対空機関砲
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../aa/aim-9/" title="AIM-9 Sidewinder" class="md-nav__link">
+      AIM-9 Sidewinder
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../aa/aim-120/" title="AIM-120 AMRAAM" class="md-nav__link">
+      AIM-120 AMRAAM
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      空対地戦闘
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        空対地戦闘
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ag/ag-gun/" title="空対地機関砲" class="md-nav__link">
+      空対地機関砲
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ag/rockets/" title="ロケット" class="md-nav__link">
+      ロケット
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ag/unguided-boms/" title="無誘導爆弾" class="md-nav__link">
+      無誘導爆弾
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ag/laser-guided-boms/" title="レーザー誘導爆弾" class="md-nav__link">
+      レーザー誘導爆弾
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目次</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cold-start" class="md-nav__link">
+    Cold Start: コールドスタート
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-main-pwr-batt" class="md-nav__link">
+    1. MAIN PWR スイッチを BATT に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-flcs-pwr-test-test" class="md-nav__link">
+    2. FLCS PWR TEST スイッチを TEST で保持
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-flcs-pwr-test" class="md-nav__link">
+    3. FLCS PWR TEST スイッチを離す
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-main-pwr-main-pwr" class="md-nav__link">
+    4. MAIN PWR スイッチを MAIN PWR に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-epu-gen-epu-pmg" class="md-nav__link">
+    5. EPU GEN ライトと EPU PMG ライトの消灯を確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-jsf-start-2" class="md-nav__link">
+    6. JSF スイッチを START 2 に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-sec" class="md-nav__link">
+    7. SEC 警告灯の消灯
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-rpm-20-idle" class="md-nav__link">
+    8. RPM 20 % になったら, スロットルを IDLE に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-engine" class="md-nav__link">
+    9. ENGINE 警報灯の消灯
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-jsf-off" class="md-nav__link">
+    10. JSF スイッチが OFF 位置にあるのを確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    11. エンジン計器類の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-probe-heat" class="md-nav__link">
+    12. PROBE HEAT の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-fire-oheat-detect" class="md-nav__link">
+    13. FIRE &amp; OHEAT DETECT ボタンを押す
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-mal-ind-lts" class="md-nav__link">
+    14. MAL &amp; IND LTS ボタンを押す
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    15. アビオニクス電源パネルの設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16a-16b" class="md-nav__link">
+    16A か 16B のどちらか一方を行ってください
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-a-1-egiins-align-norm" class="md-nav__link">
+    16 A-1. EGI/INS ノブを ALIGN NORM に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-a-2-icp-ded" class="md-nav__link">
+    16 A-2. ICP で DED の座標を確定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-b-egiins-stor-hdg-oprional" class="md-nav__link">
+    16 B. EGI/INS ノブを STOR HDG に (Oprional)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-snsr-pwr" class="md-nav__link">
+    17. SNSR PWR パネルの設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-hud" class="md-nav__link">
+    18. HUD 制御パネルを任意に設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-ci-ufc" class="md-nav__link">
+    19. C&amp;I ノブを UFC に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    20. エンジンセカンダリモードの確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21-fcls-bit" class="md-nav__link">
+    21. FCLS BIT の開始と確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-ecm" class="md-nav__link">
+    22. ECM パネルを必要に応じて設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    23. スピードブレーキスイッチを展開して格納
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-wheel-down-3" class="md-nav__link">
+    24. WHEEL DOWN ライト3つが緑色に点灯しているのを確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-sai" class="md-nav__link">
+    25. SAI の調節
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-fuel-qty-sel" class="md-nav__link">
+    26. FUEL QTY SEL ノブの確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-epu-95-102" class="md-nav__link">
+    27. EPU 燃料量が 95-102 % であることを確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28" class="md-nav__link">
+    28. アビオニクスの確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-dbu" class="md-nav__link">
+    29. DBU の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#30-trim" class="md-nav__link">
+    30. Trim の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#30-manual-pitch-override-mpo" class="md-nav__link">
+    30. Manual Pitch Override (MPO) の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31-epu" class="md-nav__link">
+    31. EPU の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32" class="md-nav__link">
+    32. アビオニクスを任意に調整
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taxi" class="md-nav__link">
+    Taxi: タキシング
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. キャノピーを閉める
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 高度計の確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 外部灯火を任意に設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-egiins-nav" class="md-nav__link">
+    4. EGI/INS ノブを NAV に
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-nws" class="md-nav__link">
+    5. NWS を有効化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6. スロットルを前進
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-nws" class="md-nav__link">
+    7. ブレーキと NWS を確認
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    8. 機体前方と計器の確認
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Cypher1778/DCS_Wiki/edit/master/docs/f-16c/procedure/cold-start.md" title="編集" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="_1">コールドスタート<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
+<!-- markdownlint-disable MD033 -->
+
+<ul>
+<li><a href="#cold-start">Cold Start: コールドスタート</a></li>
+<li><a href="#taxi">Taxi: タキシング</a></li>
+</ul>
+<h2 id="cold-start">Cold Start: コールドスタート<a class="headerlink" href="#cold-start" title="Permanent link">#</a></h2>
+<p>コールド＆ダーク状態の航空機を始動するには2通りの方法がある.
+1つは <strong>[Left Win + Home]</strong> で行うオートスタートである.
+航空機があなたのために自動で起動する.
+<strong>[Left Win + End]</strong> を押すと, オートスタートが停止する.</p>
+<p>DCS のタイトルが示すように手動で航空機を起動するような精巧に作り込まれたシステムモデリングを使えるようになれば F-16 は輝きを放つだろう.</p>
+<p>※ テスト項目などを除いたゲーム的に必要な手順は<strong>タイトルを太字</strong>で示している.</p>
+<h3 id="1-main-pwr-batt"><strong>1. MAIN PWR スイッチを BATT に</strong><a class="headerlink" href="#1-main-pwr-batt" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure0.jpg" align="right" hspace="10" width="150"></p>
+<ol>
+<li>ELEC パネルの <strong>FLCS RLY</strong> ライトが<strong>点灯</strong>しているのを確認</li>
+</ol>
+<p>バッテリーから供給できる電力量は限られているため, MAIN PWR スイッチを5分以上 BATT もしくは MAIN PWR にしたままにしない.
+5分以上必要なときは, エンジンを始動するか外部電源を利用する.</p>
+<h3 id="2-flcs-pwr-test-test">2. FLCS PWR TEST スイッチを TEST で保持<a class="headerlink" href="#2-flcs-pwr-test-test" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure1.jpg" align="right" hspace="10" width="150"></p>
+<ol>
+<li>ELEC パネルの以下のライトを確認<ul>
+<li><strong>FLCS PMG</strong> ライト<strong>点灯</strong></li>
+<li><strong>TO FLCS</strong> ライト<strong>点灯</strong></li>
+<li><strong>FLCS RLY</strong> ライト<strong>消灯</strong></li>
+</ul>
+</li>
+<li>TEST パネルの <strong>FLCS PWR</strong> ライトの ABCD が<strong>点灯</strong>しているのを確認</li>
+</ol>
+<p>このテストは, 操縦系統コンピュータがバッテリーから正常に電力を供給されているか確認するためのものである.</p>
+<h3 id="3-flcs-pwr-test">3. FLCS PWR TEST スイッチを離す<a class="headerlink" href="#3-flcs-pwr-test" title="Permanent link">#</a></h3>
+<h3 id="4-main-pwr-main-pwr"><strong>4. MAIN PWR スイッチを MAIN PWR に</strong><a class="headerlink" href="#4-main-pwr-main-pwr" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure2.jpg" align="right" hspace="10" width="150"></p>
+<p>以下のライトが<strong>点灯</strong>しているのを確認する.</p>
+<ul>
+<li><strong>ENGINE</strong> (右 Eyebrow)</li>
+<li><strong>HYD/OIL PRESS</strong> (右 Eyebrow)</li>
+<li><strong>ELEC SYS</strong> (Caution ライト)</li>
+<li><strong>SEC</strong> (Caution ライト)</li>
+<li><strong>FLCS RLY</strong> (ELEC パネル)</li>
+</ul>
+<h3 id="5-epu-gen-epu-pmg">5. EPU GEN ライトと EPU PMG ライトの消灯を確認<a class="headerlink" href="#5-epu-gen-epu-pmg" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure0.jpg" align="right" hspace="10" width="150"></p>
+<p>どちらかのライトが点灯している場合は, EPU 起動条件を満たしている.
+地上整備員が EPU の安全ピンを抜くと, EPU が起動して危険な状態になる.</p>
+<p>ライトが点灯している場合は, MAIN PWR スイッチを OFF にして始動を中断する. (ミッションをリスタートする)</p>
+<h3 id="6-jsf-start-2"><strong>6. JSF スイッチを START 2 に</strong><a class="headerlink" href="#6-jsf-start-2" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure3.jpg" align="right" hspace="10" width="150"></p>
+<p><strong>JSF RUN</strong> ライトが JSF 起動後 30 秒以内に<strong>点灯</strong>する.
+エンジン RPM が増加し始めるはずである.</p>
+<p>JSF スイッチをどちらに倒しても電力は FLCS に送られる.
+すると<strong>FLCS RLY</strong> ライトが<strong>消灯</strong>し, <strong>FLCS PMG</strong> ライトと ACFT BATT の <strong>TO FLCS</strong> ライトが<strong>点灯</strong>するはずである.</p>
+<p>※ この時点で通信を確立しておく.
+キャノピーの開閉は任意である.</p>
+<h3 id="7-sec">7. SEC 警告灯の消灯<a class="headerlink" href="#7-sec" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure5.jpg" align="right" hspace="10" width="150"></p>
+<p>RPM 20 % になったら <strong>SEC</strong> が<strong>消灯</strong>する.</p>
+<p></br></br></br></br></br></p>
+<h3 id="8-rpm-20-idle"><strong>8. RPM 20 % になったら, スロットルを IDLE に</strong><a class="headerlink" href="#8-rpm-20-idle" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure4.jpg" align="right" hspace="10" width="150"></p>
+<p>キーコマンド: <strong>RShift + Home</strong></p>
+<p>エンジン回転数が <strong>20 %</strong> に達したら, スロットルを <strong>IDLE</strong> 位置まで前進させる.</p>
+<p>右 Eyebrow の <strong>ENGINE</strong> ライトが 10 秒以内に<strong>消灯</strong>し, RPM と タービンファン内部温度 (FTIT) が上昇するはずである.
+予備発電機が作動するまではRPM 計と FTIT 計しか機能しない.</p>
+<h3 id="9-engine">9. ENGINE 警報灯の消灯<a class="headerlink" href="#9-engine" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure6.jpg" align="right" hspace="10" width="150"></p>
+<p>RPM が <strong>60 %</strong> に達すると予備発電機が始動する.
+すると, <strong>ENGINE</strong> 警報灯が<strong>消灯</strong>する.</p>
+<p>予備発電機が起動して 5~10 秒経過すると主発電機が稼働して, 代わりに予備発電機が停止する.</p>
+<p>主発電機が始動する前に, <strong>SEAT NOT ARMED</strong> 警告灯と左補助コンソールの <strong>WHEELS DOWN</strong> ライトが<strong>点灯</strong>しているのを確認し, エマージェンシーバス (非常用経路) が予備発電機によって給電されていることを確認する.</p>
+<h3 id="10-jsf-off">10. JSF スイッチが OFF 位置にあるのを確認<a class="headerlink" href="#10-jsf-off" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure7.jpg" align="right" hspace="10" width="150"></p>
+<p>RPM 55 % で <strong>JSF</strong> スイッチが自動で <strong>OFF</strong> になるはずである.
+自動でならなかった場合は手動で OFF にする.</p>
+<p></br></br></br></p>
+<h3 id="11">11. エンジン計器類の確認<a class="headerlink" href="#11" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure8.jpg" align="right" hspace="10" width="150"></p>
+<p>エンジンが正常に起動した場合</p>
+<ul>
+<li><strong>HYD/OIL PRESS</strong> 警報灯が<strong>消灯</strong>する</li>
+<li><strong>FUEL FLOW</strong> (燃料流量) が <strong>700~1700 pph</strong> を示す</li>
+<li><strong>OIL PRESS</strong> (油圧計) が最低 <strong>15 PSI</strong> を示す</li>
+<li><strong>NOZ POZ</strong> (ノズル位置) 計が <strong>94 %</strong> 以上になる</li>
+<li><strong>RPM 62~80 %</strong> になる</li>
+<li><strong>FTIT 650 ℃</strong> 以下を示す</li>
+<li><strong>HYD PRESS A &amp; B</strong> (油圧計 A, B) が <strong>2,850~3,250 PSI</strong> を示す</li>
+</ul>
+<h3 id="12-probe-heat">12. PROBE HEAT の確認<a class="headerlink" href="#12-probe-heat" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure9.jpg" align="right" hspace="10" width="150"></p>
+<ol>
+<li><strong>PROBE HEAT</strong> スイッチを <strong>PROBE HEAT</strong> に<ul>
+<li><strong>PROBE HEAT</strong> 警告灯の<strong>消灯</strong>を確認する.</li>
+<li>もし点灯していれば, 1つ以上のプローブヒーターが非稼働か, 検知システムが故障している.</li>
+</ul>
+</li>
+<li><strong>PROBE HEAT</strong> スイッチを <strong>TEST</strong> に<ul>
+<li><strong>PROBE HEAT</strong> 警告灯が, 1秒間に3~5回<strong>点滅</strong>する.</li>
+<li>点滅しない場合は, PROBE HEAT の検知システムが非稼働である.</li>
+</ul>
+</li>
+<li><strong>PROBE HEAT</strong> スイッチを <strong>OFF</strong> に</li>
+</ol>
+<h3 id="13-fire-oheat-detect">13. FIRE &amp; OHEAT DETECT ボタンを押す<a class="headerlink" href="#13-fire-oheat-detect" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure10.jpg" align="right" hspace="10" width="150"></p>
+<p>ボタンを押している間, <strong>ENG FIRE</strong> 警報灯と <strong>OVERHEAT</strong> 警告灯が<strong>点灯</strong>しているのを確認する.
+これにより, 火災/過熱検知が繰り返しテストされる.</p>
+<p></br></br></br></p>
+<h3 id="14-mal-ind-lts">14. MAL &amp; IND LTS ボタンを押す<a class="headerlink" href="#14-mal-ind-lts" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure11.jpg" align="right" hspace="10" width="150"></p>
+<p>ボタンを押している間, コックピットのすべての警報, 警告, 指示灯が点灯する.</p>
+<p>音声メッセージシステム (VMS) の音声警報が流れる.
+WARNING と CAUTION の音声の前に, ランディングギアの短い警報音が鳴るはずである.</p>
+<p></br></p>
+<h3 id="15"><strong>15. アビオニクス電源パネルの設定</strong><a class="headerlink" href="#15" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure12.jpg" align="right" hspace="10" width="150"></p>
+<ol>
+<li><strong>MMC</strong> スイッチを <strong>MMC</strong> に</li>
+<li><strong>ST STA</strong> スイッチを <strong>ST STA</strong> に</li>
+<li><strong>MFD</strong> スイッチを <strong>MFD</strong> に</li>
+<li><strong>UFC</strong> スイッチを <strong>UFC</strong> に</li>
+<li><strong>GPS</strong> スイッチを <strong>GPS</strong> に</li>
+<li><strong>DL</strong> スイッチを <strong>DL</strong> に</li>
+<li><strong>MIDS LVT</strong> ノブを <strong>ON</strong> に</li>
+</ol>
+<p>これらのスイッチで航空機に搭載された電子機器の電源を入れ, BIT テストを開始する.</p>
+<h3 id="16a-16b"><strong>16A か 16B のどちらか一方を行ってください</strong><a class="headerlink" href="#16a-16b" title="Permanent link">#</a></h3>
+<h3 id="16-a-1-egiins-align-norm">16 A-1. EGI/INS ノブを ALIGN NORM に<a class="headerlink" href="#16-a-1-egiins-align-norm" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure12.jpg" align="right" hspace="10" width="150"></p>
+<p><strong>ALIGN NORM</strong> にすると, EGI/INS のリングレーザージャイロナビゲーションシステムのアライン, すなわち調整が開始される.
+通常のアラインの場合は完了するのに8分を要するが, 航空機が前回のシャットダウン位置から動いていない場合は STOR HDG を使って, より短い時間で完了できる.</p>
+<p>地上滑走前にはこのノブを NAV にする.</p>
+<h3 id="16-a-2-icp-ded">16 A-2. ICP で DED の座標を確定<a class="headerlink" href="#16-a-2-icp-ded" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure13.jpg" align="right" hspace="10" width="150"></p>
+<p><strong>ALIGN NORM</strong> の場合は, ノブを ALIGN NORM にしてから2分以内に ICP を使用して, DED に表示された緯度と経度を確定する.
+データコントロールスイッチ (DCS) を使用して緯度, 経度をそれぞれ選択し, ENTR ボタンを押して確定する.</p>
+<p>NORM では, DED の <strong>INS RDY</strong> が点滅すればアライン完了であるが, フルアラインにはアラインアラインメントステータスの数値が 6 以下になる必要がある.</p>
+<h3 id="16-b-egiins-stor-hdg-oprional">16 B. EGI/INS ノブを STOR HDG に (Oprional)<a class="headerlink" href="#16-b-egiins-stor-hdg-oprional" title="Permanent link">#</a></h3>
+<p>DCS の世界の F-16 は, いつでもストアヘディングアラインが使える.
+この場合, 前回のシャットダウン位置を基準にアラインが行われる.
+STOR HDG であれば, DED で座標を確定する必要はない.
+フルアラインはステータスが 10 以下になれば完了する.</p>
+<h3 id="17-snsr-pwr"><strong>17. SNSR PWR パネルの設定</strong><a class="headerlink" href="#17-snsr-pwr" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure14.jpg" align="right" hspace="10" width="150"></p>
+<ol>
+<li><strong>LEFT HDPT</strong> スイッチを <strong>OFF</strong> に</li>
+<li><strong>RIGHT HDPT</strong> スイッチは任意</li>
+<li><strong>FCR</strong> スイッチを <strong>FCR</strong> に</li>
+<li><strong>RDR ALT</strong> スイッチを <strong>RDR ALT</strong> に</li>
+</ol>
+<p>目標指示ポッドを装備していれば RIGHT HDPT をオンにする.</p>
+<p>FCR (火器管制レーダー) とレーダー高度計は, 航空機が離陸するまで電波を放出しない.
+必要に応じて, これらの装置の有効化は離陸直前まで行わない場合がある.</p>
+<h3 id="18-hud">18. HUD 制御パネルを任意に設定<a class="headerlink" href="#18-hud" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure15.jpg" align="right" hspace="10" width="150"></p>
+<p>HUD に表示したい内容を自由に選択する.</p>
+<p>詳細は<a href="../../cockpit/hud/">HUD</a> を参照．</p>
+<p></br></br></p>
+<h3 id="19-ci-ufc">19. C&amp;I ノブを UFC に<a class="headerlink" href="#19-ci-ufc" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure16.jpg" align="right" hspace="10" width="150"></p>
+<p>これにより, UFC を使って CNI (通信・航法・識別) の機能を設定できるようになる.</p>
+<p></br></br></br></br></p>
+<h3 id="20">20. エンジンセカンダリモードの確認<a class="headerlink" href="#20" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure21.jpg" align="right" hspace="10" width="150"></p>
+<ol>
+<li><strong>ENG CONT</strong> スイッチを <strong>SEC</strong> に</li>
+<li><strong>SEC</strong> 警告灯が<strong>点灯</strong></li>
+<li><strong>RPM</strong> が安定
+    RPM は, 安定する前には ENG CONT スイッチが PRI のときより最大 10 % 低下する場合がある.
+    SEC にして安定化すれば, PRI のときより最大 5 % の低下になる.</li>
+<li>スロットルをすばやくミリタリー推力にしてからアイドルに戻す. その間に, <strong>RPM</strong> が <strong>85 %</strong> に達するのを確認する.</li>
+<li><strong>SEC</strong> にしてから30秒以内に <strong>NOZ POZ</strong> が <strong>10 %</strong> 以下になる</li>
+<li><strong>ENG CONT</strong> スイッチを <strong>PRI</strong> に戻す</li>
+<li><strong>SEC</strong> 警告灯の<strong>消灯</strong>を確認</li>
+<li><strong>NOZ POZ</strong> が <strong>94 %</strong> 以上に</li>
+</ol>
+<p>この手順はセカンダリエンジンコントロール (SEC) モードの動作確認である.
+このモードは, エンジンへの燃料流量を調節するデジタルコンピュータが故障した場合に使用する.</p>
+<p>※ 操縦系統を動かして正常に動作するのを確認する.</p>
+<h3 id="21-fcls-bit">21. FCLS BIT の開始と確認<a class="headerlink" href="#21-fcls-bit" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure22.jpg" align="right" hspace="10" width="150"></p>
+<ol>
+<li>操縦桿を回す
+    FLCS BIT を行う前の準備として行い, 操縦桿の最大入力により油圧作動油を温めて気泡を除去する.</li>
+<li><strong>BIT</strong> スイッチを <strong>BIT</strong> に
+    <strong>FCL CONTROL</strong> パネルの <strong>RUN</strong> ライトが点灯する.
+    約45秒間の自己診断テストが完了すると RUN ライトが消えて BIT スイッチが OFF 位置に戻る.
+    また, FAIL ライトと FLCS 警報灯も点くことはない.
+    MFD の FLCS ページには BIT 完了メッセージが表示される.</li>
+</ol>
+<p>FLCS BIT が行われている間に次の項目へ進む.</p>
+<h3 id="22-ecm">22. ECM パネルを必要に応じて設定<a class="headerlink" href="#22-ecm" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure17.jpg" align="right" hspace="10" width="150"></p>
+<p>現在の DCS バージョンでは機能しない.</p>
+<p></br></br></br></br></p>
+<h3 id="23">23. スピードブレーキスイッチを展開して格納<a class="headerlink" href="#23" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure18.jpg" align="right" hspace="10" width="150"></p>
+<p>スピードブレーキが正常に動作するか確認する.
+目視でスピードブレーキの直接確認し, 左補助コンソールの <strong>SPEED BRAKE</strong> ポジションインジケーターを確認する.</p>
+<p></br></br></br></p>
+<h3 id="24-wheel-down-3">24. WHEEL DOWN ライト3つが緑色に点灯しているのを確認<a class="headerlink" href="#24-wheel-down-3" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure19.jpg" align="right" hspace="10" width="150"></p>
+<p>3つのライトが<strong>点灯</strong>していれば, ランディングギアは正常に展開, ロックされている.</p>
+<p></br></br></br></p>
+<h3 id="25-sai"><strong>25. SAI の調節</strong><a class="headerlink" href="#25-sai" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure20.jpg" align="right" hspace="10" width="150"></p>
+<p>ノブを引いて回して, <strong>SAI</strong> (予備姿勢指示器) のロックを解除する.</p>
+<p></br></br></br></br></p>
+<h3 id="26-fuel-qty-sel">26. FUEL QTY SEL ノブの確認<a class="headerlink" href="#26-fuel-qty-sel" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure23.jpg" align="right" hspace="10" width="150"></p>
+<ol>
+<li><strong>TEST</strong> 位置: <strong>FR</strong>, <strong>AL</strong> ポインターが <strong>2,000</strong> (± 100) ポンドを指し, <strong>トータライザー</strong>が <strong>6,000</strong> (± 100) ポンドを指す.<strong>FWD FUEL LOW</strong> 警告灯と <strong>AFT FUEL LOW</strong> 警告灯が<strong>点灯</strong>する.</li>
+<li><strong>NORM</strong> 位置: <strong>AL</strong> ポインターが約 <strong>2,810</strong> ポンドを指し, <strong>FR</strong> ポインターが約 <strong>3,250</strong> ポンドを指す.</li>
+<li><strong>RSVR</strong> 位置: 両方の針がリザーバーに約 <strong>480</strong> ポンドの燃料が入っていることを示す.</li>
+<li><strong>INT WING</strong> 位置: 両方の針が主翼内に約 <strong>550</strong> ポンドの燃料が入っていることを示す.</li>
+<li><strong>EXT WING</strong> 位置: 翼下の外部燃料タンクに燃料が満載されていれば, 両方の針が約 <strong>2,470</strong> ポンドを指す.</li>
+<li><strong>EXT CTR</strong> 位置: 胴体下の外部燃料タンクに燃料が満載されていれば, FR ポインターが約 <strong>1800/1890</strong> ポンドを指す. <strong>AL</strong> ポインターは <strong>0</strong> を指す.</li>
+<li><strong>FUEL QTY SEL</strong> ノブを任意の位置に</li>
+</ol>
+<h3 id="27-epu-95-102">27. EPU 燃料量が 95-102 % であることを確認<a class="headerlink" href="#27-epu-95-102" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure27.jpg" align="right" hspace="10" width="150"></p>
+<p>EPU に用いるヒドラジンの残量を確認する.</p>
+<h3 id="28">28. アビオニクスの確認<a class="headerlink" href="#28" title="Permanent link">#</a></h3>
+<p>SMS, 通信, ステアポイント, ビンゴ燃料を含むプロファイル, MFD マスターモードデータ, MFD, VHF 無線を任意の設定にする.</p>
+<h3 id="29-dbu">29. DBU の確認<a class="headerlink" href="#29-dbu" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure24.jpg" align="right" hspace="10" width="150"></p>
+<p>※ FLCS BITが完了してから行う.</p>
+<ol>
+<li><strong>DIGITAL BACKUP</strong> スイッチを <strong>BACKUP</strong> に: <strong>DBU ON</strong> 警報灯の<strong>点灯</strong>を確認する.</li>
+<li>操縦桿を動かす: すべての動翼が通常通り動くのを確認する.</li>
+<li><strong>DIGITAL BACKUP</strong> スイッチを <strong>OFF</strong> に: <strong>DBU ON</strong> 警報灯の<strong>消灯</strong>を確認する.</li>
+</ol>
+<p>これはデジタルバックアップソフトウェアの動作確認である.
+DBU は FLCS ソフトウェアに問題が発生したときに使う.</p>
+<h3 id="30-trim">30. Trim の確認<a class="headerlink" href="#30-trim" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure25.jpg" align="right" hspace="10" width="150"></p>
+<ol>
+<li><strong>TRIM/AP DISC</strong> スイッチを <strong>DISC</strong> に<ul>
+<li>操縦桿のトリムボタンを動かしてロールとピッチを操作する.</li>
+<li>動翼が動かないのを確認する.</li>
+<li>パネルのトリムホイールとインジケーターが動かないのを確認する.</li>
+</ul>
+</li>
+<li><strong>TRIM/AP DISC</strong> スイッチを <strong>NORM</strong> に<ul>
+<li>操縦桿のトリムボタンを中央位置に戻す.</li>
+<li>動翼が動くのを確認する.</li>
+<li>パネルのトリムホイールとインジケーターが動くのを確認する.</li>
+</ul>
+</li>
+<li>ラダートリムを確認<ul>
+<li><strong>YAW TRIM</strong> ノブが<strong>中央</strong>にあることを確認する.</li>
+</ul>
+</li>
+</ol>
+<h3 id="30-manual-pitch-override-mpo">30. Manual Pitch Override (MPO) の確認<a class="headerlink" href="#30-manual-pitch-override-mpo" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure26.jpg" align="right" hspace="10" width="150"></p>
+<ol>
+<li>水平尾翼が互い違いにならないように注意しながら, 操縦桿を前いっぱいに倒して保持する.</li>
+<li><strong>MPO</strong> スイッチを <strong>OVRD</strong> にして保持する.水平尾翼の後端がさらに下がることを確認する.</li>
+<li>操縦桿と MPO スイッチを離する.水平尾翼が元の位置に戻るのを確認する.</li>
+</ol>
+<p>※ 操縦系統を動かして正常に動作するのを確認する.
+必要であればこの時点で給油口の開閉チェックを行う.</p>
+<h3 id="31-epu">31. EPU の確認<a class="headerlink" href="#31-epu" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure28.jpg" align="right" hspace="10" width="150"></p>
+<ol>
+<li>OXYGEN パネルの <strong>Diluter</strong> レバーを <strong>100 %</strong> に</li>
+<li>スロットルを動かして, エンジン <strong>RPM</strong> をアイドル時より <strong>10 %</strong> 上げる.</li>
+<li><strong>EPU/GEN TEST</strong> スイッチを <strong>EPU/GEN</strong> 位置で保持して以下のライトを確認<ul>
+<li><strong>EPU AIR</strong> ライト<strong>点灯</strong></li>
+<li><strong>EPU GEN</strong> ライトと EPU PMG ライト<strong>消灯</strong></li>
+<li><strong>FLCS PWR</strong> ライト<strong>点灯</strong></li>
+<li><strong>EPU RUN</strong> ライトが最低5秒間<strong>点灯</strong></li>
+<li><strong>EPU/GEN TEST</strong> スイッチを <strong>OFF</strong> に</li>
+</ul>
+</li>
+<li>スロットルをアイドル位置に戻す.</li>
+<li>OXYGEN パネルの <strong>Diluter</strong> レバーを <strong>NORM</strong> に戻す.</li>
+</ol>
+<p>これは非常時に EPU の電力が正しく供給できるかの動作確認である.
+必要に応じて, 離陸直前に行うこともある.</p>
+<h3 id="32"><strong>32. アビオニクスを任意に調整</strong><a class="headerlink" href="#32" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure29.jpg" align="right" hspace="10" width="150"></p>
+<p>INS のアラインが完了するまでの時間を利用して, ミッション遂行のためのシステムチェックを行う.
+兵装管理システム (SMS) のプロファイル, 無線周波数とチャンネル, 航法用データ, 帰投燃料 (BINGO) 設定, 低高度警報 (ALOW) 設定, HUD や RWR の電源を含む様々なシステム確認が含まれる.</p>
+<p></br></p>
+<h2 id="taxi">Taxi: タキシング<a class="headerlink" href="#taxi" title="Permanent link">#</a></h2>
+<p>あなたが F-16 を自分で始動したかどうかに関わらず, 次は滑走路にタキシングすることになる.</p>
+<p>前進準備が整ったら, <strong>[PAGE UP]</strong> もしくは <strong>[Num+]</strong> でスロットルをゆっくりと上げ, <strong>[Z]</strong> と <strong>[X]</strong>でラダーペダルを調整する.
+スロットルを下げるには <strong>[PAGE DOWN]</strong> か <strong>[Num-]</strong> を押す.
+<strong>[W]</strong> を押すと, ホイールブレーキが掛かる.</p>
+<h3 id="1"><strong>1. キャノピーを閉める</strong><a class="headerlink" href="#1" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure30.jpg" align="right" hspace="10" width="150"></p>
+<p>キーコマンド: <strong>[LCtrl + C]</strong></p>
+<p>黄色のキャノピーハンドルも閉める.</p>
+<p></br></br></p>
+<h3 id="2">2. 高度計の確認<a class="headerlink" href="#2" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure31.jpg" align="right" hspace="10" width="150"></p>
+<p>HUD に表示された高度と高度計の数値が一致しているか確認する.</p>
+<p>高度計の ELEC と PNEU の2つのモードのそれぞれの数値の差が ±75 フィートかつ, 実際の高度の ±75 フィートであることも確かめる.</p>
+<p></br></p>
+<h3 id="3">3. 外部灯火を任意に設定<a class="headerlink" href="#3" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure32.jpg" align="right" hspace="10" width="150"></p>
+<p></br></br></br></br></br></br></p>
+<h3 id="4-egiins-nav"><strong>4. EGI/INS ノブを NAV に</strong><a class="headerlink" href="#4-egiins-nav" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure12.jpg" align="right" hspace="10" width="150"></p>
+<p>DED の INS ページの RDY , もしくはフルアラインを待つならば HUD の ALIGN の文字が点滅したことを確認してからノブを回す.</p>
+<p>詳細 → INS Alignment</p>
+<p></br></p>
+<h3 id="5-nws"><strong>5. NWS を有効化</strong><a class="headerlink" href="#5-nws" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure33.jpg" align="right" hspace="10" width="150"></p>
+<p>操縦桿の NWS/AR DISC ボタンを押す.
+有効であれば HUD 横の AR/NWS 指示器の NWS が点灯するはずである.</p>
+<p></br></br></br></p>
+<h3 id="6">6. スロットルを前進<a class="headerlink" href="#6" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure34.jpg" align="right" hspace="10" width="150"></p>
+<p>スロットルをアイドル位置からわずかに前進させて機体を動かし始める.
+目標速度に達したらアイドル位置に戻す.</p>
+<p></br></br></br></p>
+<h3 id="7-nws">7. ブレーキと NWS を確認<a class="headerlink" href="#7-nws" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure19.jpg" align="right" hspace="10" width="150"></p>
+<p>機体が前進し始めたらすぐにパーキングブレーキと NWS の動作確認を行う.
+パーキングブレーキが掛かる時間が長いとすぐに発熱してしまうため, タキシング速度からは掛けない.
+まずペダルブレーキで航空機を減速させてから, パーキングブレーキを使用する.</p>
+<p></br></br></p>
+<h3 id="8">8. 機体前方と計器の確認<a class="headerlink" href="#8" title="Permanent link">#</a></h3>
+<p><img src="../../images/dcs_procedure35.jpg" align="right" hspace="10" width="150"></p>
+<p>前進のための機体前方の確認と, 飛行に関する計器が正しく動いているか確認する.</p>
+<p></br></br></br></br></br></p>
+                
+                  
+                
+                
+                  
+                  <hr>
+                  <div class="md-source-date">
+                    <small>
+                      
+                        最終更新日: <span class='timeago' datetime='1584025544000' locale='en'></span>
+                      
+                    </small>
+                  </div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../cockpit/hmcs/" title="HMCS" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  前
+                </span>
+                HMCS
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../basic-flight/" title="基本操縦" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  次
+                </span>
+                基本操縦
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020 Cypher
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.c33a9706.js"></script>
+      
+        
+        
+          
+          <script src="../../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+                <script src="../../../assets/javascripts/lunr/tinyseg.js"></script>
+              
+              
+                <script src="../../../assets/javascripts/lunr/lunr.ja.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.1",url:{base:"../../.."}})</script>
+      
+    
+  
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.0-beta.2/timeago.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.0-beta.2/timeago.locales.min.js"></script>
+          <script>
+            const nodes = document.querySelectorAll('.timeago');
+            const locale = nodes[0].getAttribute('locale');
+            timeago.render(nodes, locale);
+          </script>
+        </body>
+</html>

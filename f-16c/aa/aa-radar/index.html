@@ -1,0 +1,1486 @@
+
+
+
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="DCS Japanese Wiki">
+      
+      
+        <link rel="canonical" href="https://cypher1778.github.io/DCS_Wiki/f-16c/aa/aa-radar/">
+      
+      
+        <meta name="author" content="Cypher">
+      
+      
+        <meta name="lang:clipboard.copy" content="クリップボードへコピー">
+      
+        <meta name="lang:clipboard.copied" content="コピーしました">
+      
+        <meta name="lang:search.language" content="ja">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="何も見つかりませんでした">
+      
+        <meta name="lang:search.result.one" content="1件見つかりました">
+      
+        <meta name="lang:search.result.other" content="#件見つかりました">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-　、。，．]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>空対空レーダー - DCS Japanese Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.adb8469c.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#4caf50">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,400i,700%7C&display=fallback">
+        <style>body,input{font-family:"Noto Sans JP","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../../css/custom.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="green" data-md-color-accent="light-blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://cypher1778.github.io/DCS_Wiki" title="DCS Japanese Wiki" aria-label="DCS Japanese Wiki" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              DCS Japanese Wiki
+            </span>
+            <span class="md-header-nav__topic">
+              
+                空対空レーダー
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            検索キーワードを入力してください
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/Cypher1778/DCS_Wiki/" title="リポジトリへ" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../.." class="md-tabs__link">
+          Home
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../cockpit/cockpit/" class="md-tabs__link">
+          F-16C
+        </a>
+      
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://cypher1778.github.io/DCS_Wiki" title="DCS Japanese Wiki" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    DCS Japanese Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/Cypher1778/DCS_Wiki/" title="リポジトリへ" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Home
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Main Page" class="md-nav__link">
+      Main Page
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      F-16C
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        F-16C
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      コックピット
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        コックピット
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/cockpit/" title="コックピット解説" class="md-nav__link">
+      コックピット解説
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/hotas/" title="HOTAS" class="md-nav__link">
+      HOTAS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/hud/" title="HUD" class="md-nav__link">
+      HUD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/ufc/" title="UFC" class="md-nav__link">
+      UFC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/mfd/" title="MFD" class="md-nav__link">
+      MFD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cockpit/hmcs/" title="HMCS" class="md-nav__link">
+      HMCS
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      手順
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        手順
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../procedure/cold-start/" title="コールドスタート" class="md-nav__link">
+      コールドスタート
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../procedure/basic-flight/" title="基本操縦" class="md-nav__link">
+      基本操縦
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../procedure/shutdown/" title="シャットダウン" class="md-nav__link">
+      シャットダウン
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../procedure/aerial-refueling/" title="空中給油" class="md-nav__link">
+      空中給油
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      機体システム
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        機体システム
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/navigation/" title="航法システム" class="md-nav__link">
+      航法システム
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/radio-communication/" title="無線通信システム" class="md-nav__link">
+      無線通信システム
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/datalink/" title="データリンク" class="md-nav__link">
+      データリンク
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/rwr/" title="レーダー警報受信機" class="md-nav__link">
+      レーダー警報受信機
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/countermeasures/" title="対抗手段" class="md-nav__link">
+      対抗手段
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../system/an-aaq-28/" title="AN/AAQ-28 LITENING" class="md-nav__link">
+      AN/AAQ-28 LITENING
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4" checked>
+    
+    <label class="md-nav__link" for="nav-2-4">
+      空対空戦闘
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        空対空戦闘
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        空対空レーダー
+      </label>
+    
+    <a href="./" title="空対空レーダー" class="md-nav__link md-nav__link--active">
+      空対空レーダー
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目次</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#combined-radar-mode-crm" class="md-nav__link">
+    Combined Radar Mode (CRM): 複合レーダーモード
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#range-while-search-rws" class="md-nav__link">
+    Range While Search (RWS): 捜索中測距サブモード
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#situational-awareness-mode-sam-aquisition" class="md-nav__link">
+    Situational Awareness Mode (SAM) aquisition: 状況認識モード捕捉
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#single-target-track-stt-aquisition" class="md-nav__link">
+    Single Target Track (STT) aquisition: 単一目標追跡捕捉
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#track-while-scan-tws" class="md-nav__link">
+    Track While Scan (TWS): 捜索中追跡サブモード
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#search-target" class="md-nav__link">
+    Search Target: サーチ (捜索) ターゲット
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#track-target" class="md-nav__link">
+    Track Target: トラック (追跡) ターゲット
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-target" class="md-nav__link">
+    System Target: システムターゲット
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugged-target" class="md-nav__link">
+    Bugged Target: バグターゲット
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#air-combat-mode-acm" class="md-nav__link">
+    Air Combat Mode (ACM): 格闘戦モード
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#30-x-20-hud-scan-hud" class="md-nav__link">
+    30° x 20° (HUD Scan): HUD スキャンサブモード
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boresite-bore" class="md-nav__link">
+    Boresite (BORE): ボアサイトサブモード
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-x-60-vertical-scan" class="md-nav__link">
+    10° x 60° (Vertical Scan): 垂直スキャンサブモード
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slewable" class="md-nav__link">
+    Slewable: スルーアブルサブモード
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#single-target-track-mode-stt" class="md-nav__link">
+    Single Target Track Mode (STT): 単一目標追跡モード
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#expand-feature-exp" class="md-nav__link">
+    Expand Feature (EXP): 拡大機能
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iff-interrogation" class="md-nav__link">
+    IFF Interrogation: 敵味方識別尋問
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aa-gun/" title="空対空機関砲" class="md-nav__link">
+      空対空機関砲
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aim-9/" title="AIM-9 Sidewinder" class="md-nav__link">
+      AIM-9 Sidewinder
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aim-120/" title="AIM-120 AMRAAM" class="md-nav__link">
+      AIM-120 AMRAAM
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      空対地戦闘
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        空対地戦闘
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ag/ag-gun/" title="空対地機関砲" class="md-nav__link">
+      空対地機関砲
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ag/rockets/" title="ロケット" class="md-nav__link">
+      ロケット
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ag/unguided-boms/" title="無誘導爆弾" class="md-nav__link">
+      無誘導爆弾
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ag/laser-guided-boms/" title="レーザー誘導爆弾" class="md-nav__link">
+      レーザー誘導爆弾
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目次</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#combined-radar-mode-crm" class="md-nav__link">
+    Combined Radar Mode (CRM): 複合レーダーモード
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#range-while-search-rws" class="md-nav__link">
+    Range While Search (RWS): 捜索中測距サブモード
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#situational-awareness-mode-sam-aquisition" class="md-nav__link">
+    Situational Awareness Mode (SAM) aquisition: 状況認識モード捕捉
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#single-target-track-stt-aquisition" class="md-nav__link">
+    Single Target Track (STT) aquisition: 単一目標追跡捕捉
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#track-while-scan-tws" class="md-nav__link">
+    Track While Scan (TWS): 捜索中追跡サブモード
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#search-target" class="md-nav__link">
+    Search Target: サーチ (捜索) ターゲット
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#track-target" class="md-nav__link">
+    Track Target: トラック (追跡) ターゲット
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-target" class="md-nav__link">
+    System Target: システムターゲット
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugged-target" class="md-nav__link">
+    Bugged Target: バグターゲット
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#air-combat-mode-acm" class="md-nav__link">
+    Air Combat Mode (ACM): 格闘戦モード
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#30-x-20-hud-scan-hud" class="md-nav__link">
+    30° x 20° (HUD Scan): HUD スキャンサブモード
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boresite-bore" class="md-nav__link">
+    Boresite (BORE): ボアサイトサブモード
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-x-60-vertical-scan" class="md-nav__link">
+    10° x 60° (Vertical Scan): 垂直スキャンサブモード
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slewable" class="md-nav__link">
+    Slewable: スルーアブルサブモード
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#single-target-track-mode-stt" class="md-nav__link">
+    Single Target Track Mode (STT): 単一目標追跡モード
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#expand-feature-exp" class="md-nav__link">
+    Expand Feature (EXP): 拡大機能
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iff-interrogation" class="md-nav__link">
+    IFF Interrogation: 敵味方識別尋問
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Cypher1778/DCS_Wiki/edit/master/docs/f-16c/aa/aa-radar.md" title="編集" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="_1">レーダー (空対空モード)<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
+<p>F-16C で最も重要なセンサーは AN/APG-68 火器管制レーダー (FCR) である.
+AN/APG-68 は, 全天候, コヒーレント, マルチモード, 捜索追跡レーダーであり, プログラム可能なデジタルプロセッサーを使用して, 空対空タスクにおいて優れた柔軟性を発揮する.
+視界外戦闘 (BVR) と格闘戦 (ACM) の両方で使えるパルスドップラー能力, ルックダウン/シュートダウン能力を持つ.
+レーダーは, 左右 60° , 上下 60° の範囲内の目標を探知, 追跡できる.</p>
+<p>FCR は探知・捕捉・追跡ができる, 2つの基本的な空対空モードを備えている.</p>
+<ul>
+<li><a href="#combined-radar-mode-crm">Combined Radar Mode (CRM): 複合レーダーモード</a>
+    このモードは捜索に用いる空対空サブモードを複合している.<ul>
+<li><a href="#range-while-search-rws">Range While Search (RWS): 捜索中測距サブモード</a></li>
+<li><a href="#track-while-scan-tws">Track While Scan (TWS): 捜索中追跡サブモード</a></li>
+</ul>
+</li>
+<li><a href="#air-combat-mode-acm">Air Combat Mode (ACM): 格闘戦モード</a>
+    このモードは自動目標捕捉に用いるすべてのモードを複合している.<ul>
+<li><a href="#30-x-20-hud-scan-hud">30° x 20° (HUD Scan): HUD スキャンサブモード</a></li>
+<li><a href="#boresite-bore">Boresite (BORE): ボアサイトサブモード</a></li>
+<li><a href="#10-x-60-vertical-scan">10° x 60° (Vertical Scan): 垂直スキャンサブモード</a></li>
+<li><a href="#slewable">Slewable</a></li>
+</ul>
+</li>
+<li><a href="#single-target-track-mode-stt">Single Target Track Mode (STT): 単一目標追跡モード</a>
+    このモードは RWS もしくは ACM モードで目標をロックオンしたときに切り替わる.</li>
+<li><a href="#expand-feature-exp">Expand Feature (EXP): 拡大機能</a></li>
+<li><a href="#iff-interrogation">IFF Interrogation: 敵味方識別尋問</a></li>
+</ul>
+<p></br></p>
+<p>レーダーを用いた空対空兵装の発射については以下の項で紹介する.</p>
+<ul>
+<li>空対空機関砲</li>
+<li>AIM-9M/X</li>
+<li>AIM-120</li>
+</ul>
+<hr />
+<p>まずは, 複数のモードに共通する機能について触れ, 装備や兵装ごとの特定の機能については後で紹介する.</p>
+<p>空対空レーダー画面は, 自機を画面の手前中央位置とした, 標準的なBスコープ表示である.
+すなわち, Bスコープ上に表示されるすべての目標は, 自機の前方に存在している.
+自機に近い目標はスコープの下側に表示され, 距離が離れるにつれてスコープ上側に表示される.
+自機の左右に存在する目標は, 方位角にしたがってディスプレイの左右に表示される.</p>
+<p><img alt="dcs28-radar_disp" src="../../images/dcs28-radar_disp.png" /></p>
+<p>ディスプレイに表示される基本的な要素は以下の通り</p>
+<ul>
+<li><strong>Radar Display Range (レーダーディスプレイ表示距離)</strong>: ディスプレイの左には現在選択している MFD の表示距離がある. 対応する OSB (Optional Select Button) を押すか, カーソルを上端もしくは下端に動かすことで, 表示距離を拡大・縮小できる.</li>
+<li><strong>Target Symbols (ターゲットシンボル)</strong>: ターゲットシンボルは正方形で表示される (Bricks) . シンボルの水平位置は自機正面からの角度を表し, 垂直位置は自機からの距離を表す.</li>
+<li><strong>Acuisition Cursor (捕捉カーソル)</strong>: 2本の縦線で構成され, スロットルの Cursor/Enable スイッチで操作できる. レーダーが捜索モードのとき, レーダービームが照射されている高度がカーソルの上下に表示される.
+    ターゲットシンボルに重ねてから操縦桿の TMS 上を押すことで, 目標をロックオンできる.</li>
+<li><strong>Range Scale (距離目盛り)</strong>: Bスコープの右側にはレーダーの表示距離が示される. それぞれの目盛りは, レーダー表示距離の 1/4, 1/2, 3/4 を表す.</li>
+<li><strong>Antenna Azimuth and Elevation Caret (アンテナ水平角/仰俯角符号)</strong>: 現在のレーダーの水平角度は, ディスプレイの下端に, 仰俯角度は左端に T で表示される. 符号は, アンテナの最大動作角度である ±60° の範囲で度盛りに沿って動く.</li>
+<li><strong>Ownship Bearing and Range (自機からの方位/距離)</strong>: ブルズアイまでの自機からの方位と距離が表示される.</li>
+</ul>
+<p>モードを選択するには, 現在の表示に隣接する OSB を押す.
+使用可能なすべての空対空モードのメニューは, 画面の左側に表示される.
+目的のモードに隣接する OSB を押して選択する.</p>
+<p><img alt="dcs29-radar_mode_select" src="../../images/dcs29-radar_mode_select.jpg" /></p>
+<h2 id="combined-radar-mode-crm">Combined Radar Mode (CRM): 複合レーダーモード<a class="headerlink" href="#combined-radar-mode-crm" title="Permanent link">#</a></h2>
+<p>このモードは, レーダー画面を選択したときのデフォルトとして表示される.
+パイロットの負担軽減のために捜索用のサブモードを複合した設計になっている.</p>
+<ul>
+<li>Range While Search (RWS): 捜索中測距</li>
+<li>Track While Scan (TWS): 走査中追跡</li>
+</ul>
+<p>サブモード表示に隣接する OSB を押すと RWS と TWS が切り替わる.</p>
+<p><img alt="dcs30-radar_crm_submode" src="../../images/dcs30-radar_crm_submode.png" /></p>
+<p>また, 操縦桿の TMS 右を1秒以上長押しすることでも切り替えられる.</p>
+<p><img alt="dcs31-hotas_tms" src="../../images/dcs31-hotas_tms.png" /></p>
+<h3 id="range-while-search-rws">Range While Search (RWS): 捜索中測距サブモード<a class="headerlink" href="#range-while-search-rws" title="Permanent link">#</a></h3>
+<p>捜索中測距 (RWS) サブモードは, 長距離の捕捉と交戦に用いられる.
+パイロットは, 表示距離を <strong>10, 20, 40, 80, 160 海里</strong>から選択でき, 加えてレーダーアンテナの水平角と仰俯角も変更できる.</p>
+<p>目標は Situational Awareness Mode (SAM: 状況認識モード) と Single Target Track (STT: 単一目標追跡) のいずれかで捕捉 (ロックオン) できる.</p>
+<h4 id="situational-awareness-mode-sam-aquisition">Situational Awareness Mode (SAM) aquisition: 状況認識モード捕捉<a class="headerlink" href="#situational-awareness-mode-sam-aquisition" title="Permanent link">#</a></h4>
+<p>ターゲットシンボルにカーソルを重ねて TMS 上を短押しすることで, 目標をロックできる.
+これを行うと SAM モードでのロックオンが実行される.</p>
+<p>ロックしている間, レーダーアンテナは最後に判明した目標の位置に向かって指向し, <strong>4バー</strong>, <strong>±10°</strong> のレーダービームが照射される.</p>
+<p><img alt="dcs32-radar_sam_spotlight" src="../../images/dcs32-radar_sam_spotlight.jpg" /></p>
+<p>TMS 上を押したときにカーソルの下に目標がいない場合は, 前の走査パターンに戻る.</p>
+<p>ロックが成功すると SAM モードに切り替わる.
+目標の捕捉中でもエリア内のレーダーの走査は継続され, 他の目標も表示される.
+この状態は, 目標を <strong>"Designate: 指定"</strong> もしくは <strong>"Bugging: バグ"</strong> と定義される.</p>
+<p>AIM-120 AMRAAM は, STT ロックではなく, バグした目標にも誘導できる.</p>
+<p><img alt="dcs33-radar-sam" src="../../images/dcs33-radar_sam.jpg" /></p>
+<ul>
+<li>Additional Target: 他の目標</li>
+<li>Bugged Target: バグした目標</li>
+<li>Scan Limit Lines: 走査範囲リミット</li>
+</ul>
+<p>操縦桿の TMS 下を押すと SAM モードを解除できる.
+SAM でバグした目標にカーソルを重ねて再度 TMS 上を押すと, その目標を STT モードでロックする.</p>
+<h4 id="single-target-track-stt-aquisition">Single Target Track (STT) aquisition: 単一目標追跡捕捉<a class="headerlink" href="#single-target-track-stt-aquisition" title="Permanent link">#</a></h4>
+<p>ターゲットシンボルにカーソルを重ねて TMS 上を素早く2回短押しすることで, 目標をロックできる.
+手順は SAM モードと似ているが, 捕捉できる目標は1つのみである.</p>
+<p>レーダーはすべてのエネルギーを1機の目標に対して指向し, 継続的な情報更新を可能にする.
+しかし, このときレーダーは他の目標を探知できず, ロックされた目標はレーダーロックオン警報を受けることになる.</p>
+<p><img alt="dcs34-radar_stt" src="../../images/dcs34-radar_stt.jpg" /></p>
+<p>操縦桿の TMS 下を押すと STT モードを解除できる.
+TWS 下を1回押すと, 目標をバグした SAM モードに戻り, もう一度押すと RWS モードに戻る.</p>
+<p>このモードにの詳細ついては <a href="#single-target-track-mode-stt">Single Target Track (STT)</a> で紹介する.</p>
+<h3 id="track-while-scan-tws">Track While Scan (TWS): 捜索中追跡サブモード<a class="headerlink" href="#track-while-scan-tws" title="Permanent link">#</a></h3>
+<p>このモードは RWS と STT の特徴を併せ持つ.
+全般的に TWS の画面は RWS と類似しているが, それぞれのシンボルには針路を示す <strong>Vector Line</strong> と, その下に高度を示す数字が表示される.
+これにより, 他の目標を探知するための走査を継続しながら, 詳細な目標情報を取得できる.</p>
+<p>TWS にはいくつかの制限がある.
+レーダーはそれぞれの目標に対するトラックファイルを形成しようとするが, 走査範囲が広い場合は走査頻度が落ちる.
+レーダーはそれぞれの走査間も, 次の走査での目標の未来位置を予測する.
+しかし, 目標が高Gでの回避機動をとり, 軌道と速度が素早く変化すると, レーダーは誤ったトラックファイルを形成してしまい, 目標を失探する可能性がある.
+Using such a defensive tactics, the hunter can quickly become the hunted.</p>
+<p>TWS と AIM-120 を組み合わせると, 強力で迅速な同時多目標同時交戦能力を発揮できる.
+だが, TWS での目標追跡の信頼性は SAM よりも低く, STT と比べるとさらに低い.
+STT と異なり, TWS での AIM-120 発射は, 敵目標にレーダーロック警報とミサイル発射警報が行われない.
+敵のパイロットが最初に警報を受けるのは, AIM-120 が目標に接近し, 内蔵のアクティブレーダーシーカーを作動させたときである.</p>
+<p><img alt="dcs35-radar_tws" src="../../images/dcs35-radar_tws.jpg" /></p>
+<p>レーダーの掃引 (走査に合わせた画面上の表示) ごとの情報を元に, トラックファイルを10個まで形成する.
+レーダー走査範囲設定は RWS と同じだが, 目標をバグしたときは <strong>3バー</strong>, <strong>±25°</strong> に制限される.</p>
+<p>目標の優先度に応じて, <strong>Search Target</strong>, <strong>Track Target</strong>, <strong>System Target</strong>, <strong>Bugged Target</strong> の4種類のシンボルが割り当てられる.</p>
+<h4 id="search-target">Search Target: サーチ (捜索) ターゲット<a class="headerlink" href="#search-target" title="Permanent link">#</a></h4>
+<p>トラックファイルを形成する十分な情報がない目標である.
+RWS と同じく, 小さな正方形として画面に表示される.</p>
+<p>レーダーの掃引によるトラックが得られなかった場合, これらの目標表示は消滅する.
+2回の連続した掃引による有効なトラックが得られた場合, 目標はトラックターゲットとなる.</p>
+<h4 id="track-target">Track Target: トラック (追跡) ターゲット<a class="headerlink" href="#track-target" title="Permanent link">#</a></h4>
+<p>針路を示す <strong>Vector Line</strong> をもつ, 大きめの白塗りの正方形で表される.
+それぞれのシンボルの下にはその目標の高度が表示される.
+同時に10個までのトラックが形成される.</p>
+<p><img alt="dcs36-radar_track_target" src="../../images/dcs36-radar_track_target.jpg" /></p>
+<p>トラックターゲットは基準的な目標シンボルの種類とみなされる.
+目標がこの段階のシンボルになると, 他のオプションが利用できるようになる.
+目標は IFF 尋問により敵か味方かに判別され, トラックターゲットとして残る.
+より注意が必要な目標はシステムターゲットに変更できる.</p>
+<h4 id="system-target">System Target: システムターゲット<a class="headerlink" href="#system-target" title="Permanent link">#</a></h4>
+<p>より重要なトラックターゲットとして識別を容易にしたい場合はシステムターゲットを用いる.
+<strong>Vector Line</strong> と高度を含む, 空の正方形として表示される.</p>
+<p>トラックターゲットをシステムターゲットに以降する方法の1つは, レーダーカーソルをトラックターゲットに重ねて操縦桿の TMS 上を押す.
+また, 表示される他のシステムターゲットが無い場合に TMS 右を押すと, すべてのトラックターゲットがシステムターゲットに置き換わる.</p>
+<p><img alt="dcs37-radar_system_target1" src="../../images/dcs37-radar_system_target1.jpg" /></p>
+<p>カーソルをシステムターゲットの上に重ねると, その目標を Estrablishment (確立) できる.</p>
+<p><img alt="dcs38-radar_system_target2" src="../../images/dcs38-radar_system_target2.jpg" /></p>
+<p>この場合, その目標を中心に<strong>3バー</strong>, <strong>±25°</strong> の走査に制限され, より高い更新頻度を可能にするとともにトラック失探の可能性を低減する.
+AIM-120 の発射に用いることはできないが, その目標に対するレーダー更新頻度を向上させられる.</p>
+<p>カーソルを他のシステムターゲットに重ねることで, これを変更できる.
+どのシステムターゲットにも重なっていない場合, レーダーは通常の走査に戻る.</p>
+<p>システムターゲットにカーソルを重ねて TMS 上を押すと, バグターゲットとして指定できる.
+移行すると, バグターゲットを中心に<strong>3バー</strong>, <strong>±25°</strong> の走査となり, より高い更新頻度を可能にするとともにトラック失探の可能性を低減する.</p>
+<p><img alt="dcs39-radar_bugged_target" src="../../images/dcs39-radar_bugged_target.jpg" /></p>
+<h4 id="bugged-target">Bugged Target: バグターゲット<a class="headerlink" href="#bugged-target" title="Permanent link">#</a></h4>
+<p>すべてのトラックファイルのなかで最も高い優先度の目標であり, AIM-120 はバグした目標に誘導される.
+シンボルには円が表示される.</p>
+<p>TMS 右を押すと, 最も近いシステムターゲットがバグターゲットに置き換わる.
+続けて TMS 右を押すと, 表示されているすべてのシステムターゲットが順番にバグターゲットに置き換わる.</p>
+<p>これにより, AIM-120 を用いた交戦手順は次のようになる.</p>
+<ol>
+<li>トラックターゲットのうち, 交戦する目標をシステムターゲットに移行する</li>
+<li>最も脅威度の高いシステムターゲットをバグし, ミサイルを発射する</li>
+<li>システムターゲットを順番にバグして, それぞれにいミサイルを発射する</li>
+</ol>
+<p>さらに, レーダーカーソルをバグターゲットに重ねて TMS 上を押すと, STT 追跡に移行する.</p>
+<p>STT から TWS モードに戻るには TMS 下を押す.
+続けて TMS 下を押すごとに, トラックファイルの優先度が降格する.</p>
+<h2 id="air-combat-mode-acm">Air Combat Mode (ACM): 格闘戦モード<a class="headerlink" href="#air-combat-mode-acm" title="Permanent link">#</a></h2>
+<p>格闘戦モードでは, 近くの航空機を自動的に捕捉する.
+このモードは主に, 目標が目視圏内に入ってから使用する.
+パイトットは目標をレーダーで捕捉するために, 適切な位置に機体を操縦しなければならない.</p>
+<p>異なる走査パターンをもつ4つのサブモードがある.</p>
+<ul>
+<li>30° x 20° (HUD Scan): HUDスキャン</li>
+<li>Boresite (BORE): ボアサイト</li>
+<li>10° x 60° (Vertical Scan): 垂直スキャン</li>
+<li>Slewable</li>
+</ul>
+<p>どのサブモードであっても, レーダーは最初に探知した目標をロックする.
+ボアサイトモードの最大捕捉距離は 20 海里で, 他のすべての ACM モードの最大捕捉距離は 10 海里である.
+それぞれのモードには長所と短所があり, それぞれの状況において最大の効果を発揮する.</p>
+<p>ACM モードに入る方法は次の2つである.</p>
+<ol>
+<li>スロットルの Dogfight/Missile Override (DOGFIGHT) スイッチを DOFT に倒す</li>
+<li>ディスプレイ左のレーダーモードから ACM に隣接する OSB を押す</li>
+</ol>
+<p><img alt="dcs40-radar_acm_select" src="../../images/dcs40-radar_acm_select.png" /></p>
+<p>ACM モードに切り替えると, デフォルトで 30° x 20° (HUD スキャン) サブモードが 電波を放出しない状態 (NO RAD) で選択される.
+操縦桿の TMS か, MFD からサブモードを切り替えると, レーダーの電波放出が開始される.</p>
+<p><img alt="dcs41-radar_acm_submode" src="../../images/dcs41-radar_acm_submode.jpg" /></p>
+<p>ACM モードでレーダー画面が SOI になっているとき, HOTAS の TMS は次のように機能する.</p>
+<p><img alt="dcs31-hotas_tms" src="../../images/dcs31-hotas_tms.png" /></p>
+<ul>
+<li>TMS 上<ul>
+<li>ボアサイトサブモード</li>
+</ul>
+</li>
+<li>TMS 下<ul>
+<li>目標をロックしていない場合: 10° x 60° 垂直スキャン</li>
+<li>目標をロックしている場合: ロック解除 + 30° x 20° HUD スキャン</li>
+</ul>
+</li>
+<li>TMS 左<ul>
+<li>機能なし</li>
+</ul>
+</li>
+<li>TMS 右<ul>
+<li>30° x 20° HUD スキャン</li>
+</ul>
+</li>
+</ul>
+<h3 id="30-x-20-hud-scan-hud">30° x 20° (HUD Scan): HUD スキャンサブモード<a class="headerlink" href="#30-x-20-hud-scan-hud" title="Permanent link">#</a></h3>
+<p>30° x 20° HUD スキャンパターンは, HUD の視野角よりも少しだけ広い範囲を捜索する.
+目標捕捉距離は 10 海里である.
+レーダーは, この範囲内に入った最初の目標を自動的にロックする.
+ロックすると, 目標は自動的に STT モードで追跡される.</p>
+<p>このサブモードは特別な HUD シンボルをもたない.</p>
+<p><img alt="dcs42-radar_acm_hud" src="../../images/dcs42-radar_acm_hud.jpg" /></p>
+<p>このモードは, ボアサイトモードより精度が低く, レーダーの捜索対象となる領域が広いため, 目標のロックに時間が掛かる可能性がある.</p>
+<h3 id="boresite-bore">Boresite (BORE): ボアサイトサブモード<a class="headerlink" href="#boresite-bore" title="Permanent link">#</a></h3>
+<p>ボアサイトスキャンパターンは, HUD のガンクロスより下 3° の1回分のビーム幅の範囲を捜索する.
+HUD にはレーダー捜索範囲を中心とした<strong>ボアサイトクロス</strong>が表示され, 目標にレーダービームを照射する目印となる.</p>
+<p><img alt="dcs43-radar_acm_bore" src="../../images/dcs43-radar_acm_bore.png" /></p>
+<p>ボアサイトモードは, 視界内戦闘 (WVR) での素早いロックに最適で, ロックされる目標をある程度細かく制御できる.
+20 海里内の探知した最初の目標を自動的に STT モードで追跡する.</p>
+<h3 id="10-x-60-vertical-scan">10° x 60° (Vertical Scan): 垂直スキャンサブモード<a class="headerlink" href="#10-x-60-vertical-scan" title="Permanent link">#</a></h3>
+<p>10° x 60° 垂直スキャンサブモードでは, レーダーは幅 10 °, 垂直 60° の範囲を捜索する.
+走査の中心はガンクロスより 23° 上方である.
+このモードでは, ガンクロスから HUD の下部に伸びる垂直線が表示される.</p>
+<p><img alt="dcs44-radar_acm_virtical1" src="../../images/dcs44-radar_acm_virtical1.png" /></p>
+<p><img alt="dcs45-radar_acm_virtical2" src="../../images/dcs45-radar_acm_virtical2.png" /></p>
+<p>ロックできるのは 10 海里までの範囲である.
+範囲内に入った最初の目標をロックし, 自動的に STT モードで追跡する.</p>
+<p>このモードは格闘戦において最も使用頻度が高い.
+ドッグファイトのとき, パイロットの頭上にいる目標を HUD 内に引き込もうと, 操縦桿を引こうとする.
+このモードであれば, HUD フレームよりずっと上方であっても目標を素早くロックできる.</p>
+<h3 id="slewable">Slewable: スルーアブルサブモード<a class="headerlink" href="#slewable" title="Permanent link">#</a></h3>
+<p>このモードの走査範囲はおよそ高さ 20° x 幅 60° である.
+このモードが選択されると, 走査は機体正面の水平線上で行われる.
+スロットルの CURSOR/ENABLE スイッチで, この範囲をスルー (移動) して目標をロックする.
+スルーできる範囲は, レーダーアンテナが可動できる限界域までである.</p>
+<p>他のモードと同様, 範囲内に入った最初の目標を自動的にロックし, STT モードで追跡する.</p>
+<p>このモードは, "敵機が2時方向 上方" というような目視では確認できていない状況において, 直接ロックしにいくのに向いている.</p>
+<div class="admonition missing">
+<p class="admonition-title">Not Implemented in DCS</p>
+<p>早期版では未実装</p>
+</div>
+<h2 id="single-target-track-mode-stt">Single Target Track Mode (STT): 単一目標追跡モード<a class="headerlink" href="#single-target-track-mode-stt" title="Permanent link">#</a></h2>
+<p>RWS か ACM サブモードで目標をロックした後, レーダーは STT モードに切り替わる.</p>
+<p>レーダーはすべてのエネルギーを1機の目標に対して指向し, 継続的な情報更新を可能にする.
+しかし, このときレーダーは他の目標を探知できず, ロックされた目標はレーダーロックオン警報を受けることになる.</p>
+<p>STT モードでの MFD 画面のほとんどは RWS モードのときと似ているが, 次の違いがある.
+<strong>Locked Target (捕捉目標)</strong> は, 飛行進路を表す Vector Line を含む, 円で囲まれた三角形で表示される.
+シンボルの下には <strong>Target Altitude (目標高度)</strong> が表示される.
+画面の上部には <strong>Aspect Angle (アスペクト角)</strong>, <strong>Ground Track (磁気針路)</strong>, <strong>Airspeed (目標速度)</strong>, <strong>Closure Rate (接近率)</strong> が表示される.</p>
+<p><img alt="dcs34-radar_stt" src="../../images/dcs34-radar_stt.jpg" /></p>
+<h2 id="expand-feature-exp">Expand Feature (EXP): 拡大機能<a class="headerlink" href="#expand-feature-exp" title="Permanent link">#</a></h2>
+<p>レーダーは, 近接した目標グループに対する判別と分解能を高めるために, 視野角を拡大することができる.
+これは, レーダーカーソルを中心とした4倍の拡大機能として扱われる.
+この機能はレーダーのすべてのモードにおいて使用できる.</p>
+<p>レーダー画面が SOI のときに, 操縦桿の <strong>Expand/FOV Button (拡大/視野角変更ボタン)</strong> もしくは MFD の NORM/EXP の文字に隣接する OSB を押すことで拡大機能を切り替えられる.</p>
+<p><img alt="dcs46-radar_exp_enter" src="../../images/dcs46-radar_exp_enter.jpg" /></p>
+<p>カーソルを中心とした 2 x 2 海里の範囲を拡大する.
+その他の基本的な機能とシンボルは通常の画面と変わらない.</p>
+<p><img alt="dcs47-radar_exp" src="../../images/dcs47-radar_exp.jpg" /></p>
+<h2 id="iff-interrogation">IFF Interrogation: 敵味方識別尋問<a class="headerlink" href="#iff-interrogation" title="Permanent link">#</a></h2>
+<p>敵味方識別 (IFF) システムは, 航空機が友軍であるか敵機であるかを判別する尋問を行う.
+これは, レーダービームの水平角と仰俯角によって選択された範囲もしくはレーダーで探知した特定の目標に対して, シグナルコードを送信することで実行される.
+友軍機であれば搭載されたトランスポンダーが正しいコードで応答する.</p>
+<p>目標は, この応答によって分類され, レーダー画面に友軍もしくは敵機として表示される.
+IFF システムはレーダーに依存しないため, レーダーがオフであっても尋問を行うことができる.</p>
+<p>IFF 尋問を有効にするには, IFF パネルのマスタースイッチを NORM もしくは LOW にする必要がある.</p>
+<p><img alt="dcs48-radar_iff" src="../../images/dcs48-radar_iff.jpg" /></p>
+<p>2通りの HOTAS 入力によって尋問を行うことができる.</p>
+<ul>
+<li><strong>Scan (スキャン)</strong>: TMS 左を1秒以下で短押ししすると, レーダー走査範囲のすべての目標に対して尋問を行う.</li>
+<li><strong>Line of Sight (LOS: 見通し線)</strong>: TMS 左を1秒以上長押しすると, ロックした目標もしくはレーダーカーソル周辺の目標に対して尋問を行う.</li>
+</ul>
+<p><img alt="dcs31-hotas_tms" src="../../images/dcs31-hotas_tms.png" /></p>
+<p>目標が友軍機であれば, シンボルを囲む緑色の円が3秒間表示される.
+応答が無い場合はディスプレイには何も現れず, 目標は正体不明機と分類されたままである.
+この場合, 目標は現在の作戦の交戦規定 (ROE) 上の敵機であると推定される可能性がある.</p>
+<p><img alt="dcs49-radar_iff_mfd" src="../../images/dcs49-radar_iff_mfd.jpg" /></p>
+                
+                  
+                
+                
+                  
+                  <hr>
+                  <div class="md-source-date">
+                    <small>
+                      
+                        最終更新日: <span class='timeago' datetime='1584025544000' locale='en'></span>
+                      
+                    </small>
+                  </div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../system/an-aaq-28/" title="AN/AAQ-28 LITENING" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  前
+                </span>
+                AN/AAQ-28 LITENING
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../aa-gun/" title="空対空機関砲" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  次
+                </span>
+                空対空機関砲
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020 Cypher
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.c33a9706.js"></script>
+      
+        
+        
+          
+          <script src="../../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+                <script src="../../../assets/javascripts/lunr/tinyseg.js"></script>
+              
+              
+                <script src="../../../assets/javascripts/lunr/lunr.ja.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.1",url:{base:"../../.."}})</script>
+      
+    
+  
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.0-beta.2/timeago.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.0-beta.2/timeago.locales.min.js"></script>
+          <script>
+            const nodes = document.querySelectorAll('.timeago');
+            const locale = nodes[0].getAttribute('locale');
+            timeago.render(nodes, locale);
+          </script>
+        </body>
+</html>
