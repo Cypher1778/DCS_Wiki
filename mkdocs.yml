@@ -52,7 +52,7 @@ markdown_extensions:
 nav:
   - Home:
       - Main Page: index.md
-  - DCS: F-16C:
+  - DCS F-16C:
       - 機体解説: f-16c/f-16c.md
       - コックピット:
           - コックピット解説: f-16c/cockpit/cockpit.md
