@@ -1,0 +1,9 @@
+# for mkdocs
+mkdocs
+mkdocs-material
+mkdocs-git-revision-date-localized-plugin
+pymdown-extensions
+fontawesome_markdown
+
+# for /tools/generate_markdowns.py
+pyyaml

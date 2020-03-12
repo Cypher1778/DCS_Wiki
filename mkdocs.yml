@@ -1,0 +1,84 @@
+site_name: DCS Japanese Wiki
+site_url: https://cypher1778.github.io/DCS_Wiki
+site_description: DCS Japanese Wiki
+site_author: Cypher
+
+repo_url: https://github.com/Cypher1778/DCS_Wiki/
+edit_uri: edit/master/docs/
+
+# google_analytics:
+#   - "UA-xxxxxxxxx-x"
+#   - "auto"
+
+copyright: Copyright &copy; 2020 Cypher
+
+theme:
+  name: material
+  palette:
+    primary: "green"
+    accent: "light blue"
+  language: "ja"
+  feature:
+    tabs: true
+  font:
+    text: "Noto Sans JP"
+
+extra_css:
+  - "css/custom.css"
+
+extra:
+  # social:
+  #   - type: "twitter"
+  #     link: "https://twitter.com/hogehoge"
+  search:
+    language: "ja"
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: timeago
+      locale: en
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      separator: "-"
+  - admonition
+  - footnotes
+  - pymdownx.keys
+  - pymdownx.details
+  - fontawesome_markdown
+
+nav:
+  - Home:
+      - Main Page: index.md
+  - F-16C:
+      - コックピット:
+          - コックピット解説: f-16c/cockpit/cockpit.md
+          - HOTAS: f-16c/cockpit/hotas.md
+          - HUD: f-16c/cockpit/hud.md
+          - UFC: f-16c/cockpit/ufc.md
+          - MFD: f-16c/cockpit/mfd.md
+          - HMCS: f-16c/cockpit/hmcs.md
+      - 手順:
+          - コールドスタート: f-16c/procedure/cold-start.md
+          - 基本操縦: f-16c/procedure/basic-flight.md
+          - シャットダウン: f-16c/procedure/shutdown.md
+          - 空中給油: f-16c/procedure/aerial-refueling.md
+      - 機体システム:
+          - 航法システム: f-16c/system/navigation.md
+          - 無線通信システム: f-16c/system/radio-communication.md
+          - データリンク: f-16c/system/datalink.md
+          - レーダー警報受信機: f-16c/system/rwr.md
+          - 対抗手段: f-16c/system/countermeasures.md
+          - AN/AAQ-28 LITENING: f-16c/system/an-aaq-28.md
+      - 空対空戦闘:
+          - 空対空レーダー: f-16c/aa/aa-radar.md
+          - 空対空機関砲: f-16c/aa/aa-gun.md
+          - AIM-9 Sidewinder: f-16c/aa/aim-9.md
+          - AIM-120 AMRAAM: f-16c/aa/aim-120.md
+      - 空対地戦闘:
+          - 空対地機関砲: f-16c/ag/ag-gun.md
+          - ロケット: f-16c/ag/rockets.md
+          - 無誘導爆弾: f-16c/ag/unguided-boms.md
+          - レーザー誘導爆弾: f-16c/ag/laser-guided-boms.md
