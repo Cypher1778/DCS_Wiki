@@ -3,7 +3,7 @@
 左右2つのカラー多機能表示装置 (MFD) は、以下のシステムの映像やデータを表示します。
 
 - Fire Control Radar (火器管制レーダー)
-- Targeting Pod (目標指示ポッド)
+- Targeting Pod (照準ポッド)
 - AGM-65 Weapon Video (AGM-65 シーカー画像)
 - [Stores Management Set (兵装管理セット)](#stores-management-set-sms)
 - [Horizontal Situation Display (水平状況表示)](#horizontal-situation-display-hsd)

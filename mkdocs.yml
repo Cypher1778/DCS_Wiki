@@ -72,7 +72,7 @@ nav:
           - データリンク [WIP]: f-16c/system/datalink.md
           - レーダー警報受信機: f-16c/system/rwr.md
           - 対抗手段: f-16c/system/countermeasures.md
-          - AN/AAQ-28 LITENING [WIP]: f-16c/system/an-aaq-28.md
+          - AN/AAQ-28 LITENING POD: f-16c/system/an-aaq-28.md
       - 空対空戦闘:
           - レーダー (空対空モード): f-16c/aa/aa-radar.md
           - 空対空機関砲 [WIP]: f-16c/aa/aa-gun.md
@@ -83,3 +83,4 @@ nav:
           - ロケット [WIP]: f-16c/ag/rockets.md
           - 無誘導爆弾: f-16c/ag/unguided-boms.md
           - レーザー誘導爆弾 [WIP]: f-16c/ag/laser-guided-boms.md
+      - 用語: f-16c/term.md    

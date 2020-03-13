@@ -20,7 +20,7 @@
 - Steering Cue (操舵キュー)
 - Steerpoint Symbol (ステアポイントシンボル)
 - Baro Altitude Scale (気圧高度計)
-- Slant Range (直線距離)
+- Slant Range (標的までの傾斜距離: 三平方の定理でいう斜辺)
 - Time to Go (ステアポイントまでの所要時間)
 - Distance to Steerpoint/Steerpoint Number (ステアポイントまでの距離/番号)
 - EGI Magnetic Heading (EGI の磁気方位)
