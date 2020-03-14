@@ -584,8 +584,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../system/an-aaq-28/" title="AN/AAQ-28 LITENING [WIP]" class="md-nav__link">
-      AN/AAQ-28 LITENING [WIP]
+    <a href="../../system/an-aaq-28/" title="AN/AAQ-28 LITENING POD" class="md-nav__link">
+      AN/AAQ-28 LITENING POD
     </a>
   </li>
 
@@ -888,6 +888,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../term/" title="用語" class="md-nav__link">
+      用語
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -1070,7 +1082,7 @@
 <h3 id="mk-82-air">MK 82 AIR<a class="headerlink" href="#mk-82-air" title="Permanent link">#</a></h3>
 <p>バリュートと呼ばれる、BSU-49/B 高抵抗尾部アセンブリを MK 82 に取り付けたバージョンです。
 これにより、投下後は急激に減速しながら落下します。
-高抵抗爆弾は減速することで、低高度で投下しても爆発の影響に巻き込まれることはありません。
+高抵抗爆弾が減速することで、低高度で投下しても爆発の影響に巻き込まれることはありません。
 パイロットは MK 82 AIR を高抵抗形態で投下するか、バリュートを開傘させずに "Slick Bomb" のような低抵抗形態で投下するかを選択できます。
 低抵抗の場合はノーズヒューズ (先端信管) 、高抵抗の場合は ノーズ/テイル (先端/後端) かテイルヒューズ (後端信管) を SMS ページで選択します。</p>
 <h3 id="mk-82-se">MK 82 SE<a class="headerlink" href="#mk-82-se" title="Permanent link">#</a></h3>
@@ -1213,20 +1225,20 @@ HUD 上の CCIP ピパーによって兵装の着弾地点が継続的に表示�
 <li><strong>Flight Path Marker</strong>: フライトパスマーカー</li>
 <li><strong>Bomb Fall Line</strong>: 爆弾落下線</li>
 <li><strong>Pull-Up Anticipation Cue (PUAC)</strong>: 引き起こし予想キュー</li>
-<li><strong>Slant Range</strong>: 直線距離</li>
+<li><strong>Slant Range</strong>: 傾斜距離 (三平方の定理でいう斜辺)</li>
 </ul>
 <p><strong>2. ピパーが標的に重なるように航空機を操縦します</strong></p>
 <p>Bomb Fall Line に TDC が表示されなくなったら、ピパーは HUD 視野角内に存在します。
 ピパーはその時点で投下した爆弾の着弾地点です。</p>
 <p>テクニックとして、FPM を標的の前方、ピパーを手前に配置する方法があります。
 Bomb Fall Line がピパーに対して垂直かつ標的の真上を通るように飛行します。
-標的までの直線距離が縮むにつれて自然とこのようになります。</p>
+標的までの傾斜距離が縮むにつれて自然とこのようになります。</p>
 <p><img alt="dcs94-ccip2" src="../../images/dcs94-ccip2.jpg" /></p>
 <p>Pull-Up Anticipation Cue (引き起こし予想キュー) が FPM よりも上にいかないように注意します。
 <strong>Pull-Up Anticipation Cue (PUAC)</strong> は、地面への墜落を避けるための引き起こし開始高度か、爆弾の信管が機能するために必要な高度のどちらか早いほうを視覚的に表示します。
 航空機の高度が下がるにつれて FPM の方へ上がっていきます。
 FPM が PUAC の下にある状態では、爆弾を投下しても信管が有効にならずに不発弾となります。</p>
-<p>目標指示ポッドを装備している場合は、レーザー照射することにより投下精度を向上させることができます。
+<p>照準ポッドを装備している場合は、レーザー照射することにより投下精度を向上させることができます。
 詳細はレーザー照射の項を参照してください。</p>
 <p><strong>3. ピパーが標的と重なったら WPN REL ボタンを押して爆弾を投下します</strong></p>
 <p>リップルリリースによる投下回数が1回以上である場合、ピパーは HUD の中心に "stick" (棒線) として表示されます。
@@ -1244,7 +1256,7 @@ FPM が PUAC の下にある状態では、爆弾を投下しても信管が有�
 <p>WPN REL ボタンを押し続けて、ピパーと重なった標的の位置をデジグネート (指定) します。
 残りの処理は火器管制コンピュータが行います。</p>
 <p><img alt="dcs95-ccip_post1" src="../../images/dcs95-ccip_post1.jpg" /></p>
-<p>目標指示ポッドを装備している場合は、レーザー照射することにより投下精度を向上させることができます。
+<p>照準ポッドを装備している場合は、レーザー照射することにより投下精度を向上させることができます。
 詳細はレーザー照射の項を参照してください。</p>
 <p><strong>2. WPN REL ボタンを押し続けます</strong></p>
 <p>CCRP デリバリーモードと同じ HUD 表示になります。
@@ -1290,7 +1302,7 @@ SL に FPM が重なるように飛行し WPN REL ボタンを押し続けるこ
 デジグネートの方法は以下の通りです。</p>
 <ul>
 <li>目標位置座標が入力されたステアポイントを選択します</li>
-<li>目標指示ポッド (TGP) が装備されている場合、それを用いて目標をデジグネートします</li>
+<li>照準ポッド (TGP) が装備されている場合、それを用いて目標をデジグネートします</li>
 </ul>
 <p>目標の位置を更新するには、 HUD の TD ボックスをスルー (移動) するか、スロットルの <strong>CURSOR/ENABLE</strong> コントロールを使って TGP カーソルをスルーします。</p>
 <p><img alt="dcs99-ccrp2" src="../../images/dcs99-ccrp2.jpg" /></p>
@@ -1298,7 +1310,7 @@ SL に FPM が重なるように飛行し WPN REL ボタンを押し続けるこ
 <strong>Pull-Up Anticipation Cue (PUAC)</strong> は、地面への墜落を避けるための引き起こし開始高度か、爆弾の信管が機能するために必要な高度のどちらか早いほうを視覚的に表示します。
 航空機の高度が下がるにつれて FPM の方へ上がっていきます。
 FPM が PUAC の下にある状態では、爆弾を投下しても信管が有効にならずに不発弾となります。</p>
-<p>目標指示ポッドを装備している場合は、レーザー照射することにより投下精度を向上させることができます。
+<p>照準ポッドを装備している場合は、レーザー照射することにより投下精度を向上させることができます。
 詳細はレーザー照射の項を参照してください。</p>
 <p><strong>2. WPN REL ボタンを押し続けます</strong></p>
 <p><strong>Steering Line</strong> に沿うように FPM を維持し続けます。
@@ -1322,7 +1334,7 @@ Solution Cue が FPM を通過するときに爆弾が投下されます。</p>
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1584083887000' locale='en'></span>
+                        最終更新日: <span class='timeago' datetime='1584151943000' locale='en'></span>
                       
                     </small>
                   </div>
