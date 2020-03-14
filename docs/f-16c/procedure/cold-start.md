@@ -220,7 +220,7 @@ FCR (火器管制レーダー) とレーダー高度計は、航空機が離陸�
 
 HUD に表示したい内容を自由に選択します。
 
-詳細は[HUD](../cockpit/hud.md) を参照してください。
+詳細は [HUD](../cockpit/hud.md) を参照してください。
 
 </br></br>
 
@@ -427,7 +427,7 @@ HUD に表示された高度と高度計の数値が一致しているか確認�
 
 DED の INS ページの RDY 、もしくはフルアラインを待つならば HUD の ALIGN の文字が点滅したことを確認してからノブを回す.
 
-詳細は[INS Alingment](../system/navigation.md) を参照してください。
+詳細は [INS Alingment](/f-16c/system/navigation/#ins) を参照してください。
 
 </br>
 

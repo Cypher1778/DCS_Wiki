@@ -23,7 +23,7 @@ HSD は、自機、現在のステアポイント、有効なフライトプラ�
 ![dcs55-mfd_hsd](../images/dcs55-mfd_hsd.jpg)
 
 事前に判明した脅威の位置、搭載センサーからの情報、Link 16 データリンクを介した戦術情報も同時に表示されます。
-詳細は Link 16 の項目で扱います。
+詳細は [Link 16](/f-16c/system/datalink/) の項目で扱います。
 
 ## Stores Management Set (SMS): 兵装管理セット
 

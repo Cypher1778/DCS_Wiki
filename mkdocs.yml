@@ -68,7 +68,7 @@ nav:
           - 空中給油 [WIP]: f-16c/procedure/aerial-refueling.md
       - 機体システム:
           - 航法システム: f-16c/system/navigation.md
-          - 無線通信システム [WIP]: f-16c/system/radio-communication.md
+          - 無線通信システム: f-16c/system/radio-communication.md
           - データリンク [WIP]: f-16c/system/datalink.md
           - レーダー警報受信機: f-16c/system/rwr.md
           - 対抗手段: f-16c/system/countermeasures.md
