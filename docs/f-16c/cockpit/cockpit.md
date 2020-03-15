@@ -8,7 +8,7 @@
 
 - [Instrument Panel: 計器パネル](#instrument-panel)
 - [Left Auxiliary Console: 左補助コンソール](#left-auxiliary-console)
-- [Right Auxiliary Console: 右補助コンソール](#rifht-auxiliary-console)
+- [Right Auxiliary Console: 右補助コンソール](#right-auxiliary-console)
 - [Left Console: 左コンソール](#left-console)
 - [Right Console: 右コンソール](#right-console)
 

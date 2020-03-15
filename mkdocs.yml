@@ -69,7 +69,7 @@ nav:
       - 機体システム:
           - 航法システム: f-16c/system/navigation.md
           - 無線通信システム: f-16c/system/radio-communication.md
-          - データリンク [WIP]: f-16c/system/datalink.md
+          - データリンク: f-16c/system/datalink.md
           - レーダー警報受信機: f-16c/system/rwr.md
           - 対抗手段: f-16c/system/countermeasures.md
           - AN/AAQ-28 LITENING POD: f-16c/system/an-aaq-28.md
