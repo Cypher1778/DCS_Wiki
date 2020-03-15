@@ -65,7 +65,7 @@ nav:
           - コールドスタート: f-16c/procedure/cold-start.md
           - 基本操縦: f-16c/procedure/basic-flight.md
           - シャットダウン: f-16c/procedure/shutdown.md
-          - 空中給油 [WIP]: f-16c/procedure/aerial-refueling.md
+          - 空中給油: f-16c/procedure/aerial-refueling.md
       - 機体システム:
           - 航法システム: f-16c/system/navigation.md
           - 無線通信システム: f-16c/system/radio-communication.md

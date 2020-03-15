@@ -232,7 +232,7 @@ Bomb Fall Line がピパーに対して垂直かつ標的の真上を通るよ�
 
 ![dcs94-ccip2](../images/dcs94-ccip2.jpg)
 
-Pull-Up Anticipation Cue (引き起こし予想キュー) が FPM よりも上にいかないように注意します。
+Pull-Up Anticipation Cue (引き起こし予想キュー) が FPM よりも上にいかないように注視します。
 **Pull-Up Anticipation Cue (PUAC)** は、地面への墜落を避けるための引き起こし開始高度か、爆弾の信管が機能するために必要な高度のどちらか早いほうを視覚的に表示します。
 航空機の高度が下がるにつれて FPM の方へ上がっていきます。
 FPM が PUAC の下にある状態では、爆弾を投下しても信管が有効にならずに不発弾となります。
@@ -335,7 +335,7 @@ CCRP モードで投下地点を算出するために、まずは目標をデジ
 
 ![dcs99-ccrp2](../images/dcs99-ccrp2.jpg)
 
-Pull-Up Anticipation Cue (引き起こし予想キュー) が FPM よりも上にいかないように注意します。
+Pull-Up Anticipation Cue (引き起こし予想キュー) が FPM よりも上にいかないように注視します。
 **Pull-Up Anticipation Cue (PUAC)** は、地面への墜落を避けるための引き起こし開始高度か、爆弾の信管が機能するために必要な高度のどちらか早いほうを視覚的に表示します。
 航空機の高度が下がるにつれて FPM の方へ上がっていきます。
 FPM が PUAC の下にある状態では、爆弾を投下しても信管が有効にならずに不発弾となります。
