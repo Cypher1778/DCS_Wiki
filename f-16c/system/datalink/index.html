@@ -42,7 +42,7 @@
     
     
       
-        <title>データリンク [WIP] - DCS Japanese Database</title>
+        <title>データリンク - DCS Japanese Database</title>
       
     
     
@@ -119,7 +119,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                データリンク [WIP]
+                データリンク
               
             </span>
           
@@ -538,8 +538,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../radio-communication/" title="無線通信システム [WIP]" class="md-nav__link">
-      無線通信システム [WIP]
+    <a href="../radio-communication/" title="無線通信システム" class="md-nav__link">
+      無線通信システム
     </a>
   </li>
 
@@ -559,11 +559,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        データリンク [WIP]
+        データリンク
       </label>
     
-    <a href="./" title="データリンク [WIP]" class="md-nav__link md-nav__link--active">
-      データリンク [WIP]
+    <a href="./" title="データリンク" class="md-nav__link md-nav__link--active">
+      データリンク
     </a>
     
       
@@ -577,9 +577,56 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#display-symbology" class="md-nav__link">
+    Display Symbology: ディスプレイシンボル
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#radar-display-filtering" class="md-nav__link">
+    Radar Display Filtering: レーダー画面のフィルタリング
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ded-dlnk" class="md-nav__link">
+    DED DLNK ページ
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#network-status" class="md-nav__link">
+    Network Status: ネットワークステータス
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mids-radio-options-mids" class="md-nav__link">
+    MIDS Radio Options: MIDS 設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flight-management" class="md-nav__link">
+    Flight Management: フライトマネジメント
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -817,9 +864,56 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#display-symbology" class="md-nav__link">
+    Display Symbology: ディスプレイシンボル
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#radar-display-filtering" class="md-nav__link">
+    Radar Display Filtering: レーダー画面のフィルタリング
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ded-dlnk" class="md-nav__link">
+    DED DLNK ページ
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#network-status" class="md-nav__link">
+    Network Status: ネットワークステータス
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mids-radio-options-mids" class="md-nav__link">
+    MIDS Radio Options: MIDS 設定
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flight-management" class="md-nav__link">
+    Flight Management: フライトマネジメント
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -843,7 +937,108 @@
                 
                 
                 <h1 id="_1">データリンク<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
-<h2 id="wip">WIP<a class="headerlink" href="#wip" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="#display-symbology">Display Symbology: ディスプレイシンボル</a></li>
+<li><a href="#ded-dlnk">DED DLNK ページ</a></li>
+</ul>
+<p>F-16 は Link 16 戦術データリンク (TADIL) ネットワークを介してデータの送受信を可能にする、多機能情報伝達システム (MIDS) を装備しています。
+Link 16 を使用すると NATO や他のサービスとのデータの共有ができます。</p>
+<p>Link 16 は MIDS システムの一部であり、有効にするにはアビオニクス電源パネルの <strong>MIDS LVT</strong> ノブを ON 位置にします。
+隣にある DL スイッチは F-16 ブロック 50 では機能しないので OFF のままにしておきます。</p>
+<p><img alt="dcs116-dl_activation" src="../../images/dcs116-dl_activation.jpg" /></p>
+<p>Link 16/MIDS の目的は、操縦する航空機の周囲の戦術状況を準リアルタイムで共有することです。
+自機に搭載されたセンサー、ネットワーク上の友軍戦闘機、AWACS のような警戒監視アセットからのデータを集約し、統合された戦術状況図 (シチュエーショナル・アウェアネス) を作り出します。
+これによって、より統制された交戦が可能になり、誤爆の可能性を低下させます。</p>
+<h2 id="display-symbology">Display Symbology: ディスプレイシンボル<a class="headerlink" href="#display-symbology" title="Permanent link">#</a></h2>
+<p>それぞれのトラックファイルはシンボルに変換されて HSD と レーダー画面に表示されます。
+シンボルの形状と色によって敵味方の識別と、そのトラックファイルの情報源 (ソース) を判別できます。
+ソースの種類は、自機のセンサーか他のドナー (提供者) によるものか、もしくはその両方です。</p>
+<p><img alt="dcs117-dl_symbol" src="../../images/dcs117-dl_symbol.png" /></p>
+<ul>
+<li><strong>Symbol (シンボル)</strong>: 基本的なシンボルは形状と色によって差別化されます。詳細は後述します。</li>
+<li><strong>Vector Line (ベクターライン)</strong>: トラックファイルの針路を示す線です。</li>
+<li><strong>Altitude (高度)</strong>: 1,000 フィート単位で示されるトラックファイルの高度です。</li>
+</ul>
+<p>レーダー画面に表示されるほとんどの情報は HSD のものと同じですが、ネットワーク上の他のドナー機が目標を主目標として "バグ" した場合、識別 ID 表示が現れます。
+こうすることで、作戦地域内にいる他の友軍機の標的になっていない目標に優先度をつけることができるため、目標のソーティングを補助します。</p>
+<p><img alt="dcs118-dl_radar1" src="../../images/dcs118-dl_radar1.png" /></p>
+<ul>
+<li>Hostile Track Bugged by Wingman 2: 2番目の僚機によってバグされているホスタイルトラック</li>
+<li>Hostile Track Bugged by Wingman 3: 3番目の僚機によってバグされているホスタイルトラック</li>
+<li>Hostile Track Bugged by Multiple Donors: 複数のドナーによってバグされているホスタイルトラック</li>
+<li>Hostile Track Bugged by Ford 11: Ford 11 によってバグされているホスタイルトラック</li>
+<li>Friendly Track: 友軍機のトラックファイル</li>
+</ul>
+<p><img alt="dcs119-dl_radar2" src="../../images/dcs119-dl_radar2.png" /></p>
+<p><strong>Bugged Target ID (バグターゲット ID)</strong>: ホスタイルトラック (敵性目標) として識別されている航空機のターゲット ID には次のようなものがあります。
+- <strong>2, 3, 4</strong>: 編隊内の他の戦闘機よって現在バグされている目標の識別子です。
+- <strong>FD11, EN23, CY14</strong>: その目標をバグしている、同じ編隊には属していない他の戦闘機のコールサインです。例えば、FD11 は Ford 11, CY14 は Chevy 14 を意味しています。
+- <strong>M</strong>: 複数のドナーによってバグされている目標です。</p>
+<p>HSD に表示されるバグされた目標はレーダー画面のそれとは異なります。
+僚機とその僚機が現在バグしている目標を結ぶ、シアン色の <strong>Wingman Lockline (ウィングマンロックライン)</strong> が表示されます。
+ウィングマンロックラインは編隊内の機体に限られ、ネットワーク上の他のドナーには表示されません。</p>
+<p>バグターゲット ID はレーダー画面にのみ、ウィングマンロックラインは HSD にのみ表示されます。</p>
+<p><img alt="dcs120-dl_hsd" src="../../images/dcs120-dl_hsd.jpg" /></p>
+<p>Link 16/MIDS には3種類のトラックファイルがあります。</p>
+<ul>
+<li><strong>Suveillance Track (サベイランストラック)</strong>: AWACS や地上レーダー施設から受信したトラックファイルです。</li>
+</ul>
+<p><img alt="dcs121-dl_surv_track" src="../../images/dcs121-dl_surv_track.png" /></p>
+<ul>
+<li><strong>Fighter Track (ファイタートラック)</strong>: ネットワーク上の他のドナー航空機や、トラックデータを送信している戦闘機から提供されるトラックファイルです。これらのトラックファイルは混同を避けるために互いに同期しています。見た目はサベイランストラックと同じです。</li>
+</ul>
+<p><img alt="dcs122-dl_fighter_track" src="../../images/dcs122-dl_fighter_track.png" /></p>
+<ul>
+<li><strong>Precise Participant Location and Identification (PPLI) Tracks (PPLI トラック)</strong>: 同じ編隊内のフライトメンバーに加えて、4つまでの他のドナー機の位置を示します。</li>
+</ul>
+<p><img alt="dcs123-dl_ppli_track" src="../../images/dcs123-dl_ppli_track.png" /></p>
+<p>上記の3種類のソースによるトラックファイルと、自機のレーダーで捉えた目標は互いに同期しています。
+このようなオフボードセンサー (自機に搭載されていないセンサー) とオンボードセンサー (自機に搭載されているセンサー) の両方で捉えていることを <strong>Multi Sorce Integration (MSI)</strong> と呼びます。</p>
+<p><img alt="dcs124-dl_msi_track" src="../../images/dcs124-dl_msi_track.png" /></p>
+<h3 id="radar-display-filtering">Radar Display Filtering: レーダー画面のフィルタリング<a class="headerlink" href="#radar-display-filtering" title="Permanent link">#</a></h3>
+<p>レーダー画面 (FCR ページ) に表示されているトラックファイルのシンボルは、スロットルの UHF VHF 通信スイッチでフィルタリングすることができます。
+この操作が反映されるのはレーダー画面のみで、HSD ページには適応されません。</p>
+<p><img src="../../images/dcs115-hotas_radio.png" hspace="10" width="350"></p>
+<p>スイッチを内側 (右) に 0.5 秒以下の短押しすると、3種類のフィルターを掛けられます。</p>
+<ul>
+<li><strong>ALL</strong>: すべてのシンボルが表示されます。</li>
+<li><strong>FTR+</strong>: サベイランストラックファイルが表示されなくなります。</li>
+<li><strong>TGTS</strong>: サベイランストラックファイルと PPLI トラックファイルが表示されなくなります。</li>
+</ul>
+<p>スイッチを外側 (左) に 0.5 秒以下の短押しすると、<strong>NONE</strong> が選択され、すべてのトラックファイルを非表示にします。
+もう一度押すと元の表示オプションに戻ります。</p>
+<p>現在選択している表示オプションはレーダー画面の左下に表示されています。</p>
+<p><img alt="dcs125-dl_filter" src="../../images/dcs125-dl_filter.jpg" /></p>
+<h2 id="ded-dlnk">DED DLNK ページ<a class="headerlink" href="#ded-dlnk" title="Permanent link">#</a></h2>
+<p>DED の データリンク (DLNK) ページでは、Link 16 システムの状態の確認と設定が行えます。
+ICP の <strong>LIST</strong> ボタンを押してから <strong>ENTR</strong> を押すと最初のページが表示されます。
+次のページに移行するには DCS スイッチを右の <strong>SEQ</strong> 方向へ倒します。</p>
+<p><img alt="dcs126-ded_dlnk" src="../../images/dcs126-ded_dlnk.jpg" /></p>
+<h3 id="network-status">Network Status: ネットワークステータス<a class="headerlink" href="#network-status" title="Permanent link">#</a></h3>
+<p>1ページ目は、ネットワークの状態とタイムリファレンス (共通時間) を表示します。</p>
+<p><img alt="dcs127-ded_dlnk1" src="../../images/dcs127-ded_dlnk1.png" /></p>
+<ul>
+<li><strong>GPS Time Reference</strong>: Link 16 ネットワークに接続しているすべてのアセットで共通化されている時間です。これは、設定が ON のときに GPS 時計データによってもたらされます。</li>
+<li><strong>Pilot Entered Time</strong>: GPS が無効な場合に、ネットワーク接続アセット同士で事前に調整した時間が表示されます。</li>
+<li><strong>Network Time Reference</strong>: 有効であれば、自機がネットワーク時間の基準となります。通常は OFF にしておきます。</li>
+<li><strong>Network Synchronization Status</strong>: 共有されたネットワーク時間の精度を表示します。</li>
+</ul>
+<h3 id="mids-radio-options-mids">MIDS Radio Options: MIDS 設定<a class="headerlink" href="#mids-radio-options-mids" title="Permanent link">#</a></h3>
+<p>2ページ目は、受信するデータのチャンネルと通信強度を含む MIDS 通信設定を表示します。</p>
+<p><img alt="dcs128-ded_dlnk2" src="../../images/dcs128-ded_dlnk2.png" /></p>
+<ul>
+<li><strong>Fighter, Mission and Surveillance Channel Selection</strong>: 編隊内のメンバー、他の戦闘機、AWACS のそれぞれから受信する MIDS データのチャンネルです。これは事前に設定されているため変更する必要はありません。</li>
+<li><strong>Callsign</strong>: データを送受信するときの自機のコールサインです。</li>
+<li><strong>Flight Lead Identifier</strong>: 有効であれば、自機が編隊長として登録されます。</li>
+<li><strong>Transmission Power</strong>: 送信する MIDS の通信強度を選択できます。</li>
+</ul>
+<h3 id="flight-management">Flight Management: フライトマネジメント<a class="headerlink" href="#flight-management" title="Permanent link">#</a></h3>
+<p><img alt="dcs129-ded_dlnk3" src="../../images/dcs129-ded_dlnk3.png" /></p>
+<p>3ページ目では、ネットワークに接続しているフライトメンバーの管理と識別設定を行います。</p>
+<ul>
+<li><strong>Flight Member Track Numbers</strong>: 編隊内の航空機の識別 ID です。これは事前に設定されているため変更する必要はありません。</li>
+<li><strong>Own Flight Position</strong>: 編隊内での自機の役職を設定します。</li>
+</ul>
                 
                   
                 
@@ -853,7 +1048,7 @@
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1584025544000' locale='en'></span>
+                        最終更新日: <span class='timeago' datetime='1584237674000' locale='en'></span>
                       
                     </small>
                   </div>
@@ -875,7 +1070,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../radio-communication/" title="無線通信システム [WIP]" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../radio-communication/" title="無線通信システム" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -884,7 +1079,7 @@
                 <span class="md-footer-nav__direction">
                   前
                 </span>
-                無線通信システム [WIP]
+                無線通信システム
               </span>
             </div>
           </a>

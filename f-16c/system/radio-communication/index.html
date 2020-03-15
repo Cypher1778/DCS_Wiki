@@ -42,7 +42,7 @@
     
     
       
-        <title>無線通信システム [WIP] - DCS Japanese Database</title>
+        <title>無線通信システム - DCS Japanese Database</title>
       
     
     
@@ -119,7 +119,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                無線通信システム [WIP]
+                無線通信システム
               
             </span>
           
@@ -547,11 +547,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        無線通信システム [WIP]
+        無線通信システム
       </label>
     
-    <a href="./" title="無線通信システム [WIP]" class="md-nav__link md-nav__link--active">
-      無線通信システム [WIP]
+    <a href="./" title="無線通信システム" class="md-nav__link md-nav__link--active">
+      無線通信システム
     </a>
     
       
@@ -565,9 +565,56 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#radio-frequencies" class="md-nav__link">
+    Radio Frequencies: 無線周波数
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    無線周波数プリセットの変更
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    無線周波数の手動変更
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#radio-commands" class="md-nav__link">
+    Radio Commands: 無線の交信
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#easy-communication" class="md-nav__link">
+    Easy Communication 無効時
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#easy-communication_1" class="md-nav__link">
+    Easy Communication 有効時
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -588,8 +635,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../datalink/" title="データリンク [WIP]" class="md-nav__link">
-      データリンク [WIP]
+    <a href="../datalink/" title="データリンク" class="md-nav__link">
+      データリンク
     </a>
   </li>
 
@@ -817,9 +864,56 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#radio-frequencies" class="md-nav__link">
+    Radio Frequencies: 無線周波数
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    無線周波数プリセットの変更
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    無線周波数の手動変更
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#radio-commands" class="md-nav__link">
+    Radio Commands: 無線の交信
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#easy-communication" class="md-nav__link">
+    Easy Communication 無効時
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#easy-communication_1" class="md-nav__link">
+    Easy Communication 有効時
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -843,7 +937,72 @@
                 
                 
                 <h1 id="_1">無線通信システム<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
-<h2 id="wip">WIP<a class="headerlink" href="#wip" title="Permanent link">#</a></h2>
+<p>作戦に参加する他のアセットからの無線を受信したりメッセージを送信するには、無線機を適切に設定しなければなりません。
+設定されていなければ独り言を喋っているのと同じです。</p>
+<h2 id="radio-frequencies">Radio Frequencies: 無線周波数<a class="headerlink" href="#radio-frequencies" title="Permanent link">#</a></h2>
+<p>UHF (COM 1) 無線機と VHF (COM 2) 無線機に設定されている現在の周波数は DED の CNI ページに表示されています。</p>
+<p><img src="../../images/dcs111-ded_radio.png" hspace="10" width="300"></p>
+<p>ミッションが作製されると、それぞれの局に UHF か VHF 周波数が割り当てられます。
+周波数はそれぞれ、プリセットチャンネルとして保存されていますが、手動で周波数を入力することもできます。
+使用する周波数はミッションブリーフィングで共有されるので、作戦を開始するまえに周波数を合わせておきましょう。</p>
+<p>一般的に以下の決まりがあります。</p>
+<ul>
+<li>編隊内でもっとも使用する機会が多いのは VHF 無線です。編隊内無線周波数に対応したチャンネルを使います。</li>
+<li>作戦地域で活動する他の航空機は普通、 UHF 無線を使います。正しく設定されてれば作戦地域で活動する航空機の無線通信が聞こえてくるでしょう。AWACS (早期警戒管制機) も普通はこの共通無線を使用します。</li>
+<li>JTAC はほとんどの場合において、固有の VHF か UHF 周波数が割り当てられます。</li>
+<li>各飛行場の ATC は固有の VHF か UHF 周波数をもっています。</li>
+<li>空中給油機はそれぞれ別の VHF もしくは UHF 周波数を使います。</li>
+</ul>
+<p>このように、作戦中はいくつもの無線周波数を切り替えています。
+無線周波数のプリセット機能がこれらの助けになるでしょう。</p>
+<h3 id="_2">無線周波数プリセットの変更<a class="headerlink" href="#_2" title="Permanent link">#</a></h3>
+<ol>
+<li>ICP の <strong>COM 1</strong> か <strong>COM 2</strong> オーバーライドボタンを押します。</li>
+<li>希望するプリセットチャンネルの番号を入力し ENTR を押します。</li>
+<li>無線機は新たなプリセット周波数で送受信されます。</li>
+</ol>
+<p><img alt="dcs112-radio_channel1" src="../../images/dcs112-radio_channel1.jpg" /></p>
+<p>プリセットチャンネルが選択されていれば、それらを順番に切り替えることができます。</p>
+<ol>
+<li>DCS スイッチを、プリセットチャンネルの隣に矢印が表示されるまで上に倒します。</li>
+<li>インクリメント/デクリメントスイッチでチャンネルを切り替えます</li>
+</ol>
+<p><img alt="dcs113-radio_channel2" src="../../images/dcs113-radio_channel2.jpg" /></p>
+<h3 id="_3">無線周波数の手動変更<a class="headerlink" href="#_3" title="Permanent link">#</a></h3>
+<ol>
+<li>ICP の <strong>COM 1</strong> か <strong>COM 2</strong> オーバーライドボタンを押します。</li>
+<li>希望する無線周波数を入力し ENTR を押します。</li>
+<li>無線機は新たな無線周波数で送受信されます。</li>
+</ol>
+<p><img alt="dcs114-radio_man" src="../../images/dcs114-radio_man.jpg" /></p>
+<h2 id="radio-commands">Radio Commands: 無線の交信<a class="headerlink" href="#radio-commands" title="Permanent link">#</a></h2>
+<p>他のアセットへの命令や要求は無線システムを通じて行います。
+地上では <strong>[ \ ]</strong> <strong>バックスラッシュキー</strong>を押して無線メニューを開きます。
+飛行中は HOTAS コントロールからしか通信できません。</p>
+<p><img src="../../images/dcs115-hotas_radio.png" align="right" hspace="10" width="350"></p>
+<p><strong>UHF VHF 無線通信スイッチ</strong></p>
+<ul>
+<li><strong>前</strong>: VHF 補助無線機 <strong>[RCtrl + \ ]</strong></li>
+<li><strong>後</strong>: UHF 主無線機 <strong>[RAlt + \ ]</strong></li>
+<li><strong>左</strong>: 機能なし</li>
+<li><strong>右</strong>: 機能なし</li>
+</ul>
+<p>無線を使うには DCS の設定の GAMEPLAY タブにある <strong>"EASY COMMUNICATION"</strong> OPTION による2通りの方法があります。</p>
+<h3 id="easy-communication">Easy Communication 無効時<a class="headerlink" href="#easy-communication" title="Permanent link">#</a></h3>
+<p>それぞれの通信対象の正しい変調方式と周波数を知っていなければならない、より現実的なモードです。
+正しいチャンネルプリセット、もしくは正しい無線周波数を入力する必要があります。</p>
+<h3 id="easy-communication_1">Easy Communication 有効時<a class="headerlink" href="#easy-communication_1" title="Permanent link">#</a></h3>
+<p>[ \ ] バックスラッシュキーで無線メニューが開けるモードです。
+無線メニューには交信相手とサブコマンドウィンドウを開くためのファンクションキーが表示されます。</p>
+<p>無線メニューの文字の色によって以下の違いがあります。</p>
+<ul>
+<li>白文字であれば、少なくとも1つの無線機が通信できるように調整されています。</li>
+<li>グレーであれば、少なくとも1つの無線機の周波数を合わせれば通信できます。</li>
+<li>黒文字であれば、地形もしくは地球の曲面による見通し線の影響によって通信ができません。</li>
+</ul>
+<p>メニューにはそれぞれの交信相手の変調方式と周波数も表示されます。
+交信相手を選択すると、無線機は自動的に周波数を合わせます。</p>
+<p>UHF VHF 無線送信スイッチを使うと、その変調方式に応じて交信相手が色分けされます。</p>
                 
                   
                 
@@ -853,7 +1012,7 @@
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1584025544000' locale='en'></span>
+                        最終更新日: <span class='timeago' datetime='1584167096000' locale='en'></span>
                       
                     </small>
                   </div>
@@ -890,13 +1049,13 @@
           </a>
         
         
-          <a href="../datalink/" title="データリンク [WIP]" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../datalink/" title="データリンク" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   次
                 </span>
-                データリンク [WIP]
+                データリンク
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
