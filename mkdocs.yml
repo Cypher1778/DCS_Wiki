@@ -75,8 +75,8 @@ nav:
           - AN/AAQ-28 LITENING POD: f-16c/system/an-aaq-28.md
       - 空対空戦闘:
           - レーダー (空対空モード): f-16c/aa/aa-radar.md
-          - 空対空機関砲 [WIP]: f-16c/aa/aa-gun.md
-          - AIM-9 Sidewinder [WIP]: f-16c/aa/aim-9.md
+          - 空対空機関砲: f-16c/aa/aa-gun.md
+          - AIM-9 Sidewinder: f-16c/aa/aim-9.md
           - AIM-120 AMRAAM [WIP]: f-16c/aa/aim-120.md
       - 空対地戦闘:
           - 空対地機関砲 [WIP]: f-16c/ag/ag-gun.md
