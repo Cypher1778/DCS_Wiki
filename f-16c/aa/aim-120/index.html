@@ -42,7 +42,7 @@
     
     
       
-        <title>AIM-120 AMRAAM [WIP] - DCS Japanese Database</title>
+        <title>AIM-120 AMRAAM - DCS Japanese Database</title>
       
     
     
@@ -119,7 +119,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                AIM-120 AMRAAM [WIP]
+                AIM-120 AMRAAM
               
             </span>
           
@@ -634,8 +634,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../aa-gun/" title="空対空機関砲 [WIP]" class="md-nav__link">
-      空対空機関砲 [WIP]
+    <a href="../aa-gun/" title="空対空機関砲" class="md-nav__link">
+      空対空機関砲
     </a>
   </li>
 
@@ -646,8 +646,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../aim-9/" title="AIM-9 Sidewinder [WIP]" class="md-nav__link">
-      AIM-9 Sidewinder [WIP]
+    <a href="../aim-9/" title="AIM-9 Sidewinder" class="md-nav__link">
+      AIM-9 Sidewinder
     </a>
   </li>
 
@@ -667,11 +667,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        AIM-120 AMRAAM [WIP]
+        AIM-120 AMRAAM
       </label>
     
-    <a href="./" title="AIM-120 AMRAAM [WIP]" class="md-nav__link md-nav__link--active">
-      AIM-120 AMRAAM [WIP]
+    <a href="./" title="AIM-120 AMRAAM" class="md-nav__link md-nav__link--active">
+      AIM-120 AMRAAM
     </a>
     
       
@@ -685,8 +685,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#aim-120" class="md-nav__link">
+    AIM-120 の運用
   </a>
   
 </li>
@@ -817,8 +817,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#aim-120" class="md-nav__link">
+    AIM-120 の運用
   </a>
   
 </li>
@@ -843,7 +843,87 @@
                 
                 
                 <h1 id="aim-120-amraam">AIM-120 AMRAAM<a class="headerlink" href="#aim-120-amraam" title="Permanent link">#</a></h1>
-<h2 id="wip">WIP<a class="headerlink" href="#wip" title="Permanent link">#</a></h2>
+<p>AIM-120 AMRAAM は、ノーズコーンに内蔵された小型レーダーを使って自己誘導が可能なアクティブレーダー誘導 (ARH) の空対空ミサイルです。
+ミサイルは、<a href="../aa-radar/#single-target-track-mode-stt">単一目標追跡モード (STT)</a> と<a href="../aa-radar/#situational-awareness-mode-sam-aquisition">状況認識モード (SAM)</a> の両方で誘導できます。
+アクティブシーカーのおかげで、同時に複数目標との交戦が可能です。
+また、ミサイルを最後まで自機で誘導し続ける必要もありません。</p>
+<p>AIM-120 は 20 海里以遠にいる目標と交戦できる中距離空対空ミサイルです。
+しかし、実際の交戦距離は目標のアスペクト角、交戦高度、発射速度、発射後の目標の機動などに大きく影響されます。
+このように、場合によっては 10 海里以下の交戦距離になることもあります。</p>
+<p>格闘戦では、自機のレーダーロックを必要としない BORE モードで発射することができます。
+AIM-120 は HUD に表示されたレティクル内に入った最初の目標を追跡します。
+友軍機との誤射に注意してください。</p>
+<blockquote>
+<p><strong>要約</strong></p>
+<ol>
+<li>A-A マスターモードかミサイルモードを選択</li>
+<li>マスターアームスイッチを ARM に</li>
+<li>レーダーで目標を捕捉 (任意だが推奨)</li>
+<li>射程範囲に目標が入るように操縦</li>
+<li>WPN REL ボタンを押してミサイルを発射</li>
+</ol>
+</blockquote>
+<h2 id="aim-120">AIM-120 の運用<a class="headerlink" href="#aim-120" title="Permanent link">#</a></h2>
+<p>以下の2種類の方法で正しい SMS 設定を行います。</p>
+<p><strong>1a. AIM-120 が表示されるまで MFD の OSB 7 を押して、AIM-120 を選択します</strong></p>
+<p><strong>1b. Dogfight/Missile Override (DOGFIGHT) スイッチを MSL にします</strong></p>
+<p>オーバーライドスイッチは他のマスターモードを空対空戦闘設定に変更します。
+すると、空対空ミサイルを射撃するためのシンボルが HUD に現れ、搭載しているなかで射程が長いほうのミサイルが選択されます。</p>
+<p><img alt="dcs148-aim120_sms" src="../../images/dcs148-aim120_sms.jpg" /></p>
+<p>OSB 7 の隣にはミサイルの種類と数が表示されています。
+下部にはミサイルが搭載されているステーションが表示され、選択中のステーションは四角で囲まれています。
+操縦桿のミサイルステップボタンか選択したい側の OSB を押すと、ステーションを切り替えられます。</p>
+<ul>
+<li><strong>Line of Sight (照準線)</strong>: レーダーアンテナの向きに追従する <strong>SLAVE</strong> と、正面を向く <strong>BORE (ボアサイト)</strong> のどちらかを選択します。スロットルの CURSOR/ENABLE コントロールを押し込むと、選択中のモードを切り替えます。<ul>
+<li>BORE モードの場合、自機からの目標情報を必要とせず、ミサイルは自身に内蔵されたレーダーで捕捉・追跡します。</li>
+<li>SLAVE モードの場合、ミサイルは自身に内蔵されたレーダーで追跡できる距離に近づくまでは、航空機側のレーダーで得られた目標情報をデータリンクで受信します。</li>
+</ul>
+</li>
+</ul>
+<p><strong>2. HUD 上の空対空ミサイルシンボルを確認します</strong></p>
+<p>空対空マスターモード選択時の HUD には、空対空ミサイルの状態と発射のための情報が投影されています。
+シンボルのほとんどは NAV (航法) モードと同じですが、目標の捕捉とミサイルの発射のためにいくつかの機能が追加されています。</p>
+<p><img alt="dcs149-aim120_symbol1" src="../../images/dcs149-aim120_symbol1.png" /></p>
+<ul>
+<li><strong>Master Arm</strong>: マスターアームスイッチの状態を表します。</li>
+<li><strong>Missile Remaining</strong>: ミサイル残弾数を表します。</li>
+<li><strong>Missile Diamond (ミサイルダイヤモンド)</strong>: AIM-120 のレーダーシーカーの方向を表示します。最初はシーカーの取り付け位置に表示されていますが、SLAVE モードが選択されていれば、シーカーはレーダーがロックしている目標の方向を向きます。</li>
+<li><strong>Allowable Steering Error Circle (ASEC)</strong>: 目標に命中させるため、発射前にはこの円の内側に <strong>Attack Steering Cue (ASC: 攻撃操舵点)</strong> を入れます。ASC はレーダーで目標をロックしたあとに表示されます。<strong>ASEC</strong> はミサイルを発射する際に許容できる目標との角度の誤差の最大値を表しています。つまり、目標との距離が縮めば円は大きくなり、より大きな角度誤差があってもミサイルを発射できるようになります。</li>
+</ul>
+<p><strong>3. レーダーで目標を捕捉</strong></p>
+<p>RWS モード、TWS モード、ACM サブモード、AIM-120 の SLAVE モードのいずれかを使って目標をロックします。</p>
+<p><img alt="dcs150-aim120_symbol2" src="../../images/dcs150-aim120_symbol2.png" /></p>
+<ul>
+<li><strong>Target Locator Line (TLL)</strong>: ロックした目標が HUD の視野角外にいるときにガンクロスから伸びるように表示され、目標の方向を指し示します。</li>
+<li><strong>Relative Angle</strong>: ガンクロスの隣に表示され、ガンクロスと目標の角度差を 10° 毎に表示します。</li>
+<li><strong>Allowable Steering Error Circle (ASEC)</strong>: 距離に応じて大きさが変化します。</li>
+<li><strong>Attack Steering Cue (ASC)</strong>: 目標をロックすると表示されます。これを ASEC 内に入れることで、目標との角度誤差を減らします。</li>
+<li><strong>Slant Range</strong>: 目標をロックすると表示されます。目標との距離を表します。</li>
+</ul>
+<p>目標をロックすると、HUD の右側に様々な距離を表す <strong>Dynamic Launch Zone</strong> が表示されます。</p>
+<p><img src="../../images/dcs151-aim120_dlz.png" hspace="10" width="350"></p>
+<ul>
+<li><strong>Range Scale</strong>: DLZ に表示されている距離の範囲です。</li>
+<li><strong>Maximum Missile Range</strong>: 非機動目標に対するミサイルの理論上の最大射程距離です。</li>
+<li><strong>Maximum Missile Range vs Maneuvering Target</strong>: 機動目標に対するミサイルの最大射程距離です。</li>
+<li><strong>Closure Rate and Range</strong>: 接近率を数字で、現在の目標までの距離を Range Scale に対する符号の位置で表します。</li>
+<li><strong>Radar Activation Range</strong>: AIM-120 に内蔵されたレーダーが起動する距離です。</li>
+<li><strong>Minimum Missile Range</strong>: ミサイルの最小射程距離です。</li>
+<li><strong>Axx</strong>: AIM-120 に内蔵されたレーダーが起動するまでの所要時間です。</li>
+<li><strong>Txx</strong>: ミサイルが着弾するまでの所要時間です。</li>
+</ul>
+<p><strong>4. Attack Steering Cur (ASC) が Allowable Steering Error Circle (ASEC) サークルに入るように操縦します</strong></p>
+<p><strong>Allowable Steering Error Circle</strong> の大きさは目標との距離とアスペクト角によって変動します。
+<strong>Attack Steering Cue</strong> が ASEC サークルのできるだけ中心に位置するように航空機を操縦し、ミサイルが最も効率よく飛翔できるコースをとります。</p>
+<p>HUD 内に目標を収めると、目標と重なるように <strong>Target Designator Box (目標指示ボックス)</strong> が表示され、<strong>Missile Diamond</strong> がそれを追跡します。</p>
+<p><img alt="dcs152-aim120_symbol3" src="../../images/dcs152-aim120_symbol3.jpg" /></p>
+<p>DLZ を注視し、最適な発射位置を決定できるよう状況を精査します。</p>
+<p><strong>5. WPN REL ボタンを押してミサイルを発射します</strong></p>
+<p>ミサイルが発射され、次のミサイルが発射準備に入ります。</p>
+<p>BORE モードを使えば AIM-120 を自機のレーダーロック無しで発射できます。
+これは、すぐさま撃たなければならないときや、レーダー照射をしたくないときに用いられます。
+このときミサイルのレーダーが発射直後に起動し、最初に捉えた目標を追跡します。
+そのため、友軍との誤射に注意しなければなりません。</p>
                 
                   
                 
@@ -853,7 +933,7 @@
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1584025544000' locale='en'></span>
+                        最終更新日: <span class='timeago' datetime='1584450498000' locale='en'></span>
                       
                     </small>
                   </div>
@@ -875,7 +955,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../aim-9/" title="AIM-9 Sidewinder [WIP]" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../aim-9/" title="AIM-9 Sidewinder" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -884,7 +964,7 @@
                 <span class="md-footer-nav__direction">
                   前
                 </span>
-                AIM-9 Sidewinder [WIP]
+                AIM-9 Sidewinder
               </span>
             </div>
           </a>

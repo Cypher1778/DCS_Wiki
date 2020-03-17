@@ -42,7 +42,7 @@
     
     
       
-        <title>空対空機関砲 [WIP] - DCS Japanese Database</title>
+        <title>空対空機関砲 - DCS Japanese Database</title>
       
     
     
@@ -119,7 +119,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                空対空機関砲 [WIP]
+                空対空機関砲
               
             </span>
           
@@ -642,38 +642,9 @@
       
     
     
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        空対空機関砲 [WIP]
-      </label>
-    
-    <a href="./" title="空対空機関砲 [WIP]" class="md-nav__link md-nav__link--active">
-      空対空機関砲 [WIP]
+    <a href="./" title="空対空機関砲" class="md-nav__link md-nav__link--active">
+      空対空機関砲
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">目次</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
     
   </li>
 
@@ -684,8 +655,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../aim-9/" title="AIM-9 Sidewinder [WIP]" class="md-nav__link">
-      AIM-9 Sidewinder [WIP]
+    <a href="../aim-9/" title="AIM-9 Sidewinder" class="md-nav__link">
+      AIM-9 Sidewinder
     </a>
   </li>
 
@@ -696,8 +667,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../aim-120/" title="AIM-120 AMRAAM [WIP]" class="md-nav__link">
-      AIM-120 AMRAAM [WIP]
+    <a href="../aim-120/" title="AIM-120 AMRAAM" class="md-nav__link">
+      AIM-120 AMRAAM
     </a>
   </li>
 
@@ -813,22 +784,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">目次</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -843,7 +798,79 @@
                 
                 
                 <h1 id="_1">空対空機関砲<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
-<h2 id="wip">WIP<a class="headerlink" href="#wip" title="Permanent link">#</a></h2>
+<p>M61A1 20mm 自動機関砲システムは、パイロットに強力な武器能力とを提供します。
+これは6本の銃身をもつガトリング砲で、航空機の左ストレーキに装備されています。
+512 発の弾丸と、毎分 6,000 発の連射能力をもちます。</p>
+<blockquote>
+<p><strong>要約</strong></p>
+<ol>
+<li>A-G マスターモードかドッグファイトモードを選択</li>
+<li>マスターアームスイッチを ARM に</li>
+<li>ACM モードで目標を捕捉 (任意)</li>
+<li>目標に EEGS ファンネルとピパーが重なるように操縦</li>
+<li>トリガーを2段目まで引き、機関砲を発射</li>
+</ol>
+</blockquote>
+<p>以下の2種類の方法で正しい SMS 設定を行います。</p>
+<p><strong>1a. GUN が表示されるまで MFD の OSB 1 を押して、空対空機関砲モードを選択します</strong></p>
+<p><strong>1b. Dogfight/Missile Override (DOGFIGHT) スイッチを DGFT にします</strong></p>
+<p>こうすることで機関砲と空対空ミサイルの両方を射撃するためのシンボルが HUD に現れます。</p>
+<p><img alt="dcs135-aagun_sms" src="../../images/dcs135-aagun_sms.jpg" /></p>
+<p><strong>2. HUD 上の空対空機関砲シンボルを確認します</strong></p>
+<p><strong>Enhanced Envelope Gun Sight (EEGS)</strong> は、レーダーが目標をロックしているかどうかに応じて様々なレベルの情報を表示します。</p>
+<ul>
+<li><strong>Level I</strong>: 慣性航法装置 (INS) と角速度センサー装置 (RSU) が故障したときに<strong>ボアサイトクロス</strong>のみが表示される故障モードです。これが表示されることはほとんどありません。</li>
+<li><strong>Level II</strong>: 目標をロックしていないときに、弾道予測を表示されます。<strong>ボアサイトクロス</strong>、<strong>EEGS ファンネル</strong>、<strong>Multiple Reference Gunsite (MRGS) ライン</strong>が表示されます。</li>
+<li><strong>Level III</strong> &amp; <strong>Level IV</strong>: レベル5に繋がる内部レベルで、普通の場合表示はパイロットには見えません。</li>
+<li><strong>Level V</strong>: レーダーロックが完了し、そのデータをもとに発射ソリューションが算出されたあとに表示されます。<strong>ターゲットデジグネーター</strong>、<strong>T シンボル</strong>、<strong>スラントレンジ (傾斜距離)</strong>、<strong>接近率</strong>、<strong>レベル5ピパー</strong>を含む、追加のリファレンスシンボルが HUD に表示されます。</li>
+</ul>
+<p><img alt="dcs136-aagun_lv2_symbol" src="../../images/dcs136-aagun_lv2_symbol.png" /></p>
+<ul>
+<li><strong>ボアサイトクロス</strong>: このシンボルは常に表示され、ボアサイトの方向を示します。重力や空気抵抗を受けていないときの弾丸の弾道を示しています。</li>
+<li>
+<p><strong>EEGS ファンネル</strong>: ファンネルに沿ったそれぞれの位置は、それぞれの距離で機関砲を正しく照準するための目標を示しています。つまり、目標となる航空機の翼幅がファンネルと同じになっていれば、その時点で射撃した弾丸が命中する正しい距離をとれています。</p>
+<p>距離が縮めば目標は大きく見えます。このとき、目標の翼端がファンネルの両側に接するように、目標がファンネルのより上側にこなければなりません。その結果、目標は HUD のより上部に位置し、さらにはボアサイトクロスに近づくためリードが減少します。</p>
+</li>
+<li>
+<p><strong>Multiple Reference Gunsight (MRGS) Lines</strong>: MRGS サイトは、機関砲の照準線の方向を指す5本線で構成され、HUD の下部で弧を描くように表示されます。この正確な照準ソリューションによって、長距離かつ高アスペクト角において目標をファンネル上に維持するのを補助します。</p>
+<p>MRGS ラインを使ったときに目標がその線よりも小さければ、射程外であるか予測よりも目標の速度が速いため、さらなるリードが必要です。反対に大きければ、予測よりも遅いため必要なリードはより短くなります。</p>
+</li>
+<li>
+<p><strong>ターゲットデジグネーター</strong>: このシンボルはレーダーロックした目標の中心に表示されます。<strong>Target Aspect Caret</strong> と呼ばれる三角形の符号は目標のアスペクト角を示しています。シンボルの外側には2本線の <strong>In-Range Cue</strong> があり、機関砲の最大射程距離を表します。<strong>Target Range Caret</strong> はロックした目標の 1,000 フィートずつのスラントレンジ (傾斜距離) を、それぞれの時計方向の位置で表します。</p>
+<ul>
+<li>12 時方向: 12,000 フィート</li>
+<li>9 時方向: 9,000 フィート</li>
+<li>6 時方向: 6,000 フィート</li>
+<li>3 時方向: 3,000 フィート</li>
+</ul>
+</li>
+<li><strong>Target Slant Range</strong>: ロックした目標までの距離です。1マイル以上ある場合は 10 マイル単位で表示されます。1マイル未満であれば 100 フィート単位で表されます。</li>
+<li><strong>Closure Rate</strong>: 目標の接近率をノットで表します。</li>
+<li>
+<p><strong>T-Symbol</strong> ロックした目標への2つの発射ソリューションです。+ シンボル、"1-G ピパー" は非機動目標へのリード角を表します。小さな水平線である "9-G ピパー" は最大維持旋回 G での目標へのリード角です。これらはレベル5ピパーが表示されないときのバックアップとして使います。</p>
+<p>1-G ピパーの両側には2本の <strong>Maneuver Potential Line</strong> が表示されています。より長いほうの線は、アウト・オブ・プレーン・マニューバの潜在方向を示します。</p>
+</li>
+<li>
+<p><strong>Level V Pipper</strong>: コンピュータで算出された、現在の距離と速度における機関砲の発射ソリューション (照準点) を示します。このピパーを目標に重ねて機関砲を発射します。</p>
+</li>
+</ul>
+<p><strong>3. EEGS ファンネル内に目標を収めるように機体を操縦します</strong></p>
+<p>ファンネルに沿ったそれぞれの位置は、それぞれの距離で機関砲を正しく照準するための目標を示しています。
+つまり、目標となる航空機の翼幅がファンネルと同じになっていれば、その時点で射撃した弾丸が命中する正しい距離をとれています。</p>
+<p>目標の翼端がファンネルの両側に接するようにするか、レベル5ピパーを目標に重ねたまま維持します。</p>
+<p><strong>4. ファンネルの両側に翼端が接する (レベル2) か、ピパーを目標に重ねて (レベル5) からトリガーを2段目までいっぱいに引きます</strong></p>
+<p>スラントレンジは機関砲の有効性に大きく影響します。
+機関砲から発射された弾丸は大きく散らばって速度も失われます。
+散布界と速度の喪失が大きくなるにつれて、機関砲の精度と効果が減少します。
+ファンネルの上の頂点は最小射程の 600 フィートを表しています。
+下の頂点は最大射程の 3,000 フィートの位置です。
+目標がファンネルの下部よりも小さく見える場合は機関砲の射程外です。</p>
+<p><img alt="dcs137-aagun_lv2_symbol2" src="../../images/dcs137-aagun_lv2_symbol2.png" /></p>
+<p><img alt="dcs138-aagun_lv5_symbol" src="../../images/dcs138-aagun_lv5_symbol.jpg" /></p>
+<p><strong>Bullets at Target Range (BATR) Symbol</strong> と呼ばれるシンボルは、発射後の弾丸を示します。
+BATR は最初の弾丸が通過する目標範囲を表し、最後の弾丸が通過すると消えます。
+このシンボルは EEGS レベルがレーダーロックした場合であるレベル3, 4, 5のときにのみ表示されます。</p>
+<p><img alt="dcs139_aagun_batr_symbol" src="../../images/dcs139-aagun_batr_symbol.jpg" /></p>
                 
                   
                 
@@ -853,7 +880,7 @@
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1584025544000' locale='en'></span>
+                        最終更新日: <span class='timeago' datetime='1584409682000' locale='en'></span>
                       
                     </small>
                   </div>
@@ -890,13 +917,13 @@
           </a>
         
         
-          <a href="../aim-9/" title="AIM-9 Sidewinder [WIP]" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../aim-9/" title="AIM-9 Sidewinder" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   次
                 </span>
-                AIM-9 Sidewinder [WIP]
+                AIM-9 Sidewinder
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

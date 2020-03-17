@@ -42,7 +42,7 @@
     
     
       
-        <title>AIM-9 Sidewinder [WIP] - DCS Japanese Database</title>
+        <title>AIM-9 Sidewinder - DCS Japanese Database</title>
       
     
     
@@ -119,7 +119,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                AIM-9 Sidewinder [WIP]
+                AIM-9 Sidewinder
               
             </span>
           
@@ -634,8 +634,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../aa-gun/" title="空対空機関砲 [WIP]" class="md-nav__link">
-      空対空機関砲 [WIP]
+    <a href="../aa-gun/" title="空対空機関砲" class="md-nav__link">
+      空対空機関砲
     </a>
   </li>
 
@@ -655,11 +655,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        AIM-9 Sidewinder [WIP]
+        AIM-9 Sidewinder
       </label>
     
-    <a href="./" title="AIM-9 Sidewinder [WIP]" class="md-nav__link md-nav__link--active">
-      AIM-9 Sidewinder [WIP]
+    <a href="./" title="AIM-9 Sidewinder" class="md-nav__link md-nav__link--active">
+      AIM-9 Sidewinder
     </a>
     
       
@@ -673,8 +673,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#aim-9mx" class="md-nav__link">
+    AIM-9M/X の運用
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hmcs-aim-9mx" class="md-nav__link">
+    HMCS のミサイルボアサイトを使った AIM-9M/X の運用
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hmcs-aim-9mx_1" class="md-nav__link">
+    HMCS のレーダーボアサイトを使った AIM-9M/X の運用
   </a>
   
 </li>
@@ -696,8 +710,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../aim-120/" title="AIM-120 AMRAAM [WIP]" class="md-nav__link">
-      AIM-120 AMRAAM [WIP]
+    <a href="../aim-120/" title="AIM-120 AMRAAM" class="md-nav__link">
+      AIM-120 AMRAAM
     </a>
   </li>
 
@@ -817,8 +831,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#aim-9mx" class="md-nav__link">
+    AIM-9M/X の運用
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hmcs-aim-9mx" class="md-nav__link">
+    HMCS のミサイルボアサイトを使った AIM-9M/X の運用
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hmcs-aim-9mx_1" class="md-nav__link">
+    HMCS のレーダーボアサイトを使った AIM-9M/X の運用
   </a>
   
 </li>
@@ -843,7 +871,158 @@
                 
                 
                 <h1 id="aim-9-sidewinder">AIM-9 Sidewinder<a class="headerlink" href="#aim-9-sidewinder" title="Permanent link">#</a></h1>
-<h2 id="wip">WIP<a class="headerlink" href="#wip" title="Permanent link">#</a></h2>
+<p>AIM-9 はドッグファイトで用いられる短距離赤外線誘導ミサイルです。
+撃ちっ放し機能を備えており、レーダーロック無しでも発射できます。
+高ピッチのロックトーンでシーカーが目標をロックしたことを伝えます。
+また、シーカーをアンケージ (ジンバルを開放すること) すると、赤外線シーカーで最初に捉えた目標を追跡させることができます。</p>
+<p>AIM-9 はフレアによって欺瞞されるため、発射する前にシーカーの視野角内にフレアが存在しないことを確かめるとロックオンの確実性が上がるでしょう。</p>
+<blockquote>
+<p><strong>要約</strong></p>
+<ol>
+<li>A-A マスターモードかドッグファイトモードを選択</li>
+<li>マスターアームスイッチを ARM に</li>
+<li>レーダーで目標を捕捉 (任意)</li>
+<li>射程範囲に目標が入るように操縦</li>
+<li>(必要であれば) アンケージスイッチを押して、シーカーを開放</li>
+<li>ミサイルダイヤモンドの表示とロックトーンの再生を確認</li>
+<li>WPN REL ボタンを押してミサイルを発射</li>
+</ol>
+</blockquote>
+<ul>
+<li><a href="#aim-9mx">AIM-9M/X の運用</a></li>
+<li><a href="#hmcs-aim-9mx">HMCS のミサイルボアサイトを使った AIM-9M/X の運用</a></li>
+<li><a href="#hmcs-aim-9mx_1">HMCS のレーダーボアサイトを使った AIM-9M/X の運用</a></li>
+</ul>
+<h2 id="aim-9mx">AIM-9M/X の運用<a class="headerlink" href="#aim-9mx" title="Permanent link">#</a></h2>
+<p>以下の2種類の方法で正しい SMS 設定を行います。</p>
+<p><strong>1a. AIM-9 が表示されるまで MFD の OSB 7 を押して、AIM-9 を選択します</strong></p>
+<p><strong>1b. Dogfight/Missile Override (DOGFIGHT) スイッチを DGFT にします</strong></p>
+<p>オーバーライドスイッチは他のマスターモードを格闘戦設定に変更します。
+すると、機関砲と空対空ミサイルの両方を射撃するためのシンボルが HUD に現れます。
+スイッチを MSL 位置にすると、HUD に現れるシンボルは空対空ミサイルのみを射撃するためのものになります。</p>
+<p><img alt="dcs140-aim9_sms" src="../../images/dcs140-aim9_sms.jpg" /></p>
+<p>OSB 7 の隣にはミサイルの種類と数が表示されています。
+下部にはミサイルが搭載されているステーションが表示され、選択中のステーションは四角で囲まれています。
+操縦桿のミサイルステップボタンか選択したい側の OSB を押すと、ステーションを切り替えられます。</p>
+<ul>
+<li><strong>Field of View (視野角)</strong>: ミサイルの視野角を <strong>SPOT</strong> (狭域) と <strong>SCAN</strong> (広域) から切り替えます。SCAN にするとシーカーは正面を中心に弧を描くように回転して走査範囲を広げますが、探知距離は短くなります。</li>
+<li><strong>Line of Sight (照準線)</strong>: <strong>SLAVE</strong> ではシーカーはレーダーアンテナの向きに追従し、<strong>BORE</strong> では正面を走査し続けます。スロットルの CURSOR/ENABLE コントロールを押し込んでいる間は、選択中のモードを上書きします。離すと MFD で選択していた元のモードに戻ります。</li>
+<li><strong>WARM/COOL</strong>: アルゴンによるシーカーの冷却のオンオフを切り替えます。<strong>シーカーの感受性を高めるため、交戦前には COOL にしておくべきです。</strong>ドッグファイトモードかミサイルオーバーライドモードを選択したときは自動的に COOL が開始されます。冷却用のアルゴンの持続時間は外気温、気圧、供給ボトルに入っている量に左右されますが、90 分が平均持続時間です。</li>
+</ul>
+<p><strong>2. HUD 上の空対空ミサイルシンボルを確認します</strong></p>
+<p>空対空マスターモード選択時の HUD には、空対空ミサイルの状態と発射のための情報が投影されています。
+シンボルのほとんどは NAV (航法) モードと同じですが、目標の捕捉とミサイルの発射のためにいくつかの機能が追加されています。</p>
+<ul>
+<li><strong>Missile Diamond</strong>: AIM-9 のシーカーヘッドの位置を表示します。最初はシーカーの取り付け位置に表示されていますが、シーカーがアンケージされるとレーダーの照準線を辿ったり、ロックしている目標を追跡したりします。</li>
+<li><strong>Missile Reticle</strong>: シーカーの視野角を表します。MFD で選択した SPOT/SCAN 設定に応じて大きさが変化します。</li>
+</ul>
+<p><img alt="dcs141-aim9_symbol1" src="../../images/dcs141-aim9_symbol1.png" /></p>
+<p><strong>3. レーダーで目標を捕捉します (任意)</strong></p>
+<p>AIM-9 で目標を捕捉する最も簡単で一般的な方法は、レーダーの ACM モードを使うことです。
+SLAVE が選択されていれば、シーカーはレーダーがロックしている目標の方向を向きます。
+目標が探知範囲内にあり、赤外線の探知条件を満たしていれば AIM-9 が目標をロックします。</p>
+<p><strong>4. 目標が射程内に入るまで飛行します</strong></p>
+<p>HUD に表示されたミサイルレティクルが目標に重なるように操縦します。
+ミサイルが目標の赤外線エネルギーを探知すると、唸り声のような音でその状態を示します。</p>
+<p><strong>5. アンケージスイッチを押して、ミサイルの自己誘導を指令します</strong></p>
+<p>AIM-9 のシーカーが目標を探知したときにスロットルの <strong>Cage/Uncage</strong> ボタンを押すと、シーカーによるロックオンが可能になり、シーカーの可動域内で目標を追跡します。
+ロックするとミサイルダイヤモンドが目標に追従します。</p>
+<p><strong>6. ミサイルダイヤモンドの表示とロックトーンの再生を確認します</strong></p>
+<p>目標をロックするとミサイルのトーン音のピッチが高くなります。
+<strong>Target Designator Box</strong> はレーダーで捕捉している目標を示します。
+目標にレーダー照射が行われている場合、ミサイルダイヤモンドはこのボックスに重なります。
+目標をレーダーで捕捉していればスラントレンジが表示されます。</p>
+<p><img alt="dcs142-aim9_symbol2" src="../../images/dcs142-aim9_symbol2.jpg" /></p>
+<p><strong>Dynamic Launch Zone (DLZ)</strong> はレーダーで目標をロックしているときに限り、HUD の右側に表示されます。
+DLZ を注視し、最適な発射位置を決定できるよう状況を精査します。</p>
+<p>ミサイルの最大射程に入るとミサイルダイヤモンドが点滅します。
+機動目標に対する最大射程距離内に目標が入るとミサイルダイヤモンドに加えてターゲットデジグネーターボックスが点滅します。</p>
+<p><img src="../../images/dcs143-aim9_dlz.png" hspace="10" width="350"></p>
+<ul>
+<li><strong>Range Scale</strong>: DLZ に表示されている距離の範囲です。</li>
+<li><strong>Maximum Missile Range</strong>: 非機動目標に対するミサイルの理論上の最大射程距離です。</li>
+<li><strong>Maximum Missile Range vs Maneuvering Target</strong>: 機動目標に対するミサイルの最大射程距離です。</li>
+<li><strong>Closure Rate and Range</strong>: 接近率を数字で、現在の目標までの距離を Range Scale に対する符号の位置で表します。</li>
+<li><strong>Minimum Missile Range</strong>: ミサイルの最小射程距離です。</li>
+</ul>
+<p><strong>7. WPN REL ボタンを押してミサイルを発射します</strong></p>
+<p>ミサイルが発射され、次のミサイルが発射準備に入ります。
+AIM-9 は撃ちっ放し機能を備えているため、発射後に目標を追跡し続ける必要はありません。</p>
+<h2 id="hmcs-aim-9mx">HMCS のミサイルボアサイトを使った AIM-9M/X の運用<a class="headerlink" href="#hmcs-aim-9mx" title="Permanent link">#</a></h2>
+<p>ミサイルの BORE が選択されている場合、HMCS のクロスヘアにシーカーををスレーブ (追従) させることができます。
+これは、目標をレーダーでロックできない、もしくはしたくないときに役立ちます。
+HUD の代わりに HMD の照準線を使うこと以外は通常の AIM-9 の運用と同様です。
+それ以外の機械的な側面も同じです。</p>
+<p><strong>1. ヘルメット・マウンテッド・ディスプレイ (HMD) のシンボルの電源を入れます</strong></p>
+<p>HMD の電源は、左補助コンソールの HMD 制御ノブから入れます。 OFF 位置にあるノブを INC (増加) へ時計回りに回すと、HMD が起動します。 続けて INC に回し続けると、HMD の輝度が増加します。</p>
+<p><img src="../../images/dcs11-hmcs_panel.jpg" align="left" hspace="10" width="400"></p>
+<p><img src="../../images/dcs_procedure55.jpg" hspace="10" width="150"></p>
+<p><strong>2a. AIM-9 が表示されるまで MFD の OSB 7 を押して、AIM-9 を選択します</strong></p>
+<p><strong>2b. Dogfight/Missile Override (DOGFIGHT) スイッチを DGFT にします</strong></p>
+<p>シンボルとその機能は、HMCS を使わないときと同じです。
+レーダーを使わずに AIM-9M/X でロックするために、Line of Sight モードを <strong>BORE</strong> に設定します。</p>
+<p><img alt="dcs140-aim9_sms" src="../../images/dcs140-aim9_sms.jpg" /></p>
+<p><strong>3. HMD で目標を捕捉します</strong></p>
+<p>AIM-9 が BORE モードで HMD の電源が入っていれば、シーカーは HMD の <strong>Dynamic Aiming Cross</strong> に追従します。
+エイミングクロスはボアサイトの位置と扱われます。
+AIM-9 がロックできる位置まで飛行する必要は無く、単に目標の方を見るだけで捕捉できます。</p>
+<p>周りを見渡しているときも、シーカーのジンバルの可動範囲には限界があることに注意してください。
+<strong>Missile Diamond</strong> はシーカーの向いている方向を示します。
+航空機の正面から大きく逸れすぎると、シーカーが追従できなくなりダイヤモンドに <strong>×</strong> が表示されます。</p>
+<p>それ以外のシンボルのは HUD のものと酷似しています。</p>
+<p><img alt="dcs144-aim9_hmcs_bore1" src="../../images/dcs144-aim9_hmcs_bore1.png" /></p>
+<p><strong>4. アンケージスイッチを押して、ミサイルの自己誘導を指令します</strong></p>
+<p>AIM-9 のシーカーが目標を探知したときにスロットルの <strong>Cage/Uncage</strong> ボタンを押すと、シーカーによるロックオンが可能になり、シーカーの可動域内で目標を追跡します。
+ロックするとミサイルダイヤモンドが目標に追従します。</p>
+<p><img alt="dcs145-aim9_hmcs_bore2" src="../../images/dcs145-aim9_hmcs_bore2.jpg" /></p>
+<p><strong>5. ミサイルダイヤモンドの表示とロックトーンの再生を確認します</strong></p>
+<p>目標をロックするとミサイルのトーン音のピッチが高くなります。
+ミサイルダイヤモンドはエイミングクロスではなく目標を追跡するようになります。</p>
+<p><strong>6. WPN REL ボタンを押してミサイルを発射します</strong></p>
+<p>ミサイルが発射され、次のミサイルが発射準備に入ります。
+AIM-9 は撃ちっ放し機能を備えているため、発射後に目標を追跡し続ける必要はありません。</p>
+<h2 id="hmcs-aim-9mx_1">HMCS のレーダーボアサイトを使った AIM-9M/X の運用<a class="headerlink" href="#hmcs-aim-9mx_1" title="Permanent link">#</a></h2>
+<p>レーダーが ACM ボアサイトモードのとき、HMCS を使えばレーダーの向きを HMCS のエイミングクロスに追従させることが可能です。</p>
+<p>HUD の代わりに HMD の照準線を使うこと以外は通常の AIM-9 の運用と同様です。
+それ以外の機械的な側面も同じです。</p>
+<p><strong>1. ヘルメット・マウンテッド・ディスプレイ (HMD) のシンボルの電源を入れます</strong></p>
+<p>HMD の電源は、左補助コンソールの HMD 制御ノブから入れます。 OFF 位置にあるノブを INC (増加) へ時計回りに回すと、HMD が起動します。 続けて INC に回し続けると、HMD の輝度が増加します。</p>
+<p><img src="../../images/dcs11-hmcs_panel.jpg" align="left" hspace="10" width="400"></p>
+<p><img src="../../images/dcs_procedure55.jpg" hspace="10" width="150"></p>
+<p><strong>2a. AIM-9 が表示されるまで MFD の OSB 7 を押して、AIM-9 を選択します</strong></p>
+<p><strong>2b. Dogfight/Missile Override (DOGFIGHT) スイッチを DGFT にします</strong></p>
+<p>シンボルとその機能は、HMCS を使わないときと同じです。
+レーダーと HMCS の両方で AIM-9M/X を運用するために、Line of Sight モードを <strong>SLAVE</strong> に設定します。</p>
+<p><img alt="dcs140-aim9_sms" src="../../images/dcs140-aim9_sms.jpg" /></p>
+<p><strong>3. レーダーの ACM BORE モードを選択し、HMD で目標を捕捉します</strong></p>
+<p>レーダーが ACM BORE モードで HMD の電源が入っていれば、レーダーは HMD の <strong>Dynamic Aiming Cross</strong> に追従します。
+エイミングクロスはボアサイトの位置と扱われます。
+レーダーでロックできる位置まで飛行する必要は無く、単に目標の方を見るだけで捕捉できます。</p>
+<p>周りを見渡しているときも、レーダーアンテナのジンバルの可動範囲には限界があることに注意してください。
+<strong>ACM BORE シンボル</strong>はレーダーアンテナの向いている方向を示します。
+航空機の正面から大きく逸れすぎると、シーカーが追従できなくなり <strong>ACM BORE シンボル</strong>は表示されなくなります。</p>
+<p>ミサイルダイヤモンドは最初、HMD ディスプレイの外側にあります。
+レーダーで目標をロックしたあとに <strong>Cage/Uncage</strong> ボタンを押してシーカーをアンケージすると、シーカーはレーダーの方向にスレーブします。</p>
+<p>目標をレーダーで捕捉していれば <strong>Slant Range (スラントレンジ)</strong> が表示されます。</p>
+<p>それ以外のシンボルのは HUD のものと酷似しています。</p>
+<p><img alt="dcs146-aim9_hmcs_radar1" src="../../images/dcs146-aim9_hmcs_radar1.png" /></p>
+<p><strong>4. レーダーの ACM BORE モードで目標を捕捉します</strong></p>
+<p>レーダーは、<strong>ACM BORE シンボル</strong>内に最初に入った目標をロックします。
+レーダーでロックした目標には <strong>Target Designator Box</strong> が重なって表示されます。</p>
+<p>AIM-9 が SLAVE モードのとき、ミサイルのシーカーはレーダーアンテナの方向に追従します。
+AIM-9 のシーカーが目標を探知したときにスロットルの <strong>Cage/Uncage</strong> ボタンを押すと、シーカーによるロックオンが可能になり、シーカーの可動域内で目標を追跡します。
+ロックするとミサイルダイヤモンドが目標に追従します。</p>
+<p><img alt="dcs149-aim9_hmcs_radar2" src="../../images/dcs146-aim9_hmcs_radar1.png" /></p>
+<p><strong>Dynamic Launch Zone (DLZ)</strong> はレーダーで目標をロックしているときに限り、HMD の右側に表示されます。
+DLZ を注視し、最適な発射位置を決定できるよう状況を精査します。
+ミサイルの最大射程に入るとミサイルダイヤモンドが点滅します。</p>
+<p><img src="../../images/dcs143-aim9_dlz.png" hspace="10" width="350"></p>
+<p><strong>5. ミサイルダイヤモンドの表示とロックトーンの再生を確認します</strong></p>
+<p>目標をロックするとミサイルのトーン音のピッチが高くなります。
+ミサイルダイヤモンドはエイミングクロスではなく目標を追跡するようになります。</p>
+<p><strong>6. WPN REL ボタンを押してミサイルを発射します</strong></p>
+<p>ミサイルが発射され、次のミサイルが発射準備に入ります。
+AIM-9 は撃ちっ放し機能を備えているため、発射後に目標を追跡し続ける必要はありません。</p>
                 
                   
                 
@@ -853,7 +1032,7 @@
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1584025544000' locale='en'></span>
+                        最終更新日: <span class='timeago' datetime='1584450498000' locale='en'></span>
                       
                     </small>
                   </div>
@@ -875,7 +1054,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../aa-gun/" title="空対空機関砲 [WIP]" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../aa-gun/" title="空対空機関砲" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -884,19 +1063,19 @@
                 <span class="md-footer-nav__direction">
                   前
                 </span>
-                空対空機関砲 [WIP]
+                空対空機関砲
               </span>
             </div>
           </a>
         
         
-          <a href="../aim-120/" title="AIM-120 AMRAAM [WIP]" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../aim-120/" title="AIM-120 AMRAAM" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   次
                 </span>
-                AIM-120 AMRAAM [WIP]
+                AIM-120 AMRAAM
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
