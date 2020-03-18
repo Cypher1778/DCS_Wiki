@@ -42,7 +42,7 @@
     
     
       
-        <title>ロケット [WIP] - DCS Japanese Database</title>
+        <title>ロケット - DCS Japanese Database</title>
       
     
     
@@ -119,7 +119,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                ロケット [WIP]
+                ロケット
               
             </span>
           
@@ -694,8 +694,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../ag-gun/" title="空対地機関砲 [WIP]" class="md-nav__link">
-      空対地機関砲 [WIP]
+    <a href="../ag-gun/" title="空対地機関砲" class="md-nav__link">
+      空対地機関砲
     </a>
   </li>
 
@@ -715,11 +715,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        ロケット [WIP]
+        ロケット
       </label>
     
-    <a href="./" title="ロケット [WIP]" class="md-nav__link md-nav__link--active">
-      ロケット [WIP]
+    <a href="./" title="ロケット" class="md-nav__link md-nav__link--active">
+      ロケット
     </a>
     
       
@@ -733,8 +733,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#ccip" class="md-nav__link">
+    CCIP 攻撃
   </a>
   
 </li>
@@ -768,8 +768,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../laser-guided-boms/" title="レーザー誘導爆弾 [WIP]" class="md-nav__link">
-      レーザー誘導爆弾 [WIP]
+    <a href="../laser-guided-boms/" title="レーザー誘導爆弾" class="md-nav__link">
+      レーザー誘導爆弾
     </a>
   </li>
 
@@ -787,6 +787,18 @@
   <li class="md-nav__item">
     <a href="../../term/" title="用語" class="md-nav__link">
       用語
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../setting/" title="事前設定" class="md-nav__link">
+      事前設定
     </a>
   </li>
 
@@ -817,8 +829,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#ccip" class="md-nav__link">
+    CCIP 攻撃
   </a>
   
 </li>
@@ -843,7 +855,55 @@
                 
                 
                 <h1 id="_1">ロケット<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
-<h2 id="wip">WIP<a class="headerlink" href="#wip" title="Permanent link">#</a></h2>
+<p>空対地ロケットは、20mm 機関砲よりも攻撃力がある面制圧に優れた兵器です。
+弾頭には目的に合わせて、榴弾 (HE)、成型炸薬弾 (HEAT)、徹甲弾 (AP) などがあります。
+また、地表の目標に対して独特な白煙とともに焼夷効果を発揮する白リン弾 (WP) も使用できます。</p>
+<blockquote>
+<p><strong>要約</strong></p>
+<ol>
+<li>A-G マスターモードを選択</li>
+<li>マスターアームスイッチを ARM に</li>
+<li>レーザーによる測定が必要であれば、レーザーアームスイッチを ARM に</li>
+<li>MFD の A-G SMS ページからロケットと適切な設定を選択</li>
+<li>ピパーが標的に重なるように操縦</li>
+<li>WPN REL ボタンを押してロケットを発射</li>
+</ol>
+</blockquote>
+<h2 id="ccip">CCIP 攻撃<a class="headerlink" href="#ccip" title="Permanent link">#</a></h2>
+<p>A-G マスターモードを選択すると、右の MFD に SMS A-G ページが表示されます。
+主兵装に応じて、SMS A-G ページに表示される内容は異なります。
+以下の手順で、適切な設定と CCIP モードによるロケット攻撃を行います。</p>
+<p><strong>1. ロケットが表示されるまで MFD の OSB 6 を押して、ロケットを選択します</strong></p>
+<p><img alt="dcs160-rocket_sms1" src="../../images/dcs160-rocket_sms1.jpg" /></p>
+<p><strong>2. OSB 2 を押して CCIP モードを選択し、OSB 8 を押して Single/Pair 設定をします</strong></p>
+<p>ロケットは、1発ずつ (SGL) か2発ずつ (PAIR) のどちらかで投下されます。
+<strong>SGL</strong> が選択されていれば、ロケットは左右どちらかのステーションからのみ発射されます。
+<strong>PAIR</strong> が選択されており、ステーション3と7に同じロケットが搭載されていれば、ロケットは両側のステーションから発射されます。</p>
+<p><img alt="dcs161-rocket_sms2" src="../../images/dcs161-rocket_sms2.jpg" /></p>
+<p><strong>3. HUD 上のロケット用の CCIP シンボルを確認します</strong></p>
+<p>CCIP モードは目標を攻撃する上で最も直感的な手段です。
+ピパーを標的に重ねてロケットを発射します。</p>
+<p>CCIP ピパーの中心は、射程距離内においてロケットが着弾する予想地点を示しています。
+HUD の右下には目標までの見通し距離が数字で表示されています。
+目標との距離が、ロケットが最も効力を発揮する 8,000 フィート以内になると、CCIP ピパーの上部に <strong>In-Range Cue (射程内キュー)</strong> が表示されます。</p>
+<p><img alt="dcs162-rocket_hud" src="../../images/dcs162-rocket_hud.jpg" /></p>
+<p><strong>4. ピパーが標的に重なるように航空機を操縦します</strong></p>
+<p>テクニックとして、ピパーを目標の手前に配置する方法があります。
+こうすると、そのまま地面に沿うだけでピパーが目標に重なります。
+目標までのスラントレンジ (傾斜距離) が縮むにつれて自然とこのようになります。
+HUD 右下のスラントレンジを注視し、ピパー上部に In-Range キューが表示されるのを確認します。</p>
+<p><img alt="dcs163-rocket_cue1" src="../../images/dcs163-rocket_cue1.jpg" /></p>
+<p>照準ポッドを装備している場合は、レーザー照射することにより投下精度を向上させることができます。
+詳細は <a href="/f-16c/system/an-aaq-28/#laser-ranging">レーザー照射</a> の項を参照してください。</p>
+<p><strong>5. CCIP ピパーを目標に重ねて射程距離内に入ったら WPN REL ボタンを押してロケットを発射します</strong></p>
+<p>スラントレンジが 8,000 フィート以下になったら CCIP ピパーの上部に In-Range キューが表示されます。
+ピパーが目標に重なり、キューが表示されていれば下図のようになります。</p>
+<p><img alt="dcs164-rocket_cue2" src="../../images/dcs164-rocket_cue2.png" /></p>
+<p>射撃するときは目標に囚われ過ぎないように注意してください。
+目標ばかりを見ていると、他の脅威に気が付かなかったり、過度に接近するまで攻撃を継続してしまったりします。
+APC 上部の機関砲の的にならないようにしてください!</p>
+<p>最小射程距離に到達したら、斜め上方に旋回して敵の反撃から逃れます。
+目標の近くに赤外線地対空ミサイルが配備されているなら同時にフレアを放出します。</p>
                 
                   
                 
@@ -853,7 +913,7 @@
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1584025544000' locale='en'></span>
+                        最終更新日: <span class='timeago' datetime='1584514834000' locale='en'></span>
                       
                     </small>
                   </div>
@@ -875,7 +935,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../ag-gun/" title="空対地機関砲 [WIP]" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../ag-gun/" title="空対地機関砲" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -884,7 +944,7 @@
                 <span class="md-footer-nav__direction">
                   前
                 </span>
-                空対地機関砲 [WIP]
+                空対地機関砲
               </span>
             </div>
           </a>

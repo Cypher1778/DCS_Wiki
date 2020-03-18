@@ -42,7 +42,7 @@
     
     
       
-        <title>空対地機関砲 [WIP] - DCS Japanese Database</title>
+        <title>空対地機関砲 - DCS Japanese Database</title>
       
     
     
@@ -119,7 +119,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                空対地機関砲 [WIP]
+                空対地機関砲
               
             </span>
           
@@ -703,11 +703,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        空対地機関砲 [WIP]
+        空対地機関砲
       </label>
     
-    <a href="./" title="空対地機関砲 [WIP]" class="md-nav__link md-nav__link--active">
-      空対地機関砲 [WIP]
+    <a href="./" title="空対地機関砲" class="md-nav__link md-nav__link--active">
+      空対地機関砲
     </a>
     
       
@@ -721,8 +721,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#target-attack" class="md-nav__link">
+    Target Attack
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-range-cue-update-in-range" class="md-nav__link">
+    In-Range Cue Update: In-Range キューの変更
   </a>
   
 </li>
@@ -744,8 +751,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../rockets/" title="ロケット [WIP]" class="md-nav__link">
-      ロケット [WIP]
+    <a href="../rockets/" title="ロケット" class="md-nav__link">
+      ロケット
     </a>
   </li>
 
@@ -768,8 +775,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../laser-guided-boms/" title="レーザー誘導爆弾 [WIP]" class="md-nav__link">
-      レーザー誘導爆弾 [WIP]
+    <a href="../laser-guided-boms/" title="レーザー誘導爆弾" class="md-nav__link">
+      レーザー誘導爆弾
     </a>
   </li>
 
@@ -787,6 +794,18 @@
   <li class="md-nav__item">
     <a href="../../term/" title="用語" class="md-nav__link">
       用語
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../setting/" title="事前設定" class="md-nav__link">
+      事前設定
     </a>
   </li>
 
@@ -817,8 +836,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wip" class="md-nav__link">
-    WIP
+  <a href="#target-attack" class="md-nav__link">
+    Target Attack
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-range-cue-update-in-range" class="md-nav__link">
+    In-Range Cue Update: In-Range キューの変更
   </a>
   
 </li>
@@ -843,7 +869,71 @@
                 
                 
                 <h1 id="_1">空対地機関砲<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
-<h2 id="wip">WIP<a class="headerlink" href="#wip" title="Permanent link">#</a></h2>
+<p>M61A1 20mm 自動機関砲システムは、パイロットに強力な武器能力とを提供します。
+これは6本の銃身をもつガトリング砲で、航空機の左ストレーキに装備されています。
+512 発の弾丸と、毎分 6,000 発の連射能力を備えています。</p>
+<blockquote>
+<p><strong>要約</strong></p>
+<ol>
+<li>A-G マスターモードを選択</li>
+<li>マスターアームスイッチを ARM に</li>
+<li>レーザーによる測定が必要であれば、レーザーアームスイッチを ARM に</li>
+<li>SMS ページで STRF サブモードを選択</li>
+<li>目標にピパーが重なるように操縦</li>
+<li>トリガーを2段目まで引き、機関砲を発射</li>
+</ol>
+</blockquote>
+<h2 id="target-attack">Target Attack<a class="headerlink" href="#target-attack" title="Permanent link">#</a></h2>
+<p>A-G マスターモードを選択すると、右の MFD に SMS A-G ページが表示されます。
+主兵装に応じて、SMS A-G ページに表示される内容は異なります。
+以下の手順で、適切な設定と機関砲による地上攻撃を行います。</p>
+<p><strong>1. GUN が表示されるまで MFD の OSB 1 を押して、STRF サブモードを選択します</strong></p>
+<p><img alt="dcs165-aggun_sms" src="../../images/dcs165-aggun_sms.jpg" /></p>
+<p><strong>2. HUD 上の STRF シンボルを確認します</strong></p>
+<p>ストレイフレティクルは、空対地機関砲のデフォルトのサイトで、効果的な射撃のための照準情報を表示します。
+レティクルの中心は、射程距離内において弾丸が着弾する予想地点を示しています。
+このピパーを用いて、単に目標をピパーに重ねてトリガーを引きます。</p>
+<p>HUD の右下には目標までの <strong>Slant Range (見通し距離)</strong>が数字で表示されています。
+レティクルの内側には風の有無を表す <strong>Ranging Reticle</strong> があります。
+Ranging Reticle の位置は、ピパー位置における地上までの見通し距離を表しています。
+ストレイフレティクルの時計を4分割した方向はそれぞれ 3,000 フィートの見通し距離を表します。</p>
+<pre><code>- 12 時方向: 12,000 フィート
+- 9 時方向: 9,000 フィート
+- 6 時方向: 6,000 フィート
+- 3 時方向: 3,000 フィート
+</code></pre>
+<p>In-Range Cue の距離は MFD から設定することができ、目標への効果的な攻撃距離を確認できます。</p>
+<p><img alt="dcs166-aggun_hud" src="../../images/dcs166-aggun_hud.jpg" /></p>
+<p><strong>3. ピパーが標的に重なるように航空機を操縦します</strong></p>
+<p>テクニックとして、ピパーを目標の手前に配置する方法があります。
+こうすると、そのまま地面に沿うだけでピパーが目標に重なります。
+目標までのスラントレンジ (傾斜距離) が縮むにつれて自然とこのようになります。</p>
+<p><img alt="dcs167-aggun_cue1" src="../../images/dcs167-aggun_cue1.png" /></p>
+<p>照準ポッドを装備している場合は、レーザー照射することにより投下精度を向上させることができます。
+詳細は <a href="/f-16c/system/an-aaq-28/#laser-ranging">レーザー照射</a> の項を参照してください。</p>
+<p><strong>4. CCIP ピパーを目標に重ねて射程距離内に入ったら WPN REL ボタンを押して機関砲を発射します</strong></p>
+<p>下図の例では、目標にピパーが重なっており、Ranging Reticle によってスラントレンジが約 5,500 フィートであると示されています。</p>
+<p><img alt="dcs168-aggun_cue2" src="../../images/dcs168-aggun_cue2.png" /></p>
+<p>スラントレンジは機関砲の有効性に大きく影響します。
+機関砲から発射された弾丸は大きく散らばって速度も失われます。
+散布界と速度の喪失が大きくなるにつれて、機関砲の精度と効果が減少します。
+機関砲の有効射程は 2,500~7,000 フィートの間です。
+装甲目標を攻撃するときは、装甲の薄い目標後部を攻撃すべきです。
+攻撃は近いほど効果的です。</p>
+<p>射撃するときは目標に囚われ過ぎないように注意してください。
+目標ばかりを見ていると、他の脅威に気が付かなかったり、過度に接近するまで攻撃を継続してしまったりします。
+APC 上部の機関砲の的にならないようにしてください!</p>
+<p>最小射程距離に到達したら、斜め上方に旋回して敵の反撃から逃れます。
+目標の近くに赤外線地対空ミサイルが配備されているなら同時にフレアを放出します。</p>
+<h2 id="in-range-cue-update-in-range">In-Range Cue Update: In-Range キューの変更<a class="headerlink" href="#in-range-cue-update-in-range" title="Permanent link">#</a></h2>
+<p>レティクル上に表示される In-Range キューの位置は SMS ページの In-Range Cue Distance 表示の隣の OSB から変更します。</p>
+<p><img alt="dcs169-aggun_in-range_cue1" src="../../images/dcs169-aggun_in-range_cue1.jpg" /></p>
+<p>左右の OSB で In-Range キュー距離の数値を入力して ENTR を押します。
+誤った数値を入力した場合は RCL を押して修正するか、 RTN を押して設定を保存せずに SMS ページに戻ります。</p>
+<p><img alt="dcs170-aggun_in-range_cue2" src="../../images/dcs170-aggun_in-range_cue2.jpg" /></p>
+<p>SMS ページに戻ると入力した数値が表示されています。
+HUD 上のキューも新たな距離の位置に表示されています。</p>
+<p><img alt="dcs171-aggun_in-range_cue3" src="../../images/dcs171-aggun_in-range_cue3.jpg" /></p>
                 
                   
                 
@@ -853,7 +943,7 @@
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1584025544000' locale='en'></span>
+                        最終更新日: <span class='timeago' datetime='1584514834000' locale='en'></span>
                       
                     </small>
                   </div>
@@ -890,13 +980,13 @@
           </a>
         
         
-          <a href="../rockets/" title="ロケット [WIP]" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../rockets/" title="ロケット" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   次
                 </span>
-                ロケット [WIP]
+                ロケット
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
