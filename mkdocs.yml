@@ -79,8 +79,10 @@ nav:
           - AIM-9 Sidewinder: f-16c/aa/aim-9.md
           - AIM-120 AMRAAM: f-16c/aa/aim-120.md
       - 空対地戦闘:
-          - 空対地機関砲 [WIP]: f-16c/ag/ag-gun.md
-          - ロケット [WIP]: f-16c/ag/rockets.md
+          - 空対地機関砲: f-16c/ag/ag-gun.md
+          - ロケット: f-16c/ag/rockets.md
           - 無誘導爆弾: f-16c/ag/unguided-boms.md
           - レーザー誘導爆弾: f-16c/ag/laser-guided-boms.md
-      - 用語: f-16c/term.md    
+      - 用語: f-16c/term.md
+      - 事前設定: f-16c/setting.md
+      
