@@ -86,10 +86,10 @@ nav:
       - 用語: f-16c/term.md
       - 事前設定: f-16c/setting.md
   - Brevity Words:
-      - ブレビティとは: brevity/brevity.md
-      - AIR-GEN: brevity/air-gen.md
-      - AIR-AAO: brevity/air-aao.md
-      - AIR-AGO: brevity/air-ago.md
-      - AIR-MAR: brevity/air-mar.md
-      - AIR-AAR/EW: brevity/air-aar&ew.md
-      - Brevity 逆引き一覧: brevity/brevity1.md
+    - ブレビティとは: brevity/brevity.md
+    - AIR-GEN: brevity/air-gen.md
+    - AIR-AAO: brevity/air-aao.md
+    - AIR-AGO: brevity/air-ago.md
+    - AIR-MAR: brevity/air-mar.md
+    - AIR-AAR/EW: brevity/air-aar&ew.md
+    - Brevity 逆引き一覧: brevity/brevity1.md
