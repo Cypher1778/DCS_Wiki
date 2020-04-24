@@ -2,8 +2,12 @@
 
 - **ARM (SAFE/HOT)**: 兵装スイッチを SAFE/ARM する指示、命令
 - **ARMED (SAFE/HOT)**: 兵装スイッチの SAFE/ARM の確認
-- **FENCE IN/OUT**: コックピットのスイッチ類を戦闘地域突入/離脱に適した状態にする
 - **SAFE/HOT**: 兵装スイッチを SAFE/HOT にする、もしくは SAFE/HOT である
+- **FENCE IN/OUT**: コックピットのスイッチ類を戦闘地域突入/離脱に適した状態にする
+
+<img src="../../images/brevity1-fencein1.png" hspace="10" width="600">
+
+<img src="../../images/brevity2-fencein2.png" hspace="10" width="600">
 
 </br>
 
