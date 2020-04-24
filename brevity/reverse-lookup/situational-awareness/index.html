@@ -1,0 +1,1483 @@
+
+
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="DCS Japanese Database">
+      
+      
+        <link rel="canonical" href="https://cypher1778.github.io/DCS_Wiki/brevity/reverse-lookup/situational-awareness/">
+      
+      
+        <meta name="author" content="Cypher">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.1.1">
+    
+    
+      
+        <title>状況認識 - DCS Japanese Database</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.a676eddb.min.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.b302131d.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#4caf50">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,400i,700%7C&display=fallback">
+        <style>body,input{font-family:"Noto Sans JP",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../css/custom.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    <body dir="" data-md-color-primary="green" data-md-color-accent="light-blue">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="">
+    <a href="https://cypher1778.github.io/DCS_Wiki" title="DCS Japanese Database" class="md-header-nav__button md-logo" aria-label="DCS Japanese Database">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            DCS Japanese Database
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              状況認識
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索キーワードを入力してください
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/Cypher1778/DCS_Wiki/" title="リポジトリへ" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://cypher1778.github.io/DCS_Wiki" title="DCS Japanese Database" class="md-nav__button md-logo" aria-label="DCS Japanese Database">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    DCS Japanese Database
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/Cypher1778/DCS_Wiki/" title="リポジトリへ" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Home
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Home" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Main Page" class="md-nav__link">
+      Main Page
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      DCS:F-16C
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="DCS:F-16C" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        DCS:F-16C
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/f-16c/" title="機体解説" class="md-nav__link">
+      機体解説
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      コックピット
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="コックピット" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        コックピット
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/cockpit/cockpit/" title="コックピット解説" class="md-nav__link">
+      コックピット解説
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/cockpit/hotas/" title="HOTAS" class="md-nav__link">
+      HOTAS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/cockpit/hud/" title="HUD" class="md-nav__link">
+      HUD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/cockpit/ufc/" title="UFC" class="md-nav__link">
+      UFC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/cockpit/mfd/" title="MFD" class="md-nav__link">
+      MFD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/cockpit/hmcs/" title="HMCS" class="md-nav__link">
+      HMCS
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      手順
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="手順" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        手順
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/procedure/cold-start/" title="コールドスタート" class="md-nav__link">
+      コールドスタート
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/procedure/basic-flight/" title="基本操縦" class="md-nav__link">
+      基本操縦
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/procedure/shutdown/" title="シャットダウン" class="md-nav__link">
+      シャットダウン
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/procedure/aerial-refueling/" title="空中給油" class="md-nav__link">
+      空中給油
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      機体システム
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="機体システム" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        機体システム
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/system/navigation/" title="航法システム" class="md-nav__link">
+      航法システム
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/system/radio-communication/" title="無線通信システム" class="md-nav__link">
+      無線通信システム
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/system/datalink/" title="データリンク" class="md-nav__link">
+      データリンク
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/system/rwr/" title="レーダー警報受信機" class="md-nav__link">
+      レーダー警報受信機
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/system/countermeasures/" title="対抗手段" class="md-nav__link">
+      対抗手段
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/system/an-aaq-28/" title="AN/AAQ-28 LITENING POD" class="md-nav__link">
+      AN/AAQ-28 LITENING POD
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      空対空戦闘
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="空対空戦闘" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        空対空戦闘
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/aa/aa-radar/" title="レーダー (空対空モード)" class="md-nav__link">
+      レーダー (空対空モード)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/aa/aa-gun/" title="空対空機関砲" class="md-nav__link">
+      空対空機関砲
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/aa/aim-9/" title="AIM-9 Sidewinder" class="md-nav__link">
+      AIM-9 Sidewinder
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/aa/aim-120/" title="AIM-120 AMRAAM" class="md-nav__link">
+      AIM-120 AMRAAM
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6">
+    
+    <label class="md-nav__link" for="nav-2-6">
+      空対地戦闘
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="空対地戦闘" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-6">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        空対地戦闘
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/ag/ag-gun/" title="空対地機関砲" class="md-nav__link">
+      空対地機関砲
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/ag/rockets/" title="ロケット" class="md-nav__link">
+      ロケット
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/ag/unguided-boms/" title="無誘導爆弾" class="md-nav__link">
+      無誘導爆弾
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/ag/laser-guided-boms/" title="レーザー誘導爆弾" class="md-nav__link">
+      レーザー誘導爆弾
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/term/" title="用語" class="md-nav__link">
+      用語
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../f-16c/setting/" title="事前設定" class="md-nav__link">
+      事前設定
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Brevity Words
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Brevity Words" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Brevity Words
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../brevity/" title="ブレビティとは" class="md-nav__link">
+      ブレビティとは
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      各項目翻訳
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="各項目翻訳" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        各項目翻訳
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../translation/air-gen/" title="AIR-GEN" class="md-nav__link">
+      AIR-GEN
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../translation/air-aao/" title="AIR-AAO" class="md-nav__link">
+      AIR-AAO
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../translation/air-ago/" title="AIR-AGO" class="md-nav__link">
+      AIR-AGO
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../translation/air-mar/" title="AIR-MAR" class="md-nav__link">
+      AIR-MAR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../translation/air-aar%26ew/" title="AIR-AAR/EW" class="md-nav__link">
+      AIR-AAR/EW
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3" checked>
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Brevity 逆引き一覧
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Brevity 逆引き一覧" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Brevity 逆引き一覧
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../general/" title="全般" class="md-nav__link">
+      全般
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../system/" title="システム" class="md-nav__link">
+      システム
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../combat/" title="戦闘時" class="md-nav__link">
+      戦闘時
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        状況認識
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="状況認識" class="md-nav__link md-nav__link--active">
+      状況認識
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rwr" class="md-nav__link">
+    RWR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    レーダー
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iff" class="md-nav__link">
+    データリンク/IFF
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c2awacs" class="md-nav__link">
+    C2/AWACS
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../picture/" title="ピクチャーラベル" class="md-nav__link">
+      ピクチャーラベル
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rwr" class="md-nav__link">
+    RWR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    レーダー
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iff" class="md-nav__link">
+    データリンク/IFF
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c2awacs" class="md-nav__link">
+    C2/AWACS
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Cypher1778/DCS_Wiki/edit/master/docs/brevity/reverse-lookup/situational-awareness.md" title="編集" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z" /></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="_1">状況認識<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
+<ul>
+<li><strong>(<strong>) system (</strong>) TRACKING</strong>: 敵の防空システムが友軍の Situational Awareness (状況認識) を維持している</li>
+<li><strong>MANOEUVRE (azimuth/range/altitude)</strong>: あるグループが針路/距離/高度を変えて機動している</li>
+<li><strong>POP-UP</strong>: コンタクトあるいはグループが Dicision Range (DR) 内に突然現れたことを知らせるインフォメーティブコール</li>
+<li>
+<p><strong>PICTURE</strong>: 作戦上のタクティクスシチュエーションステータスを提供するリクエスト/インフォメーティブコール</p>
+<ul>
+<li>"PICTURE CLARA north"</li>
+</ul>
+</li>
+<li>
+<p><strong>NEW PICTURE</strong>: タクティカルピクチャーが変化したこと。これまでのすべてのコールを上書きし、新たなピクチャーを確立する</p>
+</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>TALLY</strong>: TARGET/BANDIT/BOGEY もしくはランドマークや敵の位置を視認している。逆は NO JOY</li>
+<li><strong>NO JOY</strong>: TARGET/BANDIT/BOGEY もしくはランドマークや敵の位置を視認できない</li>
+<li><strong>BLIND</strong>: 他の友軍機もしくは地上の地点を目視できない。逆は VISUAL</li>
+<li><strong>VISUAL</strong>: 他の友軍機もしくは地上の地点を目視している。逆は BLIND</li>
+<li><strong>CONTACT</strong>: 特定の参照点を目視する</li>
+<li><strong>LOOKING</strong>: 地上物や参照点、目標をパイロットが視認できていないこと。逆は CONTACT</li>
+<li><strong>PADLOCKED</strong>: TALLY/VISUAL を失わなければ他の航空機を見れない</li>
+<li><strong>PUSHING (GROUP/DESCRIPTION)</strong>: COLD に旋回したグループを継続して注視する</li>
+<li><strong>TUMBLEWEED</strong>: NO JOY、BLIND など Situation Awareness が限られている状況のため、情報をリクエストする</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>COMPOSITION</strong>: グループ内のコンタクトの数のリクエスト</li>
+<li><strong>NO FACTOR</strong>: 脅威無し</li>
+<li><strong>SINGLE</strong>: 単機</li>
+<li><strong>ID</strong>: 目標の要撃および識別のディレクティブコール。識別が完了したら FRIENDLY/HOSTILE を後述する</li>
+<li><strong>PAINT(S)</strong>: IFF に応答し、ID クライテリアで正しいコードを満たすグループまたはコンタクト</li>
+<li><strong>BOGEY</strong>: 正体不明機。ID 識別によって別の照合に置き換わる</li>
+<li><strong>RIDER</strong>: ACO/セーフパッケージプロシージャに反する BOGEY</li>
+<li><strong>BANDIT</strong>: ID クライテリアによって敵と識別された航空機。必ずしも交戦の許可を与えるものではない</li>
+<li><strong>HOSTILE</strong>: ROE を満たし攻撃が許可されている、敵と判定されたコンタクト</li>
+<li><strong>OUTLOW</strong>: ROE の基準を満たすコンタクト</li>
+<li><strong>GOPHER</strong>: 通過経路/速度/高度が安全でないコンタクト。セーフパッセージ、もしくは Minimum Risk Route プロシージャがIDマトリックスの一部である場合にのみ使用する</li>
+<li><strong>FRIENDLY</strong>: 友軍機や友軍の位置</li>
+<li><strong>FAKER</strong>: 演習で HOSTILE 役の友軍機トラック</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>HEAD ON</strong>: コールする機の正面に向かい合わせで接近する BOGEY/BANDIT</li>
+<li><strong>THREAT</strong>: 友軍から見て、事前ブリーフした距離/アスペクト角にいる、ターゲットしていない HOSTILE/BANDIT/BOGEY</li>
+<li><strong>SPITTER (direction)</strong>: 交戦もしくは交戦中のターゲティングレスポンシビリティーから離脱する航空機</li>
+<li><strong>LEAKER</strong>: 航空脅威が防衛ラインを超えた。詳細情報を付帯する</li>
+<li><strong>BUGSY</strong>: 対テロリストまたは非対称戦に従事するユニット</li>
+<li><strong>RENEGADE</strong>: テロ攻撃を行うための武器として使用される可能性があると懸念される運用であると評価されている民間プラットフォーム</li>
+<li><strong>INTRUDER</strong>: 情報収集または破壊活動を行う脅威が存在する作戦地域/演習地域内の人間やユニット、兵器システムのこと</li>
+<li><strong>STRIPPED</strong>: エレメントフォーメーションから離れている航空機。ブリーフしたフォーメーションから離れつつあるインフォメーティブコール</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>ANYFACE</strong>: コールサイン不明の友軍の GCI/AEW&amp;CS/C2</li>
+<li><strong>CHICKS</strong>:友軍機</li>
+<li><strong>CYCLOPS</strong>: 無人航空機</li>
+<li><strong>DART</strong>: 航空機のロケットか機関砲の標的</li>
+<li><strong>DASH (-)</strong>: 編隊内の航空機。コールサインが分からないときに用いる.</li>
+<li><strong>DOG</strong>: 空中曳航デコイ</li>
+<li><strong>FATHER</strong>: TACAN</li>
+<li><strong>FORCE CAP</strong>: 友軍部隊の上空を飛行するCAP機</li>
+<li><strong>LAME DUCK</strong>: 兵装や無線機の故障、酸素漏れなどの低度のエマージェンシー状態の航空機</li>
+<li><strong>MOTHER</strong>: 母艦</li>
+<li><strong>MOVER(S)</strong>: 未識別の移動車両</li>
+<li><strong>HOMEPLATE</strong>: ホーム基地/母艦</li>
+<li><strong>HOMING</strong>: 帰投する友軍機</li>
+<li><strong>PELICAN</strong>: 捜索と攻撃の両方が可能な長距離対潜哨戒機</li>
+<li><strong>PLAYMATE</strong>: 共同作戦中の友軍船舶、潜水艦、航空機</li>
+<li><strong>PINCE/PINCER</strong>: Bracket Attack (迂回攻撃) のために機動する脅威</li>
+<li><strong>RECCO</strong>: 航空機捜索ユニット</li>
+<li><strong>SANDWICHIED</strong>: 敵の航空機/エレメントに、ある航空機/エレメントが挟まれている状況</li>
+<li><strong>SHOOTER</strong>: 兵装を使用するよう指示された航空機</li>
+<li><strong>SOLO</strong>: 単独の任務に就く航空機</li>
+<li><strong>WEEDS</strong>: 地表近くで活動している航空機</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>VERY FAST</strong>: 目標の対地速度が 900kts/1.5Mach 以上である</li>
+<li><strong>FAST</strong>: 目標の対地速度が 600~900kts/1.0~1.5Mach である</li>
+<li><strong>NORMAL</strong>: 目標の対地速度が 200~600kts である</li>
+<li><strong>SLOW</strong>: 目標の対地速度が 200kts 以下である</li>
+<li><strong>HIGH</strong>: 目標の高度が 40,000ft MSL 以上である</li>
+<li><strong>MEDIUM</strong>: 目標の高度が 1,000ft MSD ~ 40,000ft MSL である</li>
+<li><strong>LOW</strong>: 目標の高度が 500~1,000ft MSD である</li>
+<li><strong>VERY LOW</strong>: 目標の高度が 500ft MSD 以下である</li>
+<li><strong>CONS/CONNING</strong>: 脅威または正体不明機がコントレイルを引いている</li>
+<li><strong>ESTIMATE</strong>: 指定された目標の推定高度/深度/距離/サイズ。もしくはその高度/深度/距離/サイズにいるコンタクトを __ と推定する</li>
+</ul>
+<h2 id="rwr">RWR<a class="headerlink" href="#rwr" title="Permanent link">#</a></h2>
+<ul>
+<li><strong>NAKED</strong>: RWR に表示なし</li>
+<li><strong>SPOTTED</strong>: HOSTILE の捜索レーダーの RWR 表示</li>
+<li><strong>NAILS</strong>: 捜索中の空中レーダーの RWR 表示</li>
+<li>
+<p><strong>SPIKED (direction)</strong>: HOSTILE の航空機によるレーダーロックオンの RWR 表示</p>
+<ul>
+<li>"RED 4, SPIKED, right 2 o'clock"</li>
+</ul>
+</li>
+<li>
+<p><strong>BUDDY SPIKE (position/altitude/heading)</strong>: 友軍機からのレーダーロックを示す RWR 表示</p>
+<ul>
+<li>"RED 3, BUDDY SPIKED, BULLSEYE 240/15."</li>
+</ul>
+</li>
+<li>
+<p><strong>MUD (type w/direction/range if able)</strong>: 発射を伴わない地上脅威の RWR 表示</p>
+</li>
+<li>
+<p><strong>SINGER (type/direction)</strong>: SAM 発射の RWR 表示</p>
+</li>
+<li>
+<p><strong>SNIFF (type)</strong>: レーダー放射のパッシブセンサー表示</p>
+</li>
+<li><strong>SHINING</strong>: BOGEY にレーダーロックされている戦闘機。方位、BULLSEYE または ANGELS のコールが必要になる場合がある</li>
+</ul>
+<h2 id="_2">レーダー<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<ul>
+<li><strong>JELLO</strong>: 逆合成開口レーダー</li>
+<li><strong>MAPPING</strong>: 多機能レーダーが対地モードである</li>
+<li><strong>HIT(S)</strong>: レーダー捜索中の空中反射波</li>
+<li><strong>NEAR-FAR</strong>: グループ内で距離が離れている2つ以上のコンタクトを表すレーダーの表示</li>
+<li><strong>SIDE-SIDE</strong>: グループ内で角度的に広がった2つ以上のコンタクトをを表すレーダーの表示</li>
+<li><strong>GIMBALS (w/BRAA)</strong>: レーダーで捕捉した目標がレーダーのアジマス/エレベーションリミットに近づいているコール。編隊長にインターセプトジオメトリを修正するか、PRESS/SPLIT/DROP をするよう促す</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>CONTACT</strong>: 指定された場所でのセンサーの受信</li>
+<li><strong>DROP</strong>: ある emmitter/target/contact の注視をやめて捜索に戻る</li>
+<li><strong>SCAN</strong>: 指示されたセクターを捜索し、すべてのコンタクトを報告する</li>
+<li><strong>MELD</strong>: 同じターゲットグループを捉えるためにレーダー捜索範囲を調整する</li>
+<li><strong>MONITOR</strong>: その後の対応に備えるため、レーダー上の特定のグループを注視する</li>
+<li>
+<p><strong>RAYGUN (Position/Heading/Altitude)</strong>:</p>
+<ul>
+<li><strong>1.</strong> 脅威と推定される正体不明機に対するレーダーロックオン</li>
+<li><strong>2.</strong> Position/Heading/Altitude のパラメータに一致する友軍機からの BUDDY SPIKE 返答の要求</li>
+</ul>
+</li>
+<li>
+<p><strong>LOCKED (__)</strong>: レーダー/IR の最後のロックオン</p>
+<ul>
+<li><strong>1.</strong> (w/group name) ソーティングを考慮しないレーダーロックオン</li>
+<li><strong>2.</strong> (w/position) 正しいターゲティングを考慮しないレーダーロックオン</li>
+</ul>
+</li>
+<li>
+<p><strong>BUDDY LOCK</strong>: 既知の友軍機をレーダーロックする。通常は SPIKE/BUDDY SPIKE コールの応答に用いる</p>
+</li>
+<li><strong>SNAPLOCK (BRAA)</strong>: 事前ブリーフした threat range (脅威距離) 内でレーダーロックした</li>
+<li><strong>BROKE LOCK</strong>: レーダーもしくは赤外線のロックオンをやめる</li>
+<li><strong>TIED</strong>: エレメント/航空機がレーダーに映った</li>
+<li><strong>TIED ON</strong>: 2番機、もしくは編隊の他の航空機が1番機を (レーダーで) 認識し、適切な位置を保持する</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>NEGATIVE CONTACT</strong>: 友軍機のセンサー情報を利用できない</li>
+<li>
+<p><strong>LOST CONTACT</strong>:</p>
+<ul>
+<li><strong>1.</strong> 前のコンタクトを失探し、目標情報を提供する (AIR-MAR)</li>
+<li><strong>2.</strong> 友軍機のセンサー情報を失探する (AIR-GEN)</li>
+</ul>
+</li>
+<li>
+<p><strong>LOST __</strong>: (送信局が) 報告責任のあるコンタクトをどれも捕捉できないこと</p>
+</li>
+<li><strong>LOST LOCK</strong>: レーダー/IR ロックオンを失う。GCI が目標情報を提供する</li>
+<li><strong>CLARA</strong>: レーダースコープに敵が映っていないこと<ul>
+<li>"BLUE 1, CONTACT, BULLSEYE 270/20, BLUE 2, CLARA"</li>
+</ul>
+</li>
+<li><strong>FADED</strong>: 正体不明機もしくは非友軍機のレーダーコンタクト、または地上目標のコンタクトを失探した。位置に関する情報を聞き逃した</li>
+<li><strong>IN THE DARK</strong>: CONTACT がレーダーの既知の死角にいる</li>
+<li><strong>CLEAN</strong>: BANDIT や BOGIES などのレーダコンタクトがない</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>JUDY</strong>: 防空戦闘機がレーダーもしくは目視で確認し、インターセプトする。必要なだけの Situational Awareness (状況認識) を要求する</li>
+<li><strong>JUDY ANGLE</strong>: 角度のついた状態で目標をロックオンし、追尾している。continue to give frequent range data.</li>
+<li><strong>RUMBA</strong>: レーダーがジャミングを探知しているが、種類 (FRIENDLY/HOSTILE?) は判別できない</li>
+</ul>
+<h2 id="iff">データリンク/IFF<a class="headerlink" href="#iff" title="Permanent link">#</a></h2>
+<ul>
+<li><strong>DOLLY</strong>: LINK-4A/TADIL C</li>
+<li><strong>JACKAL</strong>: LINK-16とTADIL Jの NPG (Surveillance network Participating Group)</li>
+<li><strong>TIMBER</strong>: LINK 16 ネットワーク</li>
+<li><strong>INDIA</strong>: モード4 IFF</li>
+<li><strong>PARROT</strong>: 軍用 IFF トランスポンダ</li>
+<li><strong>PARROT INDIA</strong>: 軍用 IFF インテロゲーター</li>
+<li><strong>MARKPOINT</strong>: 指定されておらず、地形上で関心のある地点のデータリンク</li>
+<li><strong>POINT</strong>: sensor/point track of interest のデータリンク</li>
+<li><strong>TRACK NUMBER (number)</strong>: データリンクインフォメーションのトラックファイル</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>CHECK TIDS/TAD</strong>: データリンク画面を参照するディレクティブコール</li>
+<li><strong>HOLLOW</strong>: データリンクメッセージを何も受信していない</li>
+<li>
+<p><strong>SOUR</strong>:</p>
+<ul>
+<li><strong>1.</strong> 示した装備が効率的に動作していない。逆は SWEET</li>
+<li><strong>2.</strong> (mode type) IFF/SIF チェックが無効/応答しない</li>
+<li><strong>3.</strong> (link name) 前述のネットワークが故障している可能性があり接続できないため、接続トラブルシューティングを開始する (例: TIMBER SOUR)</li>
+</ul>
+</li>
+<li>
+<p><strong>SWEET</strong>:</p>
+<ul>
+<li><strong>1.</strong> 示した装備が効率的に動作している。逆は SOUR</li>
+<li><strong>2.</strong> (mode type) IFF/SIF チェックの要求に対する応答が適切である</li>
+<li><strong>3.</strong> (link name) データリンク情報の受信の確認 (例: TIMBER SWEET)</li>
+</ul>
+</li>
+<li>
+<p><strong>SQUAWK(ING)</strong>: 指示された IFF を稼働させる、または稼働している</p>
+<ul>
+<li>"SQUAWK three code zero zero and ident"</li>
+</ul>
+</li>
+<li>
+<p><strong>SQUAWKING (MODE)</strong>: BOGEY が IFF の (モード) で応答している</p>
+</li>
+<li><strong>SQUAWK CHARLIE</strong>: 高度を読み取るために IFF モードC をオンにする</li>
+<li><strong>SQUAWK ECHO</strong>: ECHO エンハンスドモードで I-バンドトランスポンダを稼働させる</li>
+<li><strong>SQUAWK FOUR</strong>: IFF モード4 をオンにする</li>
+<li><strong>SQUAWK IDENT</strong>: IFF トランスポンダ I/P スイッチを有効にする</li>
+<li><strong>SQUAWK LOW</strong>: IFF マスターコントロールを Low Sensitivity にする</li>
+<li><strong>SQUAWK MAYDAY</strong>: IFF マスターコントロールを Emergency にする</li>
+<li><strong>SQUAWK MIKE</strong>: IFF マスターコントロールを MIC にする。無線通信と同時に IDENT を送信する</li>
+<li><strong>SQUAWK NORMAL</strong>: IFF マスターコントロールを NORMAL にする</li>
+<li><strong>SQUAWK STANDBY</strong>: IFF マスターコントロールを STANDBY にする</li>
+<li><strong>TIMECHECK</strong>: IFF コードを確認/変更する</li>
+<li><strong>ZAP</strong>: データリンク情報を要求する</li>
+</ul>
+<h2 id="c2awacs">C2/AWACS<a class="headerlink" href="#c2awacs" title="Permanent link">#</a></h2>
+<ul>
+<li>
+<p><strong>ALFA CHECK</strong>: 自機から BULLSEYE や他のある地点までの方位と距離の確認のリクエスト</p>
+<ul>
+<li>“GN 55 ALFA CHECK - 045/20” - i.e. BULLSEYE が戦闘機から 20 海里北東に位置する</li>
+</ul>
+</li>
+<li>
+<p><strong>AS FRAGGED</strong>: ユニットやエレメントが ATO で指示されたように展開する</p>
+</li>
+<li><strong>BULLS EYE</strong>: 目標までの磁方位と距離を示す共通の基準点</li>
+<li><strong>BOGEY DOPE</strong>: 特定の標的に対する BRAA 情報を要求すること。方位と距離が特定できないときは最も近い脅威</li>
+<li>
+<p><strong>BRAA</strong>:</p>
+<ul>
+<li><strong>1.</strong> 特定の友軍機の位置から標的までの方位 (Bearing)、距離 (Range)、高度 (Altitude)、アスペクト角 (Aspect) を表すフォーマット。HOT の場合はアスペクトはコールしない</li>
+<li><strong>2.</strong> 特定のグループやコンタクトに対する BRAA を使用する</li>
+</ul>
+</li>
+<li>
+<p><strong>DECLARE</strong>: AEW/GCI に対象機やグループの識別を要求する</p>
+</li>
+<li><strong>FURBALL</strong>: DECLARE 要求に対する応答。友軍機と非友軍機の距離が近いこと</li>
+<li><strong>HANDSHAKE</strong>: 空中管制ユニットと管制される航空機との Link 16 Air Control NPG の開始</li>
+<li><strong>SUNRISE</strong>:  C2 が利用できるインフォメーティブコール。逆は MIDNIGHT</li>
+<li><strong>MIDNIGHT</strong>: C2 が利用できなくなったインフォメーティブコール。逆は SUNRISE</li>
+<li><strong>LAST</strong>: 戦闘機やレーダーなどの信頼できるソースに基づいた、目標の最終高度を伝える C2 の用語</li>
+<li><strong>LOWDOWN</strong>: 任務に関する地上の戦術的な情報を BULLSEYE フォーマットでリクエストする</li>
+<li><strong>POSIT</strong>: 地上のランドマークもしくは固定の参照点からの友軍機の現在位置を要求する。 (i.e. CAP datum or BULLSEYE)</li>
+<li>
+<p><strong>STATUS</strong>:</p>
+<ul>
+<li><strong>1.</strong> 各機のタクティカルシチュエーションの報告を要求する</li>
+<li><strong>2.</strong> (GROUP) 特定の GROUP に対する BULLSEYE フォーマットでの位置情報の完全な更新を要求する</li>
+</ul>
+</li>
+<li>
+<p><strong>SNAP</strong>: 指示したグループへの即座の BRAA コール要求。インターセプト/ジョインに用いる</p>
+</li>
+<li><strong>SHOPPING</strong>: FAC/C2 プラットフォームに対するターゲティングの要求</li>
+</ul>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      最終更新日: <span class='timeago' datetime='1587730089000' locale='en'></span>
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="">
+        
+          <a href="../combat/" title="戦闘時" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  前
+                </span>
+                戦闘時
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../picture/" title="ピクチャーラベル" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  次
+                </span>
+                ピクチャーラベル
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020 Cypher
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.c51dfa35.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.eaaa3931.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "search.config.lang": "ja", "search.config.pipeline": "", "search.config.separator": "[\\s\\-\u3000\u3001\u3002\uff0c\uff0e]+", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.58d22e8e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.0-beta.2/timeago.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.0-beta.2/timeago.locales.min.js"></script>
+          <script>
+            var nodes = document.querySelectorAll('.timeago');
+            var locale = nodes[0].getAttribute('locale');
+            timeago.render(nodes, locale);
+          </script>
+        </body>
+</html>
