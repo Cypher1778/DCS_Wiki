@@ -86,19 +86,19 @@ nav:
       - 用語: f-16c/term.md
       - 事前設定: f-16c/setting.md
   - Brevity Words:
-    - ブレビティとは: brevity/brevity.md
-    - 各項目翻訳:
-      - AIR-GEN: brevity/translation/air-gen.md
-      - AIR-AAO: brevity/translation/air-aao.md
-      - AIR-AGO: brevity/translation/air-ago.md
-      - AIR-MAR: brevity/translation/air-mar.md
-      - AIR-AAR/EW: brevity/translation/air-aar&ew.md
-    - Brevity 逆引き一覧:
-      - 全般: brevity/reverse-lookup/general.md
-      - システム: brevity/reverse-lookup/system.md
-      - 戦闘時: brevity/reverse-lookup/combat.md
-      - 状況認識: brevity/reverse-lookup/situational-awareness.md
-      - ピクチャーラベル: brevity/reverse-lookup/picture.md
+      - ブレビティとは: brevity/brevity.md
+      - 各項目翻訳:
+          - AIR-GEN: brevity/translation/air-gen.md
+          - AIR-AAO: brevity/translation/air-aao.md
+          - AIR-AGO: brevity/translation/air-ago.md
+          - AIR-MAR: brevity/translation/air-mar.md
+          - AIR-AAR/EW: brevity/translation/air-aar&ew.md
+      - Brevity 逆引き一覧:
+          - 全般: brevity/reverse-lookup/general.md
+          - システム: brevity/reverse-lookup/system.md
+          - 戦闘時: brevity/reverse-lookup/combat.md
+          - 状況認識: brevity/reverse-lookup/situational-awareness.md
+          - ピクチャーラベル: brevity/reverse-lookup/picture.md
   - SRS Mod: 
-    - SRS Mod とは: srs/srs.md
-    - 導入と設定: srs/install.md
+      - SRS Mod とは: srs/srs.md
+      - 導入と設定: srs/install.md

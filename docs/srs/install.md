@@ -39,7 +39,7 @@
 
 "EAM name" は AWACS オーバーレイでの自分の表示名です。
 
-## Controls
+### Controls
 
 ![srs5-controls](images/srs5-controls.png)
 
@@ -54,11 +54,11 @@ F/A-18C であれば無線機は2つなので "Radio 1" と "Radio 2" を設定�
 
 現在のバージョンではプリセットとして保存できないため、機体ごとに変更する必要があります。
 
-## Favourites
+### Favourites
 
 サーバーアドレスをプリセットとして保存できます。
 
-## Settings
+### Settings
 
 ![srs7-settings1](images/srs7-settings1.png)
 
@@ -70,3 +70,5 @@ F/A-18C であれば無線機は2つなので "Radio 1" と "Radio 2" を設定�
 "Radio X Audio Channel" はそれぞれの無線機からの音声の聞こえ方を設定できます。
 "Left" にするとヘッドセットの左側から聞こえ、"Right" にすると右側から聞こえるようになります。
 "Both" はステレオ (両方) から聞こえます。
+
+以上の設定を行い、ゲーム内で機体の周波数を正しく設定していれば、同じ周波数同士で無線通信が行えるはずです。
