@@ -6,20 +6,20 @@
 
     :fa-external-link: [DCS-SimpleRadioStandalone](https://github.com/ciribob/DCS-SimpleRadioStandalone)
 
-    ![srs1-link1](../images/srs1-link1.png)
+    ![srs1-link1](images/srs1-link1.png)
 
 2. ページ一番下の Assets から "DCS-SimpleRadioStandalone-1.8.X.X.zip" をダウンロードします。
 
     ※Donation Link は寄付用のリンクなので注意 (しなくてもOK)
 
-    ![srs2-link2](../images/srs2-link2.png)
+    ![srs2-link2](images/srs2-link2.png)
 
 3. ダウンロードしたファイルを解凍し、Installer.exe を起動します。
 4. Step 1 に SRS Mod のインストール先を指定します。
 
     Step 2 に Saved Game (保存したゲーム) フォルダのパスを指定します。
 
-    ![srs3-install](../images/srs3-install.png)
+    ![srs3-install](images/srs3-install.png)
 
 5. Install / Update DCS-SRS ボタンを押して完了です。
 
@@ -27,7 +27,7 @@
 
 ### General
 
-![srs4-general](../images/srs4-general.png)
+![srs4-general](images/srs4-general.png)
 
 "Microphone" と "Speakers" をご使用のものに設定してください。
 
@@ -35,13 +35,13 @@
 
 "connect" で接続でき、正しく接続されると下部のコンセントのマークが以下の通りになるはずです。
 
-![srs6-connect](../images/srs6-connect.png)
+![srs6-connect](images/srs6-connect.png)
 
 "EAM name" は AWACS オーバーレイでの自分の表示名です。
 
 ## Controls
 
-![srs5-controls](../images/srs5-controls.png)
+![srs5-controls](images/srs5-controls.png)
 
 それぞれの項目はゲーム内の機体の無線機に対応しています。
 ゲーム内の無線機のキーバインドと同じもので大丈夫です。
@@ -60,7 +60,7 @@ F/A-18C であれば無線機は2つなので "Radio 1" と "Radio 2" を設定�
 
 ## Settings
 
-![srs7-settings1](../images/srs7-settings1.png)
+![srs7-settings1](images/srs7-settings1.png)
 
 "Grobal Settings" はデフォルトのままで大丈夫です。
 
