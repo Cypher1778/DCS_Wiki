@@ -6,9 +6,11 @@ site_author: Cypher
 repo_url: https://github.com/Cypher1778/DCS_Wiki/
 edit_uri: edit/master/docs/
 
-# google_analytics:
-#   - "UA-xxxxxxxxx-x"
-#   - "auto"
+ google_analytics:
+   - "UA-164480785-1"
+   - "auto"
+
+
 
 copyright: Copyright &copy; 2020 Cypher
 
