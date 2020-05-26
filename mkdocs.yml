@@ -18,8 +18,8 @@ theme:
     primary: "green"
     accent: "light blue"
   language: "ja"
-  feature:
-    tabs: true
+  features:
+    - tabs
   font:
     text: "Noto Sans JP"
 
@@ -27,9 +27,9 @@ extra_css:
   - "css/custom.css"
 
 extra:
-  # social:
-  #   - type: "twitter"
-  #     link: "https://twitter.com/hogehoge"
+  social:
+    - type: "twitter"
+      link: "https://twitter.com/Laurus_nobilis0"
   search:
     language: "ja"
 
