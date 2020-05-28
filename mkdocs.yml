@@ -18,8 +18,8 @@ theme:
     primary: "green"
     accent: "light blue"
   language: "ja"
-  features:
-    - tabs
+  feature:
+    tabs: true
   font:
     text: "Noto Sans JP"
 
@@ -27,14 +27,14 @@ extra_css:
   - "css/custom.css"
 
 extra:
-  #social
-    #- type: "twitter"
-    # link: "https://twitter.com/Laurus_nobilis0"
+  social:
+    - type: "twitter"
+      link: "https://twitter.com/Laurus_nobilis0"
+  search:
+    language: "ja"    
 
 plugins:
-  - search:
-      lang:
-        - jp
+  - search
   - git-revision-date-localized:
       type: timeago
       locale: en

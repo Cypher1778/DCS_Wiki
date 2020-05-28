@@ -1,6 +1,6 @@
 # for mkdocs
 mkdocs
-mkdocs-material
+mkdocs-material==4.6.3
 mkdocs-git-revision-date-localized-plugin
 pymdown-extensions
 fontawesome_markdown
