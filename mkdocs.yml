@@ -102,3 +102,5 @@ nav:
   - SRS Mod: 
       - SRS Mod とは: srs/srs.md
       - 導入と設定: srs/install.md
+  - User Skin:
+      - ユーザースキン 導入手順: userskin/install.md
