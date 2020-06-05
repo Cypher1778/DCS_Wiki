@@ -1,5 +1,12 @@
 # ピクチャーラベル
 
+- **OPENING**: 距離または角度が増大している
+- **CLOSING**: 距離または方角が接近している
+- **CROSSING**: 針路の異なる2つのグループが、すれ違うように互いに正面を向く
+- **PASSING**: 距離が離れていた2つのグループが互いに接近し、すれ違うディスクリプティブコール
+- **MANEUVER (AZIMUTH/RANGE/ALTITUDE)**: 前述の GROUP が AZIMUTH/RANGE/ALTITUDE 方向に機動している
+
+- **ARM**:  GROUP から離脱するように Maneuver したエレメント
 - **GROUP**: それぞれの角度と距離が3マイル以内のコンタクト群
 - **PACKAGE**: 地理的に独立した group/contacts のフォーメーションの集まり
 - **CONTACT**: GROUP/ARM 内の個々のレーダー反応
