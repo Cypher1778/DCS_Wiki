@@ -1264,7 +1264,13 @@
 </ul>
 <h2 id="_2">グループ<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
 <ul>
-<li><strong>AZIMUTH</strong>: 横方向に分かれた2グループのピクチャーラベル。グループ名は方角で表し、NORTH GROUP/SOUTH GROUP もしくは EAST GROUP/WEST GROUP となる</li>
+<li><strong>DEEP</strong>: LADDER/VIC/CHAMPAGNE/BOX のような3つ以上のグループのうち、最も近いものと遠いものの距離の間隔</li>
+<li>
+<p><strong>WIDE</strong>: WALL/VIC/CHAMPAGNE/BOX のような3つ以上のグループのうち、遠いグループ同士が横に広がっている左右の間隔</p>
+</li>
+<li>
+<p><strong>AZIMUTH</strong>: 横方向に分かれた2グループのピクチャーラベル。グループ名は方角で表し、NORTH GROUP/SOUTH GROUP もしくは EAST GROUP/WEST GROUP となる</p>
+</li>
 </ul>
 <p><img src="../../images/formation2-azimuth.png" hspace="10" width="500"></p>
 <ul>
@@ -1301,6 +1307,8 @@
 <h2 id="_3">インナーグループ<a class="headerlink" href="#_3" title="Permanent link">#</a></h2>
 <ul>
 <li><strong>(__) ARM</strong>: ニューピクチャーとは見なさない同一のシングルグループ内で (north/south/east/west/lead/trail) に機動する CONTACT。機動した結果 GROUP クライテリアから逸脱したエレメント</li>
+<li><strong>NEAR-FAR</strong>: グループ内で距離が離れている2つ以上のコンタクトを表すレーダーの表示</li>
+<li><strong>SIDE-SIDE</strong>: グループ内で角度的に広がった2つ以上のコンタクト表すレーダーの表示</li>
 <li><strong>BEARING (w/cordinal direction)</strong>: 1番機の斜め 45° 後方に2番機が位置するグループ内のフォーメーション</li>
 </ul>
 <p><img src="../../images/formation1-bearing.png" hspace="10" width="500"></p>
@@ -1321,7 +1329,7 @@
 </ul>
 <p><img src="../../images/formation11-stinger.png" hspace="10" width="500"></p>
 <ul>
-<li><strong>WEDGE</strong> 先頭の1機の左右後方に2機が LINE ABREAST でいる、合計3機のグループ内のフォーメーション</li>
+<li><strong>WEDGE</strong>: 先頭の1機の左右後方に2機が LINE ABREAST でいる、合計3機のグループ内のフォーメーション</li>
 </ul>
 <p><img src="../../images/formation14-wedge.png" hspace="10" width="500"></p>
 <ul>
@@ -1337,7 +1345,7 @@
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1591356257000' locale='en'></span>
+                        最終更新日: <span class='timeago' datetime='1591575630000' locale='en'></span>
                       
                     </small>
                   </div>
