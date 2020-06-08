@@ -21,6 +21,9 @@
 
 ## グループ
 
+- **DEEP**: LADDER/VIC/CHAMPAGNE/BOX のような3つ以上のグループのうち、最も近いものと遠いものの距離の間隔
+- **WIDE**: WALL/VIC/CHAMPAGNE/BOX のような3つ以上のグループのうち、遠いグループ同士が横に広がっている左右の間隔
+
 - **AZIMUTH**: 横方向に分かれた2グループのピクチャーラベル。グループ名は方角で表し、NORTH GROUP/SOUTH GROUP もしくは EAST GROUP/WEST GROUP となる
 
 <img src="../../images/formation2-azimuth.png" hspace="10" width="500">
@@ -58,6 +61,8 @@
 ## インナーグループ
 
 - **(__) ARM**: ニューピクチャーとは見なさない同一のシングルグループ内で (north/south/east/west/lead/trail) に機動する CONTACT。機動した結果 GROUP クライテリアから逸脱したエレメント
+- **NEAR-FAR**: グループ内で距離が離れている2つ以上のコンタクトを表すレーダーの表示
+- **SIDE-SIDE**: グループ内で角度的に広がった2つ以上のコンタクト表すレーダーの表示
 - **BEARING (w/cordinal direction)**: 1番機の斜め 45° 後方に2番機が位置するグループ内のフォーメーション
 
 <img src="../../images/formation1-bearing.png" hspace="10" width="500">
@@ -78,7 +83,7 @@
 
 <img src="../../images/formation11-stinger.png" hspace="10" width="500">
 
-- **WEDGE** 先頭の1機の左右後方に2機が LINE ABREAST でいる、合計3機のグループ内のフォーメーション
+- **WEDGE**: 先頭の1機の左右後方に2機が LINE ABREAST でいる、合計3機のグループ内のフォーメーション
 
 <img src="../../images/formation14-wedge.png" hspace="10" width="500">
 
