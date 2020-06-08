@@ -1238,26 +1238,21 @@
 <li><strong>CLOSING</strong>: 距離または方角が接近している</li>
 <li><strong>CROSSING</strong>: 針路の異なる2つのグループが、すれ違うように互いに正面を向く</li>
 <li><strong>PASSING</strong>: 距離が離れていた2つのグループが互いに接近し、すれ違うディスクリプティブコール</li>
-<li>
-<p><strong>MANEUVER (AZIMUTH/RANGE/ALTITUDE)</strong>: 前述の GROUP が AZIMUTH/RANGE/ALTITUDE 方向に機動している</p>
-</li>
-<li>
-<p><strong>ARM</strong>:  GROUP から離脱するように Maneuver したエレメント</p>
-</li>
+<li><strong>MANEUVER (AZIMUTH/RANGE/ALTITUDE)</strong>: 前述の GROUP が AZIMUTH/RANGE/ALTITUDE 方向に機動している</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>ARM</strong>:  GROUP から離脱するように Maneuver したエレメント</li>
 <li><strong>GROUP</strong>: それぞれの角度と距離が3マイル以内のコンタクト群</li>
+<li><strong>CONTACT</strong>: GROUP/ARM 内の個々のレーダー反応</li>
 <li><strong>PACKAGE</strong>: 地理的に独立した group/contacts のフォーメーションの集まり</li>
-<li>
-<p><strong>CONTACT</strong>: GROUP/ARM 内の個々のレーダー反応</p>
-</li>
-<li>
-<p><strong>GORILLA</strong>: 機数と編隊が不確定かつ友軍機でない大規模な航空機群</p>
-</li>
-<li>
-<p><strong>HEAVY</strong>: コンタクトが3機以上であると確認されているグループ/パッケージ</p>
-</li>
-<li>
-<p><strong>COLD</strong>: 脅威が自機から遠ざかる向き</p>
-</li>
+<li><strong>HEAVY</strong>: コンタクトが3機以上であると確認されているグループ/パッケージ</li>
+<li><strong>GORILLA</strong>: 機数と編隊が不確定かつ友軍機でない大規模な航空機群</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>HOT</strong>: 脅威が自機に近づく向き</li>
+<li><strong>COLD</strong>: 脅威が自機から遠ざかる向き</li>
 <li><strong>FLANK</strong>: 左右 110~150° に位置するコンタクト</li>
 <li><strong>BEAM (w/sub-cordinal direction)</strong>: 左右 70°~110° に位置するコンタクト</li>
 <li><strong>DRAG</strong>: 左右 0°~70° (前方象限) に位置するコンタクト</li>
@@ -1265,12 +1260,11 @@
 <h2 id="_2">グループ<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
 <ul>
 <li><strong>DEEP</strong>: LADDER/VIC/CHAMPAGNE/BOX のような3つ以上のグループのうち、最も近いものと遠いものの距離の間隔</li>
-<li>
-<p><strong>WIDE</strong>: WALL/VIC/CHAMPAGNE/BOX のような3つ以上のグループのうち、遠いグループ同士が横に広がっている左右の間隔</p>
-</li>
-<li>
-<p><strong>AZIMUTH</strong>: 横方向に分かれた2グループのピクチャーラベル。グループ名は方角で表し、NORTH GROUP/SOUTH GROUP もしくは EAST GROUP/WEST GROUP となる</p>
-</li>
+<li><strong>WIDE</strong>: WALL/VIC/CHAMPAGNE/BOX のような3つ以上のグループのうち、遠いグループ同士が横に広がっている左右の間隔</li>
+</ul>
+<p></br></p>
+<ul>
+<li><strong>AZIMUTH</strong>: 横方向に分かれた2グループのピクチャーラベル。グループ名は方角で表し、NORTH GROUP/SOUTH GROUP もしくは EAST GROUP/WEST GROUP となる</li>
 </ul>
 <p><img src="../../images/formation2-azimuth.png" hspace="10" width="500"></p>
 <ul>
@@ -1309,6 +1303,9 @@
 <li><strong>(__) ARM</strong>: ニューピクチャーとは見なさない同一のシングルグループ内で (north/south/east/west/lead/trail) に機動する CONTACT。機動した結果 GROUP クライテリアから逸脱したエレメント</li>
 <li><strong>NEAR-FAR</strong>: グループ内で距離が離れている2つ以上のコンタクトを表すレーダーの表示</li>
 <li><strong>SIDE-SIDE</strong>: グループ内で角度的に広がった2つ以上のコンタクト表すレーダーの表示</li>
+</ul>
+<p></br></p>
+<ul>
 <li><strong>BEARING (w/cordinal direction)</strong>: 1番機の斜め 45° 後方に2番機が位置するグループ内のフォーメーション</li>
 </ul>
 <p><img src="../../images/formation1-bearing.png" hspace="10" width="500"></p>
@@ -1345,7 +1342,7 @@
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1591575630000' locale='en'></span>
+                        最終更新日: <span class='timeago' datetime='1591578375000' locale='en'></span>
                       
                     </small>
                   </div>
