@@ -64,7 +64,7 @@ F/A-18C であれば無線機は2つなので "Radio 1" と "Radio 2" を設定�
 
 "Grobal Settings" はデフォルトのままで大丈夫です。
 
-"Profile Settings" の "Radio Switch works as Push To Talk (PTT)" をオンにしましょう。
+**"Profile Settings" の "Radio Switch works as Push To Talk (PTT)" をオンにしましょう。**
 これでコントロールで設定したボタンを押している間、無線を送信できます。
 
 "Radio X Audio Channel" はそれぞれの無線機からの音声の聞こえ方を設定できます。
