@@ -77,8 +77,8 @@ F/A-18C であれば無線機は2つなので "Radio 1" と "Radio 2" を設定�
 
 SRS は DCS 本体の更新などに合わせてアップデート版がリリースされますが、インストールフォルダ内の "SRS-AutoUpdater.exe" を起動することでアップデートできます。
 
-アップデートは DCS を終了している必要があります。
+アップデート中は DCS を終了している必要があります。
 
 アップデート版のダウンロードが終わると、インストールするかどうか尋ねられますので「はい」を押して完了です。
 
-![srs7-settings1](images/srs7-settings1.png)
+![srs7-settings1](images/srs8-update.png)
