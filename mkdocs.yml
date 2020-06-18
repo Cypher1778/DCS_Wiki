@@ -100,8 +100,7 @@ nav:
           - 状況認識: brevity/reverse-lookup/situational-awareness.md
           - ピクチャーラベル: brevity/reverse-lookup/picture.md
   - SRS Mod: 
-      - SRS Mod とは: srs/srs.md
-      - 導入と設定: srs/install.md
+      - 導入と設定: srs/srs.md
   - DCS Tips:
       - ユーザースキン 導入手順: dcs-tips/userskin.md
       - ニーボード 導入手順: dcs-tips/kneeboard.md
