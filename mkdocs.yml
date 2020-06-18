@@ -105,3 +105,5 @@ nav:
   - DCS Tips:
       - ユーザースキン 導入手順: dcs-tips/userskin.md
       - ニーボード 導入手順: dcs-tips/kneeboard.md
+      - F/A-18C 左DDI のアドバイザリーブランクを消す: dcs-tips/f-18c-adv.md
+      - F/A-18C キーコンフィグ追加: dcs-tips/f-18c-input.md
