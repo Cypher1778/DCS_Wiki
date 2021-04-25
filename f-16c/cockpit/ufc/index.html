@@ -69,6 +69,8 @@
     <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
     
     
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
       <link rel="stylesheet" href="../../../css/custom.css">
     
     
@@ -1389,7 +1391,7 @@ ICP のキーパッドで時間を入力し、ENTR で確定します。
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1587643169000' locale='en'></span>
+                        最終更新日: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2020-04-23T11:59:29+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2020-04-23</span>
                       
                     </small>
                   </div>
@@ -1492,14 +1494,10 @@ ICP のキーパッドで時間を入力し、ENTR で確定します。
       
       <script>app.initialize({version:"1.1.2",url:{base:"../../.."}})</script>
       
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
     
-  
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.0-beta.2/timeago.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.0-beta.2/timeago.locales.min.js"></script>
-          <script>
-            var nodes = document.querySelectorAll('.timeago');
-            var locale = nodes[0].getAttribute('locale');
-            timeago.render(nodes, locale);
-          </script>
-        </body>
+  </body>
 </html>

@@ -69,6 +69,8 @@
     <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
     
     
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
       <link rel="stylesheet" href="../../../css/custom.css">
     
     
@@ -1611,9 +1613,9 @@ TACAN のトーン音声は AUDIO 2 パネルから調節できます。</p>
 <p><img alt="dcs74-tcn_select3" src="../../images/dcs74-tcn_select3.jpg" />
 4. ICP の DCS スイッチを右に倒して以下の項目のいずれかを選択します。</p>
 <ul>
-<li><strong>REC (受信)</strong>: TACAN ステーションの ID と距離、コース偏差を得られる受信モードにします。</li>
+<li><strong>REC (受信)</strong>: TACAN ステーションの ID と方位、コース偏差を得られる受信モードにします。</li>
 <li><strong>T/R (送受信)</strong>: TACAN ステーションの ID と距離、方位、コース偏差を得られる送受信モードにします。 TACAN の最も一般的な設定です。</li>
-<li><strong>A/A REC (空中局受信)</strong>: 航空機に搭載された TACAN ステーションの ID と距離、コース偏差が得られる空中局モードです。</li>
+<li><strong>A/A REC (空中局受信)</strong>: 航空機に搭載された TACAN ステーションの ID と方位、コース偏差が得られる空中局モードです。</li>
 <li><strong>A/A T/R (空中局送受信)</strong>: 航空機に搭載された TACAN ステーションの ID と距離、方位、コース偏差が得られる空中局の送受信モードです。</li>
 </ul>
 <p>TACAN は、ほとんどの場合において T/R モードを使用します。</p>
@@ -1687,7 +1689,7 @@ DED の ILS ページで <strong>CMD STRG</strong> がハイライトされて�
                   <div class="md-source-date">
                     <small>
                       
-                        最終更新日: <span class='timeago' datetime='1584259725000' locale='en'></span>
+                        最終更新日: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2021-04-25T16:23:52+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2021-04-25</span>
                       
                     </small>
                   </div>
@@ -1790,14 +1792,10 @@ DED の ILS ページで <strong>CMD STRG</strong> がハイライトされて�
       
       <script>app.initialize({version:"1.1.2",url:{base:"../../.."}})</script>
       
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
     
-  
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.0-beta.2/timeago.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.0-beta.2/timeago.locales.min.js"></script>
-          <script>
-            var nodes = document.querySelectorAll('.timeago');
-            var locale = nodes[0].getAttribute('locale');
-            timeago.render(nodes, locale);
-          </script>
-        </body>
+  </body>
 </html>
